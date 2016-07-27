@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.2">Jekyll</generator><link href="http://drivebygeek.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://drivebygeek.com/" rel="alternate" type="text/html" /><updated>2016-07-27T15:09:07-04:00</updated><id>http://drivebygeek.com/</id><title>Mark Roxberry</title><subtitle>coder,&lt;br /&gt; maker,&lt;br /&gt; hacker,&lt;br /&gt; mentor</subtitle><entry><title>Future Engineers Next Version</title><link href="http://drivebygeek.com/2016/06/04/future-engineers-next/" rel="alternate" type="text/html" title="Future Engineers Next Version" /><published>2016-06-04T09:42:00-04:00</published><updated>2016-06-04T09:42:00-04:00</updated><id>http://drivebygeek.com/2016/06/04/future-engineers-next</id><content type="html" xml:base="http://drivebygeek.com/2016/06/04/future-engineers-next/"></content><author><name>roxberry</name></author><summary></summary></entry><entry><title>iOS Training</title><link href="http://drivebygeek.com/2016/05/26/ios-training/" rel="alternate" type="text/html" title="iOS Training" /><published>2016-05-26T07:42:00-04:00</published><updated>2016-05-26T07:42:00-04:00</updated><id>http://drivebygeek.com/2016/05/26/ios-training</id><content type="html" xml:base="http://drivebygeek.com/2016/05/26/ios-training/">&lt;h1 id=&quot;tasks&quot;&gt;Tasks&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;Swift constructs&lt;/li&gt;
+  &lt;li&gt;Basic app structure&lt;/li&gt;
+  &lt;li&gt;Json handling&lt;/li&gt;
+  &lt;li&gt;REST calls (asynchronous)&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>roxberry</name></author><summary>Tasks
+
+  Swift constructs
+  Basic app structure
+  Json handling
+  REST calls (asynchronous)</summary></entry><entry><title>MongoDB Security Review 2015</title><link href="http://drivebygeek.com/2015/12/05/mongo-security-review/" rel="alternate" type="text/html" title="MongoDB Security Review 2015" /><published>2015-12-05T07:00:00-05:00</published><updated>2015-12-05T07:00:00-05:00</updated><id>http://drivebygeek.com/2015/12/05/mongo-security-review</id><content type="html" xml:base="http://drivebygeek.com/2015/12/05/mongo-security-review/">&lt;p&gt;MongoDB is hackable. It is an application that requires a hole in a firewall to get access. It is an application written in C++ with some drivers written in C. MongoDB can be exploited, like any application.&lt;/p&gt;
+
+&lt;p&gt;This post will act as a clearing house to track MongoDB security realted topics (starting as of December 2015).&lt;/p&gt;
+
+&lt;h4 id=&quot;pen-testing-with-nosql-w-kali&quot;&gt;pen testing with nosql w/ kali&lt;/h4&gt;
+&lt;p&gt;Here’s a short walk through of a pen test of a web application that uses MongoDB.
+&lt;!-- &lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PgnawxIA6M8&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;    
+--&gt;
+#### hacks
+&lt;a href=&quot;https://www.trustwave.com/Resources/SpiderLabs-Blog/Mongodb---Security-Weaknesses-in-a-typical-NoSQL-database/&quot;&gt;MongoDB ports start showing up in pen tests&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://thehackernews.com/2015/02/mongodb-database-hacking.html&quot;&gt;Mongo targets in the wild&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;alerts-fixes-workarounds&quot;&gt;alerts, fixes, workarounds&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mongodb.com/alerts&quot;&gt;MongoDB alerts&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;security-guides&quot;&gt;security guides&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.mongodb.org/v3.0/administration/security-checklist/&quot;&gt;MongoDB Security Checklist&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.mongodb.org/v3.0/administration/security/&quot;&gt;MongoDB Security Docs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ll spend some time in 2016 auditing and verifying security controls in MongoDB. I’d like to see what gaps there are and if I can code any tools to help.&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="mongodb" /><category term="security" /><summary>MongoDB is hackable. It is an application that requires a hole in a firewall to get access. It is an application written in C++ with some drivers written in C. MongoDB can be exploited, like any application.</summary></entry><entry><title>future engineers 2015.04 retrospective</title><link href="http://drivebygeek.com/robotics/2015/12/04/future-engineers-2015-04-retrospective/" rel="alternate" type="text/html" title="future engineers 2015.04 retrospective" /><published>2015-12-04T20:06:01-05:00</published><updated>2015-12-04T20:06:01-05:00</updated><id>http://drivebygeek.com/robotics/2015/12/04/future-engineers-2015-04-retrospective</id><content type="html" xml:base="http://drivebygeek.com/robotics/2015/12/04/future-engineers-2015-04-retrospective/">&lt;h1&gt;done&lt;/h1&gt;&lt;/p&gt;
+&lt;h4&gt;TOBI Project&lt;/h4&gt;&lt;/p&gt;
+&lt;p&gt;Showed the class the TOBI Project video, imho, a great example of robotics helping, not replacing humanity through telepresence applications&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/WK9adYsL3D8&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h4&gt;batteries&lt;/h4&gt;&lt;/p&gt;
+&lt;p&gt;Charged a few in class, loaded up a few controllers with AAs. We should be good for the short term.&lt;/p&gt;
+&lt;h4&gt;make, make, make - part deux&lt;/h4&gt;&lt;/p&gt;
+&lt;p&gt;Lots of moving robots today! Teams built their mobile bases and the robots started moving. We&#39;re moving forward, pun intended.&lt;/p&gt;
+&lt;h1&gt;todo&lt;/h1&gt;&lt;/p&gt;
+&lt;p&gt;Review the calendar, think about independent projects.&lt;/p&gt;
+&lt;h1&gt;concerns&lt;/h1&gt;&lt;/p&gt;
+&lt;p&gt;We have a few engineers as no shows 4 or so. Probably a good thing as we have limited resources and smaller team sizes are much more productive. I think the time between sessions, the overcrowding to a degree, the elective status and the time of the class (Friday afternoon) has an effect on attendance.&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="robotics" /><category term="future engineers" /><summary>Lots of moving robots today! Teams built their mobile bases and the robots started moving. We&#39;re moving forward, pun intended.</summary></entry></feed>

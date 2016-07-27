@@ -1,0 +1,110 @@
+---
+layout: default
+---
+
+<!-- Post Header -->
+<header class="intro-header">
+    <div class="container">
+
+    </div>
+</header>
+
+ <!--Post Content 
+<aside>
+                
+                <h3>Stuff</h3>
+                <h3>More Stuff</h3>
+                <h3>Even More Stuff</h3>
+
+</aside>-->
+
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 blog-main" >
+                <div class="post-heading" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+                    <h1>{{ page.title }}</h1>
+                    {% if page.subtitle %}
+                    <h2 class="subheading">{{ page.subtitle }}</h2>
+                    {% endif %}
+                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                </div>
+
+				{{ content }}
+
+                {% include post-tags.html %}
+                
+                <hr>
+                
+                <ul class="pager">
+                    {% if page.previous.url %}
+                    <li class="previous">
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+                    </li>
+                    {% endif %}
+                    {% if page.next.url %}
+                    <li class="next">
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                    </li>
+                    {% endif %}
+                </ul>
+    
+                <br/>
+
+                <hr>
+                    {% if page.comments %}
+                    <br />
+                    {% include disqus_comments.html %}
+                    <br />
+                    {% endif %}
+                
+                <hr>
+                
+                {% include amazon_nativead.html %}
+            </div>
+            
+            <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+                <div class="sidebar-module sidebar-module-profile">
+                    <img class="profile-img" src="/img/profile-400.jpg" />
+                </div>
+                <div class="sidebar-module sidebar-module-inset">
+                    <h4>About Me</h4>
+                    <p>Senior Consultant</p>
+                    <a href="http://www.waveseeker.com">Database Solutions</a>
+                    <p>Husband, father, son, brother and uncle. Security driven developer and passionate cross platform software engineer, architect and consultant.</p>
+                </div>
+                <!--<div class="sidebar-module">
+                    <h4>Archives</h4>
+                    <ol class="list-unstyled">
+                    <li><a href="#">March 2014</a></li>
+                    <li><a href="#">February 2014</a></li>
+                    <li><a href="#">January 2014</a></li>
+                    <li><a href="#">December 2013</a></li>
+                    <li><a href="#">November 2013</a></li>
+                    <li><a href="#">October 2013</a></li>
+                    <li><a href="#">September 2013</a></li>
+                    <li><a href="#">August 2013</a></li>
+                    <li><a href="#">July 2013</a></li>
+                    <li><a href="#">June 2013</a></li>
+                    <li><a href="#">May 2013</a></li>
+                    <li><a href="#">April 2013</a></li>
+                    </ol>
+                </div>-->
+                <!--<div class="sidebar-module">
+                    <h4>Elsewhere</h4>
+                    <ol class="list-unstyled">
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    </ol>
+                </div>-->
+            </div>
+
+
+        </div>      
+    </div>
+</article>
+
+<hr>
+
+
