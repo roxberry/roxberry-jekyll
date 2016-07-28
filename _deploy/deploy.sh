@@ -1,3 +1,4 @@
+#for pushing to Github and Azure
 grunt && jekyll build
 
 cp -R _site/* ../roxberry-deploy/.
