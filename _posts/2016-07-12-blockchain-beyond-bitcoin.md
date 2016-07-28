@@ -21,9 +21,9 @@ We're going to need to parse out the blockchain cryptographic process (I'm readi
 [ObjC / Swift Blockchain](https://github.com/oleganza/CoreBitcoin)
 > CoreBitcoin - Awesome Bitcoin toolkit for ObjC and Swift
 
-[Java Blockchain] (https://github.com/roxberry/bitcoinj)
+[Java Blockchain](https://github.com/roxberry/bitcoinj)
 > bitcoinj - A library for working with Bitcoin
 
 
-[C# Blockchain] (https://github.com/roxberry/BlockchainProgramming)
+[C# Blockchain](https://github.com/roxberry/BlockchainProgramming)
 > Starting point for blockchain in C#
