@@ -200,6 +200,12 @@ hr.small {
   }
 }
 article .post-heading {
+  background: rgba(255, 255, 255, 0.5);
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
   margin-top: 50px;
   padding: 100px;
   color: white;
