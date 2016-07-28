@@ -1,0 +1,11 @@
+grunt && jekyll build
+
+cp -R _site/* ../roxberry-deploy/.
+
+cd ../roxberry-deploy
+
+git commit . -m "deployment $(date +"%m_%d_%Y_%H:%M:%S")"
+
+git push
+
+cd ../roxberry

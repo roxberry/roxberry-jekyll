@@ -5,4 +5,4 @@ set | egrep GIT
 echo PWD is $PWD
 
 source ~/.bash_profile
-_deploy/syno-deploy.sh
+_deploy/deploy.sh
