@@ -19,11 +19,14 @@ In this series of blog posts we'll look at how we're helping clients evolve thei
 We're going to need to parse out the blockchain cryptographic process (I'm reading up on that also), but I figure analyzing implementations would be helpful
 
 [ObjC / Swift Blockchain](https://github.com/oleganza/CoreBitcoin)
+
 >CoreBitcoin - Awesome Bitcoin toolkit for ObjC and Swift
 
 [Java Blockchain](https://github.com/roxberry/bitcoinj)
+
 >bitcoinj - A library for working with Bitcoin
 
 
 [C# Blockchain](https://github.com/roxberry/BlockchainProgramming)
+
 >Starting point for blockchain in C#
