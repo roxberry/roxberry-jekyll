@@ -1,14 +1,14 @@
 ---
-layout:     post
-title:      Blockchain beyond Bitcoin
-subtitle:   Blockchain is cryptographic building "block" of the future
-comments:   true
-date:       2016-07-12 13:42:00
-author:     roxberry
-tags:       [blockchain, bitcoin, cryptography]
-header-img: "img/blockchain.jpg"
+layout:         post
+title:          Blockchain beyond Bitcoin
+subtitle:       Blockchain is cryptographic building "block" of the future
+comments:       true
+date:           2016-07-12 13:42:00
+author:         roxberry
+tags:           [blockchain, bitcoin, cryptography]
+header-img:     "img/blockchain.jpg"
+header-img-400: "img/blockchain-400.jpg"
 ---
-
 I'm doing a run down of available blockchain implementations - here's a blog post of blockchain for other purposes 
 
 [C24 Blog](https://blog.c24tech.com/data-geek/building-on-blockchain-part-one-from-database-to-blockchain)

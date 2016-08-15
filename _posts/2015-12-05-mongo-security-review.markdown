@@ -7,6 +7,7 @@ date:       2015-12-05 12:00:00
 author:     "Mark Roxberry"
 tags: [mongodb, security]
 header-img: "img/mongosec.jpg"
+header-img-400: "img/mongosec-400.jpg"
 ---
 
 MongoDB is hackable. It is an application that requires a hole in a firewall to get access. It is an application written in C++ with some drivers written in C. MongoDB can be exploited, like any application.

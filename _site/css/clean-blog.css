@@ -11,7 +11,6 @@ body {
 }
 p {
   line-height: 1.5;
-  margin: 30px 0;
 }
 p a {
   text-decoration: underline;
@@ -199,6 +198,16 @@ hr.small {
     height: 30em;
   }
 }
+article .header-img-400 {
+  width: 400px;
+}
+article .article-header h2 {
+  margin: 0px;
+}
+article .post-meta {
+  font-size: .75em;
+  color: dimgray;
+}
 article .post-heading {
   background: rgba(255, 255, 255, 0.5);
   -ms-background-size: cover;
@@ -275,6 +284,19 @@ article .post-heading .meta a {
   article .blog-sidebar .sidebar-module-inset ul:last-child,
   article .blog-sidebar .sidebar-module-inset ol:last-child {
     margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 1169px) {
+  article {
+    min-height: 350px;
+  }
+  article .article-header h2 {
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  article {
+    height: 325px;
   }
 }
 .post-preview > a {
