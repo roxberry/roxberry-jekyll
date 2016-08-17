@@ -286,19 +286,6 @@ article .post-heading .meta a {
     margin-bottom: 0;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 1169px) {
-  article {
-    min-height: 350px;
-  }
-  article .article-header h2 {
-    margin-top: 20px;
-  }
-}
-@media only screen and (min-width: 1170px) {
-  article {
-    height: 325px;
-  }
-}
 .post-preview > a {
   color: black;
 }
@@ -332,7 +319,18 @@ article .post-heading .meta a {
   color: #9da9b8;
   text-decoration: underline;
 }
+@media screen and (min-width: 0px) and (max-width: 1169px) {
+  .post-preview {
+    min-height: 350px;
+  }
+  .post-preview .article-header h2 {
+    margin-top: 20px;
+  }
+}
 @media only screen and (min-width: 768px) {
+  .post-preview {
+    height: 325px;
+  }
   .post-preview > a > .post-title {
     font-size: 36px;
   }

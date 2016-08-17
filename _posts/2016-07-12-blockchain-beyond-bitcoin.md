@@ -8,6 +8,7 @@ author:         roxberry
 tags:           [blockchain, bitcoin, cryptography]
 header-img:     "img/blockchain.jpg"
 header-img-400: "img/blockchain-400.jpg"
+header-overlay: true
 ---
 I'm doing a run down of available blockchain implementations - here's a blog post of blockchain for other purposes 
 

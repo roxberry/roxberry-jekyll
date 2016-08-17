@@ -254,7 +254,6 @@ article {
 		margin-top: 50px;
 		padding: 100px;
 		color: white;
-
 		h1 {
 			font-size: 35px;
 		}
@@ -329,18 +328,14 @@ article {
 		}
 	}
 
-	@media screen and (min-width: 0px) and (max-width: 1169px) {
-		min-height: 350px;
-		.article-header {
-			h2 {
-				margin-top: 20px;
-			}
-		}
-	}
+	// @media screen and (min-width: 0px) and (max-width: 1169px) {
+	// 	min-height: 350px;
 
-	@media only screen and (min-width: 1170px) {
-		height: 325px;
-	}
+	// }
+
+	// @media only screen and (min-width: 1170px) {
+	// 	height: 325px;
+	// }
 }
 
 // Post Preview Pages
@@ -379,7 +374,17 @@ article {
 			}
 		}
 	}
+	@media screen and (min-width: 0px) and (max-width: 1169px) {
+		min-height: 350px;
+
+		.article-header {
+			h2 {
+				margin-top: 20px;
+			}
+		}
+	}
 	@media only screen and (min-width: 768px) {
+		height: 325px;
 		> a {
 			> .post-title {
 				font-size: 36px;
