@@ -25,3 +25,7 @@ Planning app for the tv or web in a larger view.
 Review practice drills, or technical skills.  Review your own statistics.  Social engine stuff, challenge tracker stuff.
 ### Parents
 ...
+
+<details>
+testing if this works b/c jekyll
+</details>
