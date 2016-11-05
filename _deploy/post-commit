@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "running post commit hook"
+echo Running $BASH_SOURCE
+set | egrep GIT
+echo PWD is $PWD
+
+source ~/.bash_profile
+_deploy/deploy.sh
