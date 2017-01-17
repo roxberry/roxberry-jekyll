@@ -1,5 +1,5 @@
----
-layout: default
+--- 
+layout: default 
 ---
 
 <!-- Post Header -->
@@ -9,7 +9,7 @@ layout: default
     </div>
 </header>
 
- <!--Post Content 
+<!--Post Content 
 <aside>
                 
                 <h3>Stuff</h3>
@@ -22,7 +22,46 @@ layout: default
 <article>
     <div class="container">
         <div class="row">
-            <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+
+            <div class="col-sm-9 blog-main">
+                <div class="post-heading" style="background-size: 100% 100%;background-repeat: no-repeat;background: {% if page.header-overlay %}linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)), {% endif %}
+                     url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+                    <h1>{{ page.title }}</h1>
+                    {% if page.subtitle %}
+                    <h2 class="subheading">{{ page.subtitle }}</h2>
+                    {% endif %}
+                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                </div>
+
+                <h1>{{ page.title }}</h1>
+                <hr> {{ content }} {% include post-tags.html %}
+
+                <hr>
+
+                <ul class="pager">
+                    {% if page.previous.url %}
+                    <li class="previous">
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+                    </li>
+                    {% endif %} {% if page.next.url %}
+                    <li class="next">
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                    </li>
+                    {% endif %}
+                </ul>
+
+                <br/>
+
+                <hr> {% if page.comments %}
+                <br /> {% include disqus_comments.html %}
+                <br /> {% endif %}
+
+                
+            </div>
+
+            <div class="col-sm-3 blog-sidebar">
                 <div class="sidebar-module sidebar-module-profile">
                     <img class="profile-img" src="/img/profile-2.jpg" />
                 </div>
@@ -33,8 +72,19 @@ layout: default
                     <p>Husband, father, son, brother and uncle. Security driven developer and passionate cross platform software engineer, architect and consultant.</p>
                 </div>
                 <div class="sidebar-module sidebar-module-inset">
-                        <a class="twitter-timeline"  href="https://twitter.com/roxberry" data-widget-id="654383130506166272">Tweets by @roxberry</a>
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    <a class="twitter-timeline" href="https://twitter.com/roxberry" data-widget-id="654383130506166272">Tweets by @roxberry</a>
+                    <script>
+                        ! function(d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0],
+                                p = /^http:/.test(d.location) ? 'http' : 'https';
+                            if (!d.getElementById(id)) {
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src = p + "://platform.twitter.com/widgets.js";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }
+                        }(document, "script", "twitter-wjs");
+                    </script>
                 </div>
                 <!--<div class="sidebar-module">
                     <h4>Archives</h4>
@@ -62,53 +112,10 @@ layout: default
                     </ol>
                 </div>-->
             </div>
-            <div class="col-sm-8 blog-main" >
-                <div class="post-heading" style="background-size: 100% 100%;background-repeat: no-repeat;background: {% if page.header-overlay %}linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)), {% endif %}
-                     url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-                    <h1>{{ page.title }}</h1>
-                    {% if page.subtitle %}
-                    <h2 class="subheading">{{ page.subtitle }}</h2>
-                    {% endif %}
-                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
-                </div>
 
-                <h1>{{ page.title }}</h1>
-                <hr>
-				{{ content }}
+        </div>
 
-                {% include post-tags.html %}
-                
-                <hr>
-                
-                <ul class="pager">
-                    {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-                    </li>
-                    {% endif %}
-                    {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-                    </li>
-                    {% endif %}
-                </ul>
-    
-                <br/>
-
-                <hr>
-                    {% if page.comments %}
-                    <br />
-                    {% include disqus_comments.html %}
-                    <br />
-                    {% endif %}
-                
-                <hr>
-                
-                {% include amazon_nativead.html %}
-            </div>
-        </div>      
+        <hr> {% include amazon_nativead.html %}
+        
     </div>
 </article>
-
