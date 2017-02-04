@@ -1,4 +1,5 @@
 # Roxberry.PRO Blog
+
 ## Mission Statement
 The mission of my blog is to capture my ideas about the future from my present experiences for myself and to educate and entertain my readers by creating content from my various activities, observations and creations.
 
