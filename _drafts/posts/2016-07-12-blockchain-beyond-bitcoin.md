@@ -6,7 +6,9 @@ comments:       true
 date:           2016-07-12 13:42:00
 author:         Mark Roxberry
 tags:           [blockchain, bitcoin, cryptography]
+excerpt:        Blockchain is cryptographic building "block" of the future
 header-img:     "img/blockchain.jpg"
+header-img-post:     "img/blockchain-post.jpg"
 header-img-400: "img/blockchain-400.jpg"
 header-overlay: true
 featured:       true

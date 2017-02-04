@@ -1,14 +1,14 @@
 
  
-// // Typing init
-// $(function() {
-//     $(".typing-message").typed({
-//         strings: [ pageVars.typingMessage ],
-//         typeSpeed: 10,
-//         contentType: "html",
-//         showCursor: false
-//     });
-// });
+// Typing init
+$(function() {
+    $(".typing-message").typed({
+        strings: [ pageVars.typingMessage ],
+        typeSpeed: 10,
+        contentType: "html",
+        showCursor: false
+    });
+});
  
 // Tooltip Init
 $(function() {

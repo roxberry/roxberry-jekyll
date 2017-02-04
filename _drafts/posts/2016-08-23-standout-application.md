@@ -8,6 +8,7 @@ author:         Mark Roxberry
 tags:           [coaches, players, parents, applications]
 excerpt:        Developing applications for coaches, players and parents to help track progress and improve game play.
 header-img:     "img/standout.jpg"
+header-img-post:     "img/standout-post.jpg"
 header-img-400: "img/standout-400.jpg"
 header-overlay: true
 featured:       true

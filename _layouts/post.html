@@ -17,14 +17,7 @@ layout: default
                 <h1>{{ page.title }}</h1>
                 <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
                 <hr>
-                <img class="img-fluid" src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" />
-                    <!--<h1>{{ page.title }}</h1>
-                    {% if page.subtitle %}
-                    <h2 class="subheading">{{ page.subtitle }}</h2>
-                    {% endif %}
-                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>-->
-                
-
+                <img class="img-fluid" src="{{ site.baseurl }}/{% if page.header-img-post %}{{ page.header-img-post }}{% else %}{{ site.header-img-post }}{% endif %}" />
                 <hr> {{ content }} {% include post-tags.html %}
 
                 <hr>

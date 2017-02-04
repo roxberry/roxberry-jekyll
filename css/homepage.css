@@ -85,16 +85,16 @@ footer .copyright {
   margin: 20px auto;
 }
 #home-carousel {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 #home-carousel .carousel-caption {
   left: 0;
   right: 0;
   bottom: 0;
-  text-align: left;
   padding: 20px;
-  background: rgba(0, 0, 0, 0.6);
   text-shadow: none;
+  height: 100%;
+  margin: auto;
 }
 #home-carousel .carousel-caption a {
   color: white;
@@ -114,7 +114,7 @@ footer .copyright {
   font-weight: bold;
 }
 #home-carousel .carousel-inner .item img {
-  height: 100%;
+  height: 400px;
   width: 100%;
 }
 #home-carousel .list-group {
@@ -142,7 +142,7 @@ footer .copyright {
 .homelist article footer {
   display: none;
 }
-.homelist .header-img-400 {
+.homelist .header-img-list {
   width: 400px;
 }
 .homelist h2 {
@@ -155,8 +155,11 @@ footer .copyright {
   #home-carousel .list-group {
     display: none;
   }
-  .intro-header {
-    margin-bottom: 50px;
+  #home-carousel {
+    display: none;
+  }
+  .intro-header-carousel {
+    display: none;
   }
 }
 @media (max-width: 991px) {
@@ -172,5 +175,52 @@ footer .copyright {
   }
   .homelist article figure {
     margin-bottom: 2em;
+  }
+  .intro-header-carousel {
+    display: none;
+  }
+}
+.intro-header {
+  background-attachment: scroll;
+  background-position: center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 20px;
+}
+.intro-header .site-heading,
+.intro-header .page-heading {
+  padding: 100px 0 50px;
+  color: white;
+}
+@media only screen and (min-width: 768px) {
+  .intro-header .site-heading,
+  .intro-header .page-heading {
+    padding: 150px 0;
+  }
+}
+.intro-header .site-heading,
+.intro-header .page-heading {
+  text-align: center;
+}
+.intro-header .site-heading h1,
+.intro-header .page-heading h1 {
+  margin-top: 0;
+  font-size: 50px;
+}
+.intro-header .site-heading .subheading,
+.intro-header .page-heading .subheading {
+  font-size: 24px;
+  line-height: 1.1;
+  display: block;
+  font-family: wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', 'Open Sans', 'Helvetica-Neue', Tahoma, Arial, sans-serif;
+  font-weight: 300;
+  margin: 10px 0 0;
+}
+@media only screen and (min-width: 768px) {
+  .intro-header .site-heading h1,
+  .intro-header .page-heading h1 {
+    font-size: 80px;
   }
 }

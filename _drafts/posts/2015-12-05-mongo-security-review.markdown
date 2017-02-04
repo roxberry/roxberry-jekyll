@@ -7,6 +7,7 @@ date:       2015-12-05 12:00:00
 author:     Mark Roxberry
 tags: [mongodb, security]
 header-img: "img/mongosec.jpg"
+header-img-post: "img/mongosec-post.jpg"
 header-img-400: "img/mongosec-400.jpg"
 ---
 

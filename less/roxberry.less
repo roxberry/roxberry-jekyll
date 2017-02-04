@@ -64,9 +64,10 @@ hr.small {
 	//background: no-repeat center center;
 	//background-color: @gray;
 	background-attachment: scroll;
+	background-position:center bottom;
 	.background-cover;
 	// NOTE: Background images are set within the HTML using inline CSS!
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	.site-heading,
 	.page-heading {
 		padding: 100px 0 50px;
@@ -86,8 +87,7 @@ hr.small {
 			font-size: 24px;
 			line-height: 1.1;
 			display: block;
-			.sans-serif;
-			font-weight: 300;
+			.serif;
 			margin: 10px 0 0;
 		}
 		@media only screen and (min-width: 768px) {
@@ -108,15 +108,9 @@ hr.small {
 
 article {
 
-	.header-img-400
-	{
-		width: 400px;
-	}
-	
 	.article-header {
 		h2 {
 			margin: 0px;
-			.sans-serif;
 		}
 	}
 	.post-meta
@@ -409,6 +403,10 @@ body {
 
 .blog-main
 {
+	@media (min-width: 992px) { 
+		padding-right: 50px;
+	}
+
 	img {
 		all: initial!important;
 		width: 100%!important;

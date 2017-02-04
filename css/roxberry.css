@@ -133,11 +133,12 @@ hr.small {
 }
 .intro-header {
   background-attachment: scroll;
+  background-position: center bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .intro-header .site-heading,
 .intro-header .page-heading {
@@ -164,8 +165,7 @@ hr.small {
   font-size: 24px;
   line-height: 1.1;
   display: block;
-  font-family: wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', 'Open Sans', 'Helvetica-Neue', Tahoma, Arial, sans-serif;
-  font-weight: 300;
+  font-family: wf_segoe-ui_light, 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', 'Segoe WP', 'Open Sans', 'Helvetica-Neue', Tahoma, Arial, sans-serif;
   margin: 10px 0 0;
 }
 @media only screen and (min-width: 768px) {
@@ -182,12 +182,8 @@ hr.small {
     height: 30em;
   }
 }
-article .header-img-400 {
-  width: 400px;
-}
 article .article-header h2 {
   margin: 0px;
-  font-family: wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', 'Open Sans', 'Helvetica-Neue', Tahoma, Arial, sans-serif;
 }
 article .post-meta {
   font-size: .75em;
@@ -424,6 +420,11 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #000000;
+}
+@media (min-width: 992px) {
+  .blog-main {
+    padding-right: 50px;
+  }
 }
 .blog-main img {
   all: initial!important;
