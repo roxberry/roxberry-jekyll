@@ -35,7 +35,8 @@ module.exports = function(grunt) {
                     paths: ["css"]
                 },
                 files: {
-                    "css/<%= pkg.name %>.css": "less/<%= pkg.name %>.less"               
+                    "css/<%= pkg.name %>.css": "less/<%= pkg.name %>.less" ,   
+                    "css/homepage.css": "less/homepage.less"           
                 }
             },
             minified: {
@@ -45,6 +46,7 @@ module.exports = function(grunt) {
                 },
                 files: {
                     "css/<%= pkg.name %>.min.css": "less/<%= pkg.name %>.less",
+                    "css/homepage.min.css": "less/homepage.less",
                     "css/syntax.min.css": "css/syntax.css",
                     "css/web-fonts/west-european.min.css": "css/web-fonts/west-european.css"
                 }

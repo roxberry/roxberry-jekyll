@@ -1,0 +1,111 @@
+@import "variables.less";
+@import "mixins.less";
+@import "common.less";
+
+#home-carousel {
+    margin-bottom: 2em;
+}
+
+#home-carousel .carousel-caption {
+    left:0;
+	right:0;
+	bottom:0;
+	text-align:left;
+	padding:20px;
+	background:rgba(0,0,0,0.6);
+	text-shadow:none;
+    a {
+        color: white;
+        font-weight: bolder;
+    }
+    p {
+        font-size: 1em;
+    }
+    h3 {
+        font-size: 2em;
+        color: white;
+        font-weight: bolder;
+        .sans-serif;
+    }
+    h2 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+}
+
+#home-carousel .carousel-inner .item img {
+    height: 100%;
+    width: 100%;
+}
+
+// #home-carousel .carousel-inner .item img {
+//     display: block;
+//     max-width: 100%;
+//     max-height: 100%;
+//     position: absolute;
+//     top: 0;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+// }
+
+// #home-carousel .carousel-inner .item {
+//     width: 100%;
+//     padding-bottom: 56.25%; /* 16:9 */
+//     position: relative;
+//     background: black;
+// }
+
+#home-carousel .list-group {
+	position:absolute;
+	top:0;
+	right:0;
+}
+#home-carousel .list-group-item {
+	border-radius:0px;
+	cursor:pointer;
+}
+#home-carousel .list-group .active {
+	background-color:#eee;	
+}
+
+.homelist {
+    article {
+        margin-top: 2em;
+        min-height: 100px;
+        .post-meta {
+            font-size: 1em;
+        }
+        footer {
+            display: none;
+        }
+    }
+    .header-img-400
+    {
+        width: 400px;
+        //height: 200px;
+    }
+    h2 {
+        margin-top:0px;
+    }
+    margin-bottom: 3em;
+}
+
+@media (min-width: 992px) { 
+	// #home-carousel {padding-right:33.3333%;}
+	// #home-carousel .carousel-controls {display:none;} 	
+    #home-carousel .carousel-indicators {display: none;}
+    #home-carousel .list-group {display:none;} 
+    .intro-header {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 991px) { 
+	.carousel-caption p,
+	#home-carousel .list-group {display:none;} 
+    #home-carousel .carousel-indicators {display: none;}
+    #home-carousel { display: none }
+    .homelist article figure {
+        margin-bottom: 2em;
+    }
+}

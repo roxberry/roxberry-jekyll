@@ -4,12 +4,13 @@ title:          Standout
 subtitle:       Suite of applications for Coaches, Players and Parents
 comments:       true
 date:           2016-08-23 12:30:00
-author:         roxberry
+author:         Mark Roxberry
 tags:           [coaches, players, parents, applications]
 excerpt:        Developing applications for coaches, players and parents to help track progress and improve game play.
 header-img:     "img/standout.jpg"
 header-img-400: "img/standout-400.jpg"
 header-overlay: true
+featured:       true
 ---
 ## Introduction
 Applications for sports - coaches, parents, players.  I needed something as a coach to track practices and player development.  First rev will be a coaches app.

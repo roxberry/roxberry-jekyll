@@ -4,11 +4,12 @@ title:          Blockchain beyond Bitcoin
 subtitle:       Blockchain is cryptographic building "block" of the future
 comments:       true
 date:           2016-07-12 13:42:00
-author:         roxberry
+author:         Mark Roxberry
 tags:           [blockchain, bitcoin, cryptography]
 header-img:     "img/blockchain.jpg"
 header-img-400: "img/blockchain-400.jpg"
 header-overlay: true
+featured:       true
 ---
 I'm doing a run down of available blockchain implementations - here's a blog post of blockchain for other purposes 
 
