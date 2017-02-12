@@ -1,7 +1,12 @@
 --- 
 layout: default 
 ---
-
+<script>
+    pageVars = {
+        pageTitle : "{{ page.title }}",
+        typingMessage : "{{ site.description }}"
+    }
+</script>
 <!-- Post Header -->
 <header class="intro-header">
     <div class="container">
@@ -12,9 +17,11 @@ layout: default
     <div class="container">
         <div class="row">
 
+            <div class="col-sm-12 blog-title">
             <h1>{{ page.title }}</h1>
             <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
             <hr>
+            </div>
 
             <div class="col-sm-9 blog-main">
 
@@ -26,8 +33,6 @@ layout: default
                     </div>
                 </div>
                 <hr> {{ content }} {% include post-tags.html %}
-
-                <hr>
 
                 <ul class="pager">
                     {% if page.previous.url %}

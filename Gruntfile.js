@@ -117,5 +117,6 @@ module.exports = function(grunt) {
     // Default task(s).
     //grunt.registerTask('default', ['imagemin','uglify', 'less', 'usebanner']);
     grunt.registerTask('default', [ 'uglify', 'less', 'usebanner']);
+    grunt.registerTask('run', [ 'uglify', 'less', 'usebanner', 'jekyll:serve']);
 
 };
