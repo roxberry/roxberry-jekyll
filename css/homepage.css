@@ -84,51 +84,6 @@ footer .copyright {
   text-align: center;
   margin: 20px auto;
 }
-#home-carousel {
-  margin-bottom: 1em;
-}
-#home-carousel .carousel-caption {
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 20px;
-  text-shadow: none;
-  height: 100%;
-  margin: auto;
-}
-#home-carousel .carousel-caption a {
-  color: white;
-  font-weight: bolder;
-}
-#home-carousel .carousel-caption p {
-  font-size: 1em;
-}
-#home-carousel .carousel-caption h3 {
-  font-size: 2em;
-  color: white;
-  font-weight: bolder;
-  font-family: wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', 'Open Sans', 'Helvetica-Neue', Tahoma, Arial, sans-serif;
-}
-#home-carousel .carousel-caption h2 {
-  font-size: 3em;
-  font-weight: bold;
-}
-#home-carousel .carousel-inner .item img {
-  height: 400px;
-  width: 100%;
-}
-#home-carousel .list-group {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-#home-carousel .list-group-item {
-  border-radius: 0px;
-  cursor: pointer;
-}
-#home-carousel .list-group .active {
-  background-color: #eee;
-}
 .homelist {
   margin-bottom: 3em;
 }
@@ -148,31 +103,7 @@ footer .copyright {
 .homelist h2 {
   margin-top: 0px;
 }
-@media (min-width: 992px) {
-  #home-carousel .carousel-indicators {
-    display: none;
-  }
-  #home-carousel .list-group {
-    display: none;
-  }
-  #home-carousel {
-    display: none;
-  }
-  .intro-header-carousel {
-    display: none;
-  }
-}
 @media (max-width: 991px) {
-  .carousel-caption p,
-  #home-carousel .list-group {
-    display: none;
-  }
-  #home-carousel .carousel-indicators {
-    display: none;
-  }
-  #home-carousel {
-    display: none;
-  }
   .homelist article figure {
     margin-bottom: 2em;
   }
