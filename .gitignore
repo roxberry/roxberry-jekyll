@@ -46,3 +46,4 @@ _site/
 
 # Hidden files
 .DS_Store
+/.gitignore

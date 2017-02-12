@@ -1,28 +1,28 @@
 
-var pngquant = require('imagemin-pngquant');
-var mozjpeg = require('imagemin-mozjpeg');
-var gifsicle = require('imagemin-gifsicle');
+// var pngquant = require('imagemin-pngquant');
+// var mozjpeg = require('imagemin-mozjpeg');
+// var gifsicle = require('imagemin-gifsicle');
 
 module.exports = function(grunt) {
 
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        imagemin: {                          // Task
-            dynamic: {
-            options: {
-                optimizationLevel: 3,
-                progressive: true,
-                use: [pngquant(), mozjpeg(), gifsicle()]
-            },                         // Another target
-            files: [{
-                expand: true,                  // Enable dynamic expansion
-                cwd: 'img/',                   // Src matches are relative to this path
-                src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
-                dest: 'img/'                  // Destination path prefix
-            }]
-          }
-        },
+        // imagemin: {                          // Task
+        //     dynamic: {
+        //     options: {
+        //         optimizationLevel: 3,
+        //         progressive: true,
+        //         use: [pngquant(), mozjpeg(), gifsicle()]
+        //     },                         // Another target
+        //     files: [{
+        //         expand: true,                  // Enable dynamic expansion
+        //         cwd: 'img/',                   // Src matches are relative to this path
+        //         src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
+        //         dest: 'img/'                  // Destination path prefix
+        //     }]
+        //   }
+        // },
         uglify: {
             main: {
                 src: '_assets/js/<%= pkg.name %>.js',
@@ -107,7 +107,7 @@ module.exports = function(grunt) {
     });
 
     // Load the plugins.
-    grunt.loadNpmTasks('grunt-contrib-imagemin');
+    // grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-banner');
@@ -116,6 +116,6 @@ module.exports = function(grunt) {
 
     // Default task(s).
     //grunt.registerTask('default', ['imagemin','uglify', 'less', 'usebanner']);
-    grunt.registerTask('default', [ 'uglify', 'less', 'usebanner', 'jekyll:serve']);
+    grunt.registerTask('default', [ 'uglify', 'less', 'usebanner']);
 
 };
