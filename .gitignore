@@ -48,3 +48,4 @@ _site/
 .DS_Store
 /.gitignore
 /.idea/workspace.xml
+_deploy/.deploy.sh.swp

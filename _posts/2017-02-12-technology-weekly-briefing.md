@@ -11,10 +11,12 @@ header-img-post:     "img/briefing-post.png"
 tags:       [coder, maker, hacker, mentor]
 featured:   true
 ---
+
 # Farmland
 I started last week at a new client out in the farm lands of Pennsylvania.  Out of my comfort zone, this involved a hotel stay at the Inn at Leolas, a new client with a barrage of new concepts and code.  I was issued a new laptop, new e-mail, new MSDN account - more stuff to manage.  I did utilize a Google Chrome feature of setting up a Chrome profile for the new account.  This let me setup a profile with bookmarks, applications and settings specific to the account I will use at the client.
+
 # Performance Testing
-I am following the basic process for performance testing:
+I am following a basic process for performance testing:
 1. Understand client issues that prompted their request for a specialist.
 1. Identify target environments to test
 1. Create test environment to plan and design tests
@@ -23,8 +25,10 @@ I am following the basic process for performance testing:
 1. Analyze results
 1. Write report, include approach, results and recommendations
 1. Present findings and recommendations
+
 # Command
 I started a project for a server to run on my robot kits using [GoPiGo](https://www.dexterindustries.com/gopigo/) as a prototype.  Find it on Github, [command](https://github.com/roxberry/command).  I ran into issues with the node-gopigo module, may need to write an interface and stub it out to work on the services code off robot.
+
 # SecureWorld Philadelphia
 I was approved and registered to go to [SecureWorld Philadelphia](http://events.secureworldexpo.com/details/philadelphia-pa-2017/)in April.  I also signed up for the "Designing and Building a Cybersecurity Program Based on the NIST Cybersecurity Framework" training option.  While [Database Solutions](http://www.waveseeker.com/DSI/)may not directly implement a Cybersecurity framework, I consider it critical that we understand what our clients are building.
 
