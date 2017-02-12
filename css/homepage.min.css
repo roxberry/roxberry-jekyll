@@ -107,9 +107,6 @@ footer .copyright {
   .homelist article figure {
     margin-bottom: 2em;
   }
-  .intro-header-carousel {
-    display: none;
-  }
 }
 .intro-header {
   background-attachment: scroll;

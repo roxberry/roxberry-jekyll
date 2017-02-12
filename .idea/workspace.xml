@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="28893e79-d693-47e4-b26e-8bff0511ddc8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/homepage.less" afterPath="$PROJECT_DIR$/less/homepage.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/homepage.css" afterPath="$PROJECT_DIR$/css/homepage.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/homepage.min.css" afterPath="$PROJECT_DIR$/css/homepage.min.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -401,7 +401,7 @@
       <updated>1486855869051</updated>
       <workItem from="1486855870988" duration="2721000" />
       <workItem from="1486859607547" duration="42000" />
-      <workItem from="1486859698642" duration="5199000" />
+      <workItem from="1486859698642" duration="5342000" />
     </task>
     <task id="LOCAL-00001" summary="clean up and worked on weekly briefing">
       <created>1486866534518</created>
@@ -410,11 +410,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486866534518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="enabled feature post">
+      <created>1486929725491</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1486929725491</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7962000" />
+    <option name="totallyTimeSpent" value="8105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="958" extended-state="6" />
@@ -448,7 +455,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="clean up and worked on weekly briefing" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean up and worked on weekly briefing" />
+    <MESSAGE value="enabled feature post" />
+    <option name="LAST_COMMIT_MESSAGE" value="enabled feature post" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
