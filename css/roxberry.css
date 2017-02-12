@@ -14,7 +14,7 @@ a:hover {
   color: #333;
 }
 a {
-  color: #000000;
+  color: black;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: gray;
@@ -37,7 +37,7 @@ a {
   background-color: lightgray;
 }
 .navbar-brand {
-  color: #000000;
+  color: black;
   font-weight: bolder;
 }
 .navbar {
@@ -67,8 +67,8 @@ a {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: #000000;
-  border: 1px solid #000000;
+  background-color: black;
+  border: 1px solid black;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
@@ -115,7 +115,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #000000;
+  color: black;
 }
 a img:hover,
 a img:focus {
@@ -273,7 +273,7 @@ article .post-heading .meta a {
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #000000;
+  color: black;
 }
 .post-preview > a > .post-title {
   font-size: 30px;
@@ -297,7 +297,7 @@ article .post-heading .meta a {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #000000;
+  color: black;
   text-decoration: underline;
 }
 @media screen and (min-width: 0px) and (max-width: 1169px) {
@@ -336,7 +336,7 @@ article .post-heading .meta a {
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #eee;
 }
 .floating-label-form-group input,
 .floating-label-form-group textarea {
@@ -369,17 +369,17 @@ article .post-heading .meta a {
 }
 .floating-label-form-group::not(:first-child) {
   padding-left: 14px;
-  border-left: 1px solid #eeeeee;
+  border-left: 1px solid #eee;
 }
 .floating-label-form-group-with-value label {
   top: 0;
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #000000;
+  color: black;
 }
 form .row:first-child .floating-label-form-group {
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #eee;
 }
 .btn {
   font-family: wf_segoe-ui_semibold, 'Segoe UI', 'Segoe WP', 'Open Sans', 'Helvetica-Neue', Tahoma, Arial, sans-serif;
@@ -396,19 +396,19 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #000000;
-  border: 1px solid #000000;
+  background-color: black;
+  border: 1px solid black;
   color: white;
 }
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #000000;
+  background: black;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #000000;
+  background: black;
 }
 img::selection {
   color: white;
@@ -419,7 +419,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #000000;
+  webkit-tap-highlight-color: black;
 }
 @media (min-width: 992px) {
   .blog-main {

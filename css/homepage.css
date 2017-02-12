@@ -8,7 +8,7 @@ a:hover {
   color: #333;
 }
 a {
-  color: #000000;
+  color: black;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: gray;
@@ -31,7 +31,7 @@ a {
   background-color: lightgray;
 }
 .navbar-brand {
-  color: #000000;
+  color: black;
   font-weight: bolder;
 }
 .navbar {
@@ -61,8 +61,8 @@ a {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: #000000;
-  border: 1px solid #000000;
+  background-color: black;
+  border: 1px solid black;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,

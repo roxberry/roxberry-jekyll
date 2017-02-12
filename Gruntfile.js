@@ -87,7 +87,7 @@ module.exports = function(grunt) {
         jekyll: {                             // Task
             options: {                          // Universal options
                 bundleExec: true,
-                src : '<%= app %>'
+                //src : '<%= site %>'
             },
             dist: {                             // Target
                 options: {                        // Target options
@@ -115,6 +115,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-jekyll');
 
     // Default task(s).
-    grunt.registerTask('default', ['imagemin','uglify', 'less', 'usebanner']);
+    //grunt.registerTask('default', ['imagemin','uglify', 'less', 'usebanner']);
+    grunt.registerTask('default', [ 'uglify', 'less', 'usebanner', 'jekyll:serve']);
 
 };
