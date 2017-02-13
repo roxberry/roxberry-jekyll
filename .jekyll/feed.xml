@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://roxberry.pro/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://roxberry.pro/feed.xml" rel="self" type="application/atom+xml" /><link href="http://roxberry.pro/" rel="alternate" type="text/html" /><updated>2017-02-12T19:53:03-05:00</updated><id>http://roxberry.pro//</id><title type="html">Mark Roxberry</title><subtitle>coder, maker, hacker, mentor</subtitle><entry><title type="html">Technology Weekly Briefing</title><link href="http://roxberry.pro/2017/02/12/technology-weekly-briefing/" rel="alternate" type="text/html" title="Technology Weekly Briefing" /><published>2017-02-12T17:00:00-05:00</published><updated>2017-02-12T17:00:00-05:00</updated><id>http://roxberry.pro/2017/02/12/technology-weekly-briefing</id><content type="html" xml:base="http://roxberry.pro/2017/02/12/technology-weekly-briefing/">&lt;h1 id=&quot;farmland&quot;&gt;Farmland&lt;/h1&gt;
+&lt;p&gt;I started last week at a new client out in the farm lands of Pennsylvania.  Out of my comfort zone, this involved a hotel stay at the Inn at Leolas, a new client with a barrage of new concepts and code.  I was issued a new laptop, new e-mail, new MSDN account - more stuff to manage.  I did utilize a Google Chrome feature of setting up a Chrome profile for the new account.  This let me setup a profile with bookmarks, applications and settings specific to the account I will use at the client.&lt;/p&gt;
+
+&lt;h1 id=&quot;performance-testing&quot;&gt;Performance Testing&lt;/h1&gt;
+&lt;p&gt;I am following a basic process for performance testing:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Understand client issues that prompted their request for a specialist.&lt;/li&gt;
+  &lt;li&gt;Identify target environments to test&lt;/li&gt;
+  &lt;li&gt;Create test environment to plan and design tests&lt;/li&gt;
+  &lt;li&gt;Plan and design tests&lt;/li&gt;
+  &lt;li&gt;Execute tests and capture results&lt;/li&gt;
+  &lt;li&gt;Analyze results&lt;/li&gt;
+  &lt;li&gt;Write report, include approach, results and recommendations&lt;/li&gt;
+  &lt;li&gt;Present findings and recommendations&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;command&quot;&gt;Command&lt;/h1&gt;
+&lt;p&gt;I started a project for a server to run on my robot kits using &lt;a href=&quot;https://www.dexterindustries.com/gopigo/&quot;&gt;GoPiGo&lt;/a&gt; as a prototype.  Find it on Github, &lt;a href=&quot;https://github.com/roxberry/command&quot;&gt;command&lt;/a&gt;.  I ran into issues with the node-gopigo module, may need to write an interface and stub it out to work on the services code off robot.&lt;/p&gt;
+
+&lt;h1 id=&quot;secureworld-philadelphia&quot;&gt;SecureWorld Philadelphia&lt;/h1&gt;
+&lt;p&gt;I was approved and registered to go to &lt;a href=&quot;http://events.secureworldexpo.com/details/philadelphia-pa-2017/&quot;&gt;SecureWorld Philadelphia&lt;/a&gt; in April.  I also signed up for the “Designing and Building a Cybersecurity Program Based on the NIST Cybersecurity Framework” training option.  While &lt;a href=&quot;http://www.waveseeker.com/DSI/&quot;&gt;Database Solutions&lt;/a&gt; may not directly implement a Cybersecurity framework, I consider it critical that we understand what our clients are building.&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="coder" /><category term="maker" /><category term="hacker" /><category term="mentor" /><summary type="html">This week was a mix of old and new and a new client for the next few weeks.</summary></entry></feed>
