@@ -30,7 +30,7 @@ build/Release
 # Dependency directories
 node_modules
 jspm_packages
-_vendor
+app/_vendor
 
 # Optional npm cache directory
 .npm
@@ -42,10 +42,10 @@ _vendor
 .node_repl_history
 
 # Jekyll output
-_site/
+app/_site/
 
 # Hidden files
 .DS_Store
 /.gitignore
 /.idea/workspace.xml
-_deploy/.deploy.sh.swp
+app/_deploy/.deploy.sh.swp
