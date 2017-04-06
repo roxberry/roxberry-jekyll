@@ -4,7 +4,9 @@ module.exports = function(grunt) {
     // Show elapsed time after tasks run
     require('time-grunt')(grunt);
     // Load all Grunt tasks
-    require('jit-grunt')(grunt);
+    require('jit-grunt')(grunt, {
+            buildcontrol: 'grunt-build-control'
+        });
 
     grunt.initConfig({
         app: {
@@ -288,8 +290,6 @@ module.exports = function(grunt) {
             }
         }
     });
-
-    grunt.loadNpmTasks('grunt-build-control');
 
     // Define Tasks
     grunt.registerTask('serve', function(target) {

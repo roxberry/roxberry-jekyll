@@ -1,11 +1,11 @@
 ---
 layout:     post
-title:      Technology Weekly Briefing
-subtitle:   A weekly wrap up of technology related topics from my point of view
+title:      Technology Briefing
+subtitle:   A wrap up of technology related topics from my point of view
 comments:   true
 date:       2017-02-12 22:00:00
 author:     Mark Roxberry
-excerpt:    This week was a mix of old and new and a new client for the next few weeks.
+excerpt:    Catching up, this past week was a mix of old and new and a new client for the next few weeks.
 header-img-list:     "img/briefing.png"
 header-img-post:     "img/briefing-post.png"
 tags:       [coder, maker, hacker, mentor]

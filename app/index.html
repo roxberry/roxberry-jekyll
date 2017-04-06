@@ -22,7 +22,9 @@ pageVars = {
                     </div>
                 {% else %}
                     <div class="site-heading home">
-                        <h1><span class="typing-message"></span></h1>
+                        <img class="profile-img" src="/img/profile-2.jpg" />
+                        <h1>Mark Roxberry</h1>
+                        <h2><span class="typing-message"></span></h2>
                     </div>
                 {% endif %}
             </div>
@@ -30,9 +32,21 @@ pageVars = {
     </div>
 </header>
 
+<div class="site-welcome">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <p>Welcome to my blog.</p>
+                <p>I am a technologist and someone who likes to seek out new ideas.  On my blog, I will chronicle my experiences and how I see the future in the present.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="container">
-  <!-- Article list -->
-  <div class="homelist">
+    <div class="row">
+        <!-- Article list -->
+         <div class="homelist">
   {% for post in paginator.posts %}
     {% if post.featured %}
     <article class="container post-preview">
@@ -72,4 +86,5 @@ pageVars = {
   </ul>
   {% endif %}
   </div>
+    </div>
 </div>
