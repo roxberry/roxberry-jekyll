@@ -8,11 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="coder, maker, hacker, mentor">
 
-    <title>Mark Roxberry</title>
+    <title>Perf Engineering Post Mortem - Mark Roxberry</title>
 
-    <link rel="canonical" href="http://roxberry.pro/">
-
-
+    <link rel="canonical" href="http://roxberry.pro/2017/04/05/perf-engineering-post-mortem/">
 
     <link type="application/atom+xml" rel="alternate" href="http://roxberry.pro/feed.xml" title="Mark Roxberry" />
 
@@ -119,114 +117,172 @@
     <!-- /.container -->
 </nav>
 
-    <script>
-pageVars = {
-    pageTitle : "",
-    typingMessage : "coder, maker, hacker, mentor"
-}
-</script>
 
-<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+    <script>
+    pageVars = {
+        pageTitle : "Perf Engineering Post Mortem",
+        typingMessage : "coder, maker, hacker, mentor"
+    }
+</script>
+<!-- Post Header -->
+<header class="intro-header">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                
-                
-                    <div class="site-heading home">
-                        <img class="profile-img" src="/img/profile-2.jpg" />
-                        <h1><span class="typing-message"></span></h1>
-                    </div>
-                
-            </div>
-        </div>
+
     </div>
 </header>
-
-<div class="site-welcome">
+<article>
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <p>Welcome to my blog.</p>
-                <p>I am a technologist and someone who likes to seek out new ideas.  On my blog, I will chronicle my experiences and how I see the future in the present.</p>
+
+            <div class="col-sm-12 blog-title">
+            <h1>Perf Engineering Post Mortem</h1>
+            <span class="meta">Posted by Mark Roxberry on April 5, 2017</span>
+            <hr>
             </div>
-        </div>
-    </div>
+
+            <div class="col-sm-9 blog-main">
+
+
+                <div class="post-photo">
+                <img class="img-fluid" src="/img/performance-post.jpg" />
+                    <div class="post-photo-caption">
+                        <p>Performance engineering is a black art, with a few potential traps along the way.  Here's just a few observations irrespective of the specifics of the engagement.</p>
+                    </div>
+                </div>
+                <hr> <h1 id="performance-engineering-post-mortem">Performance Engineering Post Mortem</h1>
+<p>I have been working for 2 months in a performance engineering role for a client.  The project had 2 phases, phase 1 was to conduct an analysis of areas identified by the users at the client.  Phase 2 focused on analysis, recommendations and remediation of specific operations.  Performance engineering is a black art, with a few potential traps along the way.  Here’s just a few observations irrespective of the specifics of the engagement:</p>
+<ol>
+  <li>You’re probably not starting out at an optimal point in the lifecycle of the system.  Like security, performance is not a problem until it is - so it doesn’t get attention until someone feels pain.</li>
+  <li>You’re probably going to be rushed into “solving the problem” before you get a good grasp of how the system was developed, what choices were made through out its development lifecycle and what bad patterns are common in the architecture and code.</li>
+  <li>The people that are tasked to help you may have a personal stake in the system and may resent or fear your involvement as you’ll be calling out their or their team’s mistakes.  Recognize that this could happen and also that those mistakes may not be a result of incompetence - be objective and don’t attribute blame, but also be resolute - your job isn’t to make people look good or bad, your job is to get the system to perform better, so stick to your guns.</li>
+  <li>Always, always, always document.  Document setup tasks, document frustrations, document testing procedures, document every little observation.  Have good templates for reporting your documentation - templates for presentation, analysis, testing, results.</li>
+</ol>
+ <div class="post-tags">
+  tags:
+  
+  
+  <a href="/tag/#performance">performance</a>
+  
 </div>
 
-<div class="container">
-    <div class="row">
-        <!-- Article list -->
-         <div class="homelist">
-  
-    
-    <article class="container post-preview">
-        <figure class="col-sm-4">
-            <a href="/2017/08/25/sql-server-linux-notes/">
-                    <img src="/img/sqlserverlinux-list.jpg" class="header-img-list"/>
-            </a>
-        </figure>
-        <div class='col-sm-8'>
-            <header class='article-header'>
-                <h2><a href='/2017/08/25/sql-server-linux-notes/'>SQL Server on Linux via Docker</a></h2>
-                <p class="post-meta">Posted by Mark Roxberry on August 25, 2017</p>
-            </header>
-            <div class='article-content'>
-                Running SQL Server on Linux for Docker Engine
-            </div>
-            <footer class='article-footer'>
-            </footer>
-        </div>
-    </article>
-    
-  
-    
-    <article class="container post-preview">
-        <figure class="col-sm-4">
-            <a href="/2017/04/05/perf-engineering-post-mortem/">
-                    <img src="/img/performance.jpg" class="header-img-list"/>
-            </a>
-        </figure>
-        <div class='col-sm-8'>
-            <header class='article-header'>
-                <h2><a href='/2017/04/05/perf-engineering-post-mortem/'>Perf Engineering Post Mortem</a></h2>
-                <p class="post-meta">Posted by Mark Roxberry on April 5, 2017</p>
-            </header>
-            <div class='article-content'>
-                Performance engineering is a black art, with a few potential traps along the way.  Here's just a few observations irrespective of the specifics of the engagement.
-            </div>
-            <footer class='article-footer'>
-            </footer>
-        </div>
-    </article>
-    
-  
-    
-    <article class="container post-preview">
-        <figure class="col-sm-4">
-            <a href="/2017/02/12/technology-briefing/">
-                    <img src="/img/briefing.png" class="header-img-list"/>
-            </a>
-        </figure>
-        <div class='col-sm-8'>
-            <header class='article-header'>
-                <h2><a href='/2017/02/12/technology-briefing/'>Technology Briefing</a></h2>
-                <p class="post-meta">Posted by Mark Roxberry on February 12, 2017</p>
-            </header>
-            <div class='article-content'>
-                Catching up, this past week was a mix of old and new and a new client for the next few weeks.
-            </div>
-            <footer class='article-footer'>
-            </footer>
-        </div>
-    </article>
-    
-  
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2017/02/12/technology-briefing/" data-toggle="tooltip" data-placement="top" title="Technology Briefing">&larr; Previous Post</a>
+                    </li>
+                     
+                    <li class="next">
+                        <a href="/2017/08/25/sql-server-linux-notes/" data-toggle="tooltip" data-placement="top" title="SQL Server on Linux via Docker">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
 
-  <!-- Pager -->
-  
-  </div>
+                <br/>
+
+                <hr> 
+                <br /> <div id="disqus_thread"></div>
+
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+
+var disqus_config = function () {
+this.page.url = "http://roxberry.pro/2017/04/05/perf-engineering-post-mortem/"; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "/2017/04/05/perf-engineering-post-mortem/"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//roxberry.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+                <br /> 
+
+                
+            </div>
+
+            <div class="col-sm-3 blog-sidebar">
+                <div class="sidebar-module sidebar-module-profile">
+                    <img class="profile-img" src="/img/profile-2.jpg" />
+                </div>
+                <div class="sidebar-module sidebar-module-inset">
+                    <h4>About Me</h4>
+                    <p>Senior Consultant</p>
+                    <a href="http://www.waveseeker.com">Database Solutions</a>
+                    <p>Husband, father, son, brother and uncle. Security driven developer and passionate cross platform software engineer, architect and consultant.</p>
+                </div>
+                <div class="sidebar-module sidebar-module-inset">
+                    <a class="twitter-timeline" href="https://twitter.com/roxberry" data-widget-id="654383130506166272">Tweets by @roxberry</a>
+                    <script>
+                        ! function(d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0],
+                                p = /^http:/.test(d.location) ? 'http' : 'https';
+                            if (!d.getElementById(id)) {
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src = p + "://platform.twitter.com/widgets.js";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }
+                        }(document, "script", "twitter-wjs");
+                    </script>
+                </div>
+                <!--<div class="sidebar-module">
+                    <h4>Archives</h4>
+                    <ol class="list-unstyled">
+                    <li><a href="#">March 2014</a></li>
+                    <li><a href="#">February 2014</a></li>
+                    <li><a href="#">January 2014</a></li>
+                    <li><a href="#">December 2013</a></li>
+                    <li><a href="#">November 2013</a></li>
+                    <li><a href="#">October 2013</a></li>
+                    <li><a href="#">September 2013</a></li>
+                    <li><a href="#">August 2013</a></li>
+                    <li><a href="#">July 2013</a></li>
+                    <li><a href="#">June 2013</a></li>
+                    <li><a href="#">May 2013</a></li>
+                    <li><a href="#">April 2013</a></li>
+                    </ol>
+                </div>-->
+                <!--<div class="sidebar-module">
+                    <h4>Elsewhere</h4>
+                    <ol class="list-unstyled">
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    </ol>
+                </div>-->
+            </div>
+
+        </div>
+
+        <hr> <script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_enable_interest_ads = "true";
+amzn_assoc_tracking_id = "dbgeek-20";
+amzn_assoc_ad_mode = "auto";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_textlinks = "";
+amzn_assoc_linkid = "f58b6301f8add44f138b146ee7761389";
+amzn_assoc_emphasize_categories = "13900871,172282,229534,468642";
+amzn_assoc_fallback_mode = {"type":"search","value":"robot"};
+amzn_assoc_default_category = "All";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+        
     </div>
-</div>
+</article>
 
     <!-- Footer -->
 <footer>
@@ -329,9 +385,7 @@ pageVars = {
 
 <!--&lt;!&ndash; Typing effect &ndash;&gt;-->
 <!--<script src=" /js/typed.js "></script>-->
-    
+
 </body>
 
 </html>
-
-
