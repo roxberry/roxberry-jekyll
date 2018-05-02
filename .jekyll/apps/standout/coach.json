@@ -1,22 +1,16 @@
-{   
-    "requestedAt" : "2016-05-23T18:38:01.1234",
-    "requestId" : "122012021",
-    "name": "Mark roxberry",
-    "teams": [
+{
+    "results": [
         {
-            "name": "Unicorns",
-            "createdAt": "2016-05-23T18:38:01.1234",
-            "updatedAt": "2016-05-23T18:38:01.1234",
-            "objectId": "112"
-        },
-        {
-            "name": "Peeps",
-            "createdAt": "2016-05-23T18:38:01.1234",
-            "updatedAt": "2016-05-23T18:38:01.1234",
-            "objectId": "113"
+            "user": "maëlia.morel@example.com",
+            "teams": [
+                { "team" : "Unicorns", "season": "", "teamid"}
+            ]
         }
     ],
-    "createdAt": "2016-05-23T18:38:01.1234",
-    "updatedAt": "2016-05-23T18:38:01.1234",
-    "objectId": "111"
+    "info": {
+        "seed": "09a40a73f1999cac",
+        "results": 1,
+        "page": 1,
+        "version": "1.1"
+    }
 }

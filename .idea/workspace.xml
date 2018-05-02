@@ -2,70 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28893e79-d693-47e4-b26e-8bff0511ddc8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jekyll/img/datagrip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jekyll/img/performance-post.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jekyll/img/performance.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jekyll/img/sqlserverlinux-list.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jekyll/img/sqlserverlinux-post.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jekyll/img/toc-list.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jekyll/img/toc-post.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/datagrip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/performance-post.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/performance.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/sqlserverlinux-list.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/sqlserverlinux-post.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/toc-list.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/toc-post.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jekyll/2017/02/12/technology-briefing/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jekyll/2017/04/05/perf-engineering-post-mortem/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jekyll/2017/08/25/sql-server-linux-notes/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jekyll/about/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vscode/launch.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vscode/tasks.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/_drafts/2017-06-16-sitrep-june.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/_drafts/2017-06-25-future-engineers-projects-2018.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/_posts/2017-08-25-sql-server-linux-notes.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/about/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/css/blog.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/apps/standout/plan.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/apps/standout/schedule.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/apps/standout/team.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/apps/standout/user.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.jekyll/apps/standout/teams.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/apps/standout/teams.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/blog.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/roxberry.min.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/_drafts/pages/about.md" afterPath="$PROJECT_DIR$/app/_pages/about.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/img/profile-2.jpg" afterPath="$PROJECT_DIR$/.jekyll/img/profile-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/profile-2.jpg" afterPath="$PROJECT_DIR$/app/img/profile-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/apps/standout/teams.json" afterPath="$PROJECT_DIR$/app/apps/standout/api.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist" afterPath="$PROJECT_DIR$/dist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/2017/02/12/technology-briefing/index.html" afterPath="$PROJECT_DIR$/.jekyll/2017/02/12/technology-briefing/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/2017/04/05/perf-engineering-post-mortem/index.html" afterPath="$PROJECT_DIR$/.jekyll/2017/04/05/perf-engineering-post-mortem/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/2017/08/25/sql-server-linux-notes/index.html" afterPath="$PROJECT_DIR$/.jekyll/2017/08/25/sql-server-linux-notes/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/_pages/futureengineers/index.html" afterPath="$PROJECT_DIR$/.jekyll/_pages/futureengineers/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/_pages/projects/index.html" afterPath="$PROJECT_DIR$/.jekyll/_pages/projects/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/about/index.html" afterPath="$PROJECT_DIR$/.jekyll/about/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/apps/standout/coach.json" afterPath="$PROJECT_DIR$/.jekyll/apps/standout/coach.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/contact/index.html" afterPath="$PROJECT_DIR$/.jekyll/contact/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/css/syntax.min.css" afterPath="$PROJECT_DIR$/.jekyll/css/syntax.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/feed.xml" afterPath="$PROJECT_DIR$/.jekyll/feed.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/img/page/index.html" afterPath="$PROJECT_DIR$/.jekyll/img/page/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/index.1/index.html" afterPath="$PROJECT_DIR$/.jekyll/index.1/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/index.html" afterPath="$PROJECT_DIR$/.jekyll/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/thanks/index.html" afterPath="$PROJECT_DIR$/.jekyll/thanks/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vscode/settings.json" afterPath="$PROJECT_DIR$/.vscode/settings.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_assets/less/roxberry.less" afterPath="$PROJECT_DIR$/app/_assets/less/roxberry.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/footer.html" afterPath="$PROJECT_DIR$/app/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/head-home.html" afterPath="$PROJECT_DIR$/app/_includes/head-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/head.html" afterPath="$PROJECT_DIR$/app/_includes/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/nav.html" afterPath="$PROJECT_DIR$/app/_includes/nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_pages/contact.html" afterPath="$PROJECT_DIR$/app/_pages/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/syntax.min.css" afterPath="$PROJECT_DIR$/app/css/syntax.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/2017/02/12/technology-briefing/index.html" afterPath="$PROJECT_DIR$/dist/2017/02/12/technology-briefing/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/2017/04/05/perf-engineering-post-mortem/index.html" afterPath="$PROJECT_DIR$/dist/2017/04/05/perf-engineering-post-mortem/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/_pages/futureengineers/index.html" afterPath="$PROJECT_DIR$/dist/_pages/futureengineers/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/_pages/projects/index.html" afterPath="$PROJECT_DIR$/dist/_pages/projects/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/contact/index.html" afterPath="$PROJECT_DIR$/dist/contact/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/roxberry.min.css" afterPath="$PROJECT_DIR$/dist/css/roxberry.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BUILD.md" afterPath="$PROJECT_DIR$/BUILD.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_pages/about.md" afterPath="$PROJECT_DIR$/app/_pages/about.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/apps/standout/coach.json" afterPath="$PROJECT_DIR$/app/apps/standout/coach.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/apps/standout/coach.json" afterPath="$PROJECT_DIR$/dist/apps/standout/coach.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/feed.xml" afterPath="$PROJECT_DIR$/dist/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/img/page/index.html" afterPath="$PROJECT_DIR$/dist/img/page/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.1/index.html" afterPath="$PROJECT_DIR$/dist/index.1/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/thanks/index.html" afterPath="$PROJECT_DIR$/dist/thanks/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -81,11 +47,82 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="_config.build.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.build.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="60" column="23" lean-forward="false" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="30" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WALL-E-wall-e-2782723-1280-800.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/img/WALL-E-wall-e-2782723-1280-800.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="swift_banner-400.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/img/swift_banner-400.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="swift_banner.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/img/swift_banner.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/_layouts/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head-home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/_includes/head-home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="70" column="10" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>maxcdn.bootstrapcdn.com</find>
       <find>min.css</find>
       <find>blog</find>
       <find>buildcontrol</find>
@@ -115,6 +152,7 @@
       <find>site-heading</find>
       <find>home</find>
       <find>.site</find>
+      <find>.js</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -155,7 +193,6 @@
         <option value="$PROJECT_DIR$/app/_includes/head-home.html" />
         <option value="$PROJECT_DIR$/app/_posts/2017-05-01-sitrep-may.md" />
         <option value="$PROJECT_DIR$/app/_drafts/2017-06-01-sitrep-june.md" />
-        <option value="$PROJECT_DIR$/app/_pages/about.md" />
         <option value="$PROJECT_DIR$/app/_includes/footer.html" />
         <option value="$PROJECT_DIR$/app/_pages/contact.html" />
         <option value="$PROJECT_DIR$/app/_assets/less/roxberry.less" />
@@ -163,6 +200,10 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/_posts/2017-06-25-future-engineers-projects-2018.md" />
         <option value="$PROJECT_DIR$/app/_posts/2017-08-25-sql-server-linux-notes.md" />
+        <option value="$PROJECT_DIR$/app/_pages/about.md" />
+        <option value="$PROJECT_DIR$/app/apps/standout/plan.json" />
+        <option value="$PROJECT_DIR$/app/apps/standout/coach.json" />
+        <option value="$PROJECT_DIR$/app/apps/standout/api.json" />
       </list>
     </option>
   </component>
@@ -201,9 +242,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="39" />
     <option name="y" value="22" />
-    <option name="width" value="1680" />
-    <option name="height" value="1024" />
+    <option name="width" value="1595" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -221,7 +263,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,13 +279,19 @@
               <item name="roxberry" type="b2602c69:ProjectViewProjectNode" />
               <item name="roxberry" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="_drafts" type="462c0819:PsiDirectoryNode" />
+              <item name="_assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="roxberry" type="b2602c69:ProjectViewProjectNode" />
               <item name="roxberry" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="roxberry" type="b2602c69:ProjectViewProjectNode" />
+              <item name="roxberry" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="roxberry" type="b2602c69:ProjectViewProjectNode" />
@@ -255,17 +302,24 @@
             <path>
               <item name="roxberry" type="b2602c69:ProjectViewProjectNode" />
               <item name="roxberry" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="roxberry" type="b2602c69:ProjectViewProjectNode" />
+              <item name="roxberry" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v6.9.5/bin/node" />
     <property name="javascript.nodejs.core.library.configured.version" value="0.10.29" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -424,8 +478,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Grunt.js.serve" />
-        <item index="1" class="java.lang.String" itemvalue="Grunt.js.build" />
-        <item index="2" class="java.lang.String" itemvalue="Grunt.js.deploy" />
+        <item index="1" class="java.lang.String" itemvalue="Grunt.js.deploy" />
+        <item index="2" class="java.lang.String" itemvalue="Grunt.js.build" />
         <item index="3" class="java.lang.String" itemvalue="Grunt.js.default" />
         <item index="4" class="java.lang.String" itemvalue="Grunt.js.imagemin" />
       </list>
@@ -473,7 +527,19 @@
       <workItem from="1502646032528" duration="602000" />
       <workItem from="1502652447159" duration="599000" />
       <workItem from="1502656047047" duration="1621000" />
-      <workItem from="1503674274634" duration="4227000" />
+      <workItem from="1503674274634" duration="4793000" />
+      <workItem from="1503679342451" duration="4176000" />
+      <workItem from="1505312981553" duration="241000" />
+      <workItem from="1507511110836" duration="1153000" />
+      <workItem from="1507819739155" duration="7121000" />
+      <workItem from="1507927642522" duration="19000" />
+      <workItem from="1507927680393" duration="607000" />
+      <workItem from="1508023677139" duration="23000" />
+      <workItem from="1508023930846" duration="622000" />
+      <workItem from="1509291586788" duration="172000" />
+      <workItem from="1509719270427" duration="194000" />
+      <workItem from="1514067087886" duration="620000" />
+      <workItem from="1515519268482" duration="256000" />
     </task>
     <task id="LOCAL-00001" summary="clean up and worked on weekly briefing">
       <created>1486866534518</created>
@@ -510,24 +576,32 @@
       <option name="project" value="LOCAL" />
       <updated>1491504623022</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added SQL Server for Linux post">
+      <created>1503678780065</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1503678780065</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63254000" />
+    <option name="totallyTimeSpent" value="79024000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
+    <frame x="39" y="22" width="1595" height="1028" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16849817" sideWeight="0.6816" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21764328" sideWeight="0.6345123" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16849817" sideWeight="0.3184" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.32051283" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21764328" sideWeight="0.36548766" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6698821" sideWeight="0.32967034" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284091" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32723358" sideWeight="0.67948717" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6698821" sideWeight="0.6703297" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284091" sideWeight="0.47802198" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831" sideWeight="0.47313797" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -551,7 +625,8 @@
     <MESSAGE value="enabled feature post" />
     <MESSAGE value="roundtrip test" />
     <MESSAGE value="reworked optimization and deployment tools" />
-    <option name="LAST_COMMIT_MESSAGE" value="reworked optimization and deployment tools" />
+    <MESSAGE value="added SQL Server for Linux post" />
+    <option name="LAST_COMMIT_MESSAGE" value="added SQL Server for Linux post" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -560,154 +635,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="392" lean-forward="false" selection-start-line="0" selection-start-column="392" selection-end-line="0" selection-end-column="392" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_assets/less/homepage.less" />
-    <entry file="file://$PROJECT_DIR$/app/Web.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.production.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BUILD.md" />
-    <entry file="file://$PROJECT_DIR$/app/img/home-bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/app/_drafts/posts/2016-04-07-daily.md" />
-    <entry file="file://$PROJECT_DIR$/app/_drafts/posts/2017-03-10-how-i-work.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/apps/ct/challenges.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/apps/standout/coach.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/apps/standout/teams.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/briefing.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/blockchain-post.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/briefing-post.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/toc-post.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/toc-list.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="74" lean-forward="false" selection-start-line="68" selection-start-column="74" selection-end-line="68" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_includes/slider.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/_drafts/2017-06-01-sitrep-june.md" />
-    <entry file="file://$PROJECT_DIR$/app/_pages/about.md" />
-    <entry file="file://$PROJECT_DIR$/app/_includes/head-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="64" column="10" lean-forward="false" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -736,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/_includes/nav-bak.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -757,27 +678,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="25" column="68" lean-forward="false" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/_drafts/2017-06-25-future-engineers-projects-2018.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -787,11 +691,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/img/projects-400.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/swift_banner-400.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -815,16 +714,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -832,15 +721,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -869,15 +749,184 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/_posts/2017-08-25-sql-server-linux-notes.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="523">
-            <caret line="58" column="164" lean-forward="false" selection-start-line="58" selection-start-column="164" selection-end-line="58" selection-end-column="164" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/app/_posts/2017-08-25-sql-server-linux-notes.md" />
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="68" lean-forward="false" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_pages/projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_pages/about.md" />
+    <entry file="file://$PROJECT_DIR$/app/apps/standout/team.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apps/standout/user.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apps/standout/schedule.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apps/standout/plan.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apps/standout/coach.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="60" lean-forward="false" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apps/standout/api.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="175" column="1" lean-forward="false" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.production.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="10" lean-forward="false" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BUILD.md" />
+    <entry file="file://$PROJECT_DIR$/DESIGN.md" />
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_assets/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/roxberry.min.js" />
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="392" lean-forward="false" selection-start-line="0" selection-start-column="392" selection-end-line="0" selection-end-column="392" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.build.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="23" lean-forward="false" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_includes/head-home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" column="10" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="30" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/Jameson.png" />
+    <entry file="file://$PROJECT_DIR$/app/img/WALL-E-wall-e-2782723-1280-800.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/swift_banner-400.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/swift_banner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

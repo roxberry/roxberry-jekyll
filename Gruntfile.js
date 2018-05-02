@@ -100,7 +100,7 @@ module.exports = function(grunt) {
             },
             dist: {
                 options: {
-                    dest: '<%= app.dist %>/<%= app.baseurl %>',
+                    dest: '<%= app.dist %>/<%= app.baseurl %>'
                 }
             },
             server: {
@@ -172,7 +172,7 @@ module.exports = function(grunt) {
                     paths: ["css"]
                 },
                 files: {
-                    '.tmp/<%= app.baseurl %>/css/<%= app.name %>.min.css': '<%= app.app %>/_assets/less/<%= app.name %>.less' ,
+                    '.tmp/<%= app.baseurl %>/css/<%= app.name %>.min.css': '<%= app.app %>/_assets/less/<%= app.name %>.less'
                 }
             },
             dist: {
@@ -180,7 +180,7 @@ module.exports = function(grunt) {
                     paths: ["css"]
                 },
                 files: {
-                    '<%= app.dist %>/<%= app.baseurl %>/css/<%= app.name %>.min.css': '<%= app.app %>/_assets/less/<%= app.name %>.less' ,
+                    '<%= app.dist %>/<%= app.baseurl %>/css/<%= app.name %>.min.css': '<%= app.app %>/_assets/less/<%= app.name %>.less'
                 }
             }
         },
