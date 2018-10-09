@@ -1,4 +1,176 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://roxberry.pro/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://roxberry.pro/feed.xml" rel="self" type="application/atom+xml" /><link href="http://roxberry.pro/" rel="alternate" type="text/html" /><updated>2018-05-01T21:07:34-04:00</updated><id>http://roxberry.pro//</id><title type="html">Mark Roxberry</title><subtitle>coder, maker, hacker, mentor</subtitle><entry><title type="html">SQL Server on Linux via Docker</title><link href="http://roxberry.pro/2017/08/25/sql-server-linux-notes/" rel="alternate" type="text/html" title="SQL Server on Linux via Docker" /><published>2017-08-25T10:00:00-04:00</published><updated>2017-08-25T10:00:00-04:00</updated><id>http://roxberry.pro/2017/08/25/sql-server-linux-notes</id><content type="html" xml:base="http://roxberry.pro/2017/08/25/sql-server-linux-notes/">&lt;ol&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://roxberry.pro/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://roxberry.pro/feed.xml" rel="self" type="application/atom+xml" /><link href="http://roxberry.pro/" rel="alternate" type="text/html" /><updated>2018-10-09T16:08:49-04:00</updated><id>http://roxberry.pro//</id><title type="html">Mark Roxberry</title><subtitle>coder, maker, hacker, mentor</subtitle><entry><title type="html">Robotics Workshop Roadmap 2018-2019 (Future Engineers)</title><link href="http://roxberry.pro/2018/10/03/robotics-workshop-roadmap/" rel="alternate" type="text/html" title="Robotics Workshop Roadmap 2018-2019 (Future Engineers)" /><published>2018-10-03T18:00:00-04:00</published><updated>2018-10-03T18:00:00-04:00</updated><id>http://roxberry.pro/2018/10/03/robotics-workshop-roadmap</id><content type="html" xml:base="http://roxberry.pro/2018/10/03/robotics-workshop-roadmap/">&lt;h1 id=&quot;roadmap&quot;&gt;Roadmap&lt;/h1&gt;
+
+&lt;h2 id=&quot;goals&quot;&gt;Goals&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Full Participation&lt;/li&gt;
+  &lt;li&gt;Foundations&lt;/li&gt;
+  &lt;li&gt;Exploration&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;preparation&quot;&gt;Preparation&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Batteries&lt;/li&gt;
+  &lt;li&gt;Laptop checks&lt;/li&gt;
+  &lt;li&gt;Kit checks&lt;/li&gt;
+  &lt;li&gt;Environment Building Materials&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;sessions---junior-engineer&quot;&gt;Sessions - Junior Engineer&lt;/h2&gt;
+
+&lt;h3 id=&quot;october-2018&quot;&gt;October 2018&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First Day - Build the mobile base (1 - 3 “Drive Forward”) (10/12)&lt;/li&gt;
+  &lt;li&gt;Autonomous Driving (4 - 9 “My Block”) (10/19)&lt;/li&gt;
+  &lt;li&gt;Autonomous Driving (10 - 11 “Action Replay”) (10/26)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;november-2018&quot;&gt;November 2018&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;No class on 11/2&lt;/li&gt;
+  &lt;li&gt;See and Hear (12 - 15 “Distance Control”) (11/9)&lt;/li&gt;
+  &lt;li&gt;Line Follower (16 - 17 “Follow a Line”) (11/16)&lt;/li&gt;
+  &lt;li&gt;No class on 11/23&lt;/li&gt;
+  &lt;li&gt;Hit the Ball (18 - 20 “Hit Red Ball”) (11/30)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;december-2018&quot;&gt;December 2018&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The Crucible Challenge Design, Practice and Testing (12/7)&lt;/li&gt;
+  &lt;li&gt;The Crucible Challenge Design, Practice and Testing (12/14)&lt;/li&gt;
+  &lt;li&gt;The Crucible Challenge and Pizza (12/21) (11:30 - 1:30)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;january-2019&quot;&gt;January 2019&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;No class on 1/4&lt;/li&gt;
+  &lt;li&gt;Complete Palette (21 - 25 “Reset Rotation Sensor”) (1/11)&lt;/li&gt;
+  &lt;li&gt;Complete Palette (26 - 32 “Random Duration”) (1/18)&lt;/li&gt;
+  &lt;li&gt;Complete Palette (33 - 39 “Multiple Download”) (1/25)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;february-2019&quot;&gt;February 2019&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://education.lego.com/en-us/lessons/maker-middleschool/make-a-security-gadget&quot;&gt;Security Gadget Challenge&lt;/a&gt; (2/1) (11:30 - 1:30)&lt;/li&gt;
+  &lt;li&gt;Data Logging (2/8)&lt;/li&gt;
+  &lt;li&gt;Data Logging (2/15)&lt;/li&gt;
+  &lt;li&gt;Data Logging (2/22)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;march-2019&quot;&gt;March 2019&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.nxtprograms.com/spin_art/index.html&quot;&gt;Spin Art Challenge&lt;/a&gt; (3/1) (11:30 - 1:30)&lt;/li&gt;
+  &lt;li&gt;Into Orbit FLL (3/8)&lt;/li&gt;
+  &lt;li&gt;Pi Day Belated (3/15)&lt;/li&gt;
+  &lt;li&gt;Into Orbit FLL (3/22)&lt;/li&gt;
+  &lt;li&gt;Into Orbit FLL (3/29)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;april-2019&quot;&gt;April 2019&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;No class on 4/5&lt;/li&gt;
+  &lt;li&gt;Into Orbit Challenge Design, Practice and Testing TBD (4/12)&lt;/li&gt;
+  &lt;li&gt;No class on 4/19&lt;/li&gt;
+  &lt;li&gt;No class on 4/26&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;may-2019&quot;&gt;May 2019&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Into Orbit Challenge (5/3) (11:30 - 1:30)&lt;/li&gt;
+  &lt;li&gt;(5/10)&lt;/li&gt;
+  &lt;li&gt;(5/17)&lt;/li&gt;
+  &lt;li&gt;No class on 5/24&lt;/li&gt;
+  &lt;li&gt;(5/31)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;june-2019&quot;&gt;June 2019&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Challenge (6/7) (11:30 - 1:30)&lt;/li&gt;
+  &lt;li&gt;Last Day 6/14&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;topics&quot;&gt;Topics&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Tools and Kits, &lt;a href=&quot;https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-EngNotebook-Letter.pdf&quot;&gt;Notebooks&lt;/a&gt;, &lt;a href=&quot;http://www.bl.uk/manuscripts/Viewer.aspx?ref=arundel_ms_263_f001r#&quot;&gt;Davinci’s Notebook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Foundations of Robotics&lt;/li&gt;
+  &lt;li&gt;Latest in Robotics&lt;/li&gt;
+  &lt;li&gt;Power&lt;/li&gt;
+  &lt;li&gt;FLL &lt;a href=&quot;http://www.firstlegoleague.org/challenge&quot;&gt;Into Orbit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Advanced Programming - Arrays&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;tools-and-references&quot;&gt;Tools and References&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://education.lego.com/en-us/middle-school/intro/mindstorms-ev3&quot;&gt;Lego Education Mindstorms&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://education.lego.com/en-us/middle-school/intro/mindstorms-ev3#Curriculum&quot;&gt;Lego Education Mindstorms Curriculum&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://robotics.news/&quot;&gt;Robotics News&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://news.mit.edu/topic/robotics&quot;&gt;MIT News - Robotics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://scratch.mit.edu/&quot;&gt;Scratch&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Mark Roxberry</name></author><category term="robots" /><category term="robotics" /><category term="roadmap" /><summary type="html">Road map for Robotics Elective 2018-2019</summary></entry><entry><title type="html">What’s in my workshop?</title><link href="http://roxberry.pro/2018/10/03/my-development-environment/" rel="alternate" type="text/html" title="What's in my workshop?" /><published>2018-10-03T18:00:00-04:00</published><updated>2018-10-03T18:00:00-04:00</updated><id>http://roxberry.pro/2018/10/03/my-development-environment</id><content type="html" xml:base="http://roxberry.pro/2018/10/03/my-development-environment/">&lt;h2 id=&quot;webstorm&quot;&gt;Webstorm&lt;/h2&gt;
+
+&lt;p&gt;Build: 2018.2.4&lt;/p&gt;
+
+&lt;h2 id=&quot;visual-studio-code&quot;&gt;Visual Studio Code&lt;/h2&gt;
+
+&lt;p&gt;Version: 1.27.2 (user setup)&lt;/p&gt;
+
+&lt;p&gt;Commit: f46c4c469d6e6d8c46f268d1553c5dc4b475840f&lt;/p&gt;
+
+&lt;p&gt;Date: 2018-09-12T16:17:45.060Z&lt;/p&gt;
+
+&lt;p&gt;Electron: 2.0.7&lt;/p&gt;
+
+&lt;p&gt;Chrome: 61.0.3163.100&lt;/p&gt;
+
+&lt;p&gt;Node.js: 8.9.3&lt;/p&gt;
+
+&lt;p&gt;V8: 6.1.534.41&lt;/p&gt;
+
+&lt;p&gt;Architecture: x64&lt;/p&gt;
+
+&lt;h3 id=&quot;extensions&quot;&gt;Extensions&lt;/h3&gt;
+
+&lt;p&gt;code –install-extension [createInstance] extensionManagementService depends on downloadService which is NOT registered.&lt;/p&gt;
+
+&lt;p&gt;code –install-extension Leopotam.csharpfixformat&lt;/p&gt;
+
+&lt;p&gt;code –install-extension ms-mssql.mssql&lt;/p&gt;
+
+&lt;p&gt;code –install-extension ms-python.python&lt;/p&gt;
+
+&lt;p&gt;code –install-extension ms-vscode.csharp&lt;/p&gt;
+
+&lt;p&gt;code –install-extension PeterJausovec.vscode-docker&lt;/p&gt;
+
+&lt;p&gt;code –install-extension ritwickdey.LiveServer&lt;/p&gt;
+
+&lt;p&gt;code –install-extension VisualStudioExptTeam.vscodeintellicode&lt;/p&gt;
+
+&lt;p&gt;code –install-extension xykong.format-all-files&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="tools" /><category term="code" /><category term="ide" /><category term="extensions" /><summary type="html">Tracking the tools, extensions and configurations I use for software/hardware development, development/operations and security.</summary></entry><entry><title type="html">Technology Briefing Fall 2018</title><link href="http://roxberry.pro/2018/09/29/technology-briefing/" rel="alternate" type="text/html" title="Technology Briefing Fall 2018" /><published>2018-09-29T05:00:00-04:00</published><updated>2018-09-29T05:00:00-04:00</updated><id>http://roxberry.pro/2018/09/29/technology-briefing</id><content type="html" xml:base="http://roxberry.pro/2018/09/29/technology-briefing/">&lt;h1 id=&quot;artificial-intelligence&quot;&gt;Artificial Intelligence&lt;/h1&gt;
+
+&lt;h1 id=&quot;security-sphere-os-iot&quot;&gt;Security: Sphere OS, IoT&lt;/h1&gt;
+
+&lt;h1 id=&quot;robotics-lego-fll-distilled&quot;&gt;Robotics: Lego FLL Distilled&lt;/h1&gt;
+
+&lt;h1 id=&quot;skills-inventory&quot;&gt;Skills Inventory&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ansible&lt;/li&gt;
+  &lt;li&gt;OpenShift&lt;/li&gt;
+  &lt;li&gt;Kafka&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Mark Roxberry</name></author><category term="coder" /><category term="maker" /><category term="hacker" /><category term="mentor" /><summary type="html">Technology Briefing Fall 2018</summary></entry><entry><title type="html">SQL Server on Linux via Docker</title><link href="http://roxberry.pro/2017/08/25/sql-server-linux-notes/" rel="alternate" type="text/html" title="SQL Server on Linux via Docker" /><published>2017-08-25T10:00:00-04:00</published><updated>2017-08-25T10:00:00-04:00</updated><id>http://roxberry.pro/2017/08/25/sql-server-linux-notes</id><content type="html" xml:base="http://roxberry.pro/2017/08/25/sql-server-linux-notes/">&lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;Get &lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker&lt;/a&gt; (if it is not already running)&lt;/p&gt;
   &lt;/li&gt;

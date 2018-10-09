@@ -16,18 +16,15 @@ layout: default
 <article>
     <div class="container">
         <div class="row">
-
             <div class="col-sm-12 blog-title">
             <h1>{{ page.title }}</h1>
             <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
-            <hr>
             </div>
-
             <div class="col-sm-9 blog-main">
 
 
                 <div class="post-photo">
-                <img class="img-fluid" src="{{ site.baseurl }}/{% if page.header-img-post %}{{ page.header-img-post }}{% else %}{{ site.header-img-post }}{% endif %}" />
+                    <img class="img-fluid" src="{{ site.baseurl }}/{% if page.header-img-post %}{{ page.header-img-post }}{% else %}{{ site.header-img-post }}{% endif %}" />
                     <div class="post-photo-caption">
                         <p>{{ page.excerpt }}</p>
                     </div>
@@ -54,7 +51,6 @@ layout: default
 
                 
             </div>
-
             <div class="col-sm-3 blog-sidebar">
                 <div class="sidebar-module sidebar-module-profile">
                     <img class="profile-img" src="/img/profile-2.jpg" />
@@ -106,7 +102,6 @@ layout: default
                     </ol>
                 </div>-->
             </div>
-
         </div>
 
         <hr> {% include amazon_nativead.html %}

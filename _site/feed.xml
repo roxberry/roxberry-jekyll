@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://roxberry.pro/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://roxberry.pro/feed.xml" rel="self" type="application/atom+xml" /><link href="http://roxberry.pro/" rel="alternate" type="text/html" /><updated>2018-09-30T10:55:05-04:00</updated><id>http://roxberry.pro//</id><title type="html">Mark Roxberry</title><subtitle>coder, maker, hacker, mentor</subtitle><entry><title type="html">SQL Server on Linux via Docker</title><link href="http://roxberry.pro/app/2017/08/25/sql-server-linux-notes/" rel="alternate" type="text/html" title="SQL Server on Linux via Docker" /><published>2017-08-25T10:00:00-04:00</published><updated>2017-08-25T10:00:00-04:00</updated><id>http://roxberry.pro/app/2017/08/25/sql-server-linux-notes</id><content type="html" xml:base="http://roxberry.pro/app/2017/08/25/sql-server-linux-notes/">&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Get &lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker&lt;/a&gt; (if it is not already running)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Get the SQL Server on Linux for Docker Engine image&lt;/p&gt;
+
+    &lt;p&gt;I’m running Docker on MacOS, I will use the SQL Server on Linux for Docker Engine at &lt;a href=&quot;https://hub.docker.com/r/microsoft/mssql-server-linux/&quot;&gt;Docker Hub&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker pull microsoft/mssql-server-linux
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set the settings and start the container&lt;/p&gt;
+
+    &lt;p&gt;SQL Server on Linux for Docker Engine requires an environment setting to accept the EULA and set a strong SA password:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ACCEPT_EULA = Y
+SA_PASSWORD = &amp;lt;your password&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt;Run this in the terminal:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=yourStrong(!)Password' -p 1433:1433 -d microsoft/mssql-server-linux
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Copy a backup to the container&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker cp '/tmp/DatabaseName.bak' mssql-server-linux:/tmp
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Restore the backup&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RESTORE DATABASE DatabaseName FROM DISK='/tmp/DatabaseName.bak'
+WITH MOVE 'DatabaseName' TO '/var/opt/mssql/data/DatabaseName.MDF',
+MOVE 'DatabaseName_log' TO '/var/opt/mssql/data/DatabaseName_log.ldf'
+Go
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Connect with a docker command or an IDE like &lt;a href=&quot;https://www.jetbrains.com/datagrip/&quot;&gt;DataGrip&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/datagrip.png&quot; alt=&quot;DataGrip SQL Server Connection&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Using SQL Server for Linux in Docker has allowed me to continue to develop using a Linux distro or macOS without needing to set up a VM to run the database backend.&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="sql server" /><category term="linux" /><category term="docker" /><summary type="html">Running SQL Server on Linux for Docker Engine</summary></entry><entry><title type="html">Perf Engineering Post Mortem</title><link href="http://roxberry.pro/app/2017/04/05/perf-engineering-post-mortem/" rel="alternate" type="text/html" title="Perf Engineering Post Mortem" /><published>2017-04-05T10:00:00-04:00</published><updated>2017-04-05T10:00:00-04:00</updated><id>http://roxberry.pro/app/2017/04/05/perf-engineering-post-mortem</id><content type="html" xml:base="http://roxberry.pro/app/2017/04/05/perf-engineering-post-mortem/">&lt;h1 id=&quot;performance-engineering-post-mortem&quot;&gt;Performance Engineering Post Mortem&lt;/h1&gt;
+&lt;p&gt;I have been working for 2 months in a performance engineering role for a client.  The project had 2 phases, phase 1 was to conduct an analysis of areas identified by the users at the client.  Phase 2 focused on analysis, recommendations and remediation of specific operations.  Performance engineering is a black art, with a few potential traps along the way.  Here’s just a few observations irrespective of the specifics of the engagement:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;You’re probably not starting out at an optimal point in the lifecycle of the system.  Like security, performance is not a problem until it is - so it doesn’t get attention until someone feels pain.&lt;/li&gt;
+  &lt;li&gt;You’re probably going to be rushed into “solving the problem” before you get a good grasp of how the system was developed, what choices were made through out its development lifecycle and what bad patterns are common in the architecture and code.&lt;/li&gt;
+  &lt;li&gt;The people that are tasked to help you may have a personal stake in the system and may resent or fear your involvement as you’ll be calling out their or their team’s mistakes.  Recognize that this could happen and also that those mistakes may not be a result of incompetence - be objective and don’t attribute blame, but also be resolute - your job isn’t to make people look good or bad, your job is to get the system to perform better, so stick to your guns.&lt;/li&gt;
+  &lt;li&gt;Always, always, always document.  Document setup tasks, document frustrations, document testing procedures, document every little observation.  Have good templates for reporting your documentation - templates for presentation, analysis, testing, results.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Mark Roxberry</name></author><category term="performance" /><summary type="html">Performance engineering is a black art, with a few potential traps along the way.  Here's just a few observations irrespective of the specifics of the engagement.</summary></entry><entry><title type="html">Technology Briefing</title><link href="http://roxberry.pro/app/2017/02/12/technology-briefing/" rel="alternate" type="text/html" title="Technology Briefing" /><published>2017-02-12T17:00:00-05:00</published><updated>2017-02-12T17:00:00-05:00</updated><id>http://roxberry.pro/app/2017/02/12/technology-briefing</id><content type="html" xml:base="http://roxberry.pro/app/2017/02/12/technology-briefing/">&lt;h1 id=&quot;farmland&quot;&gt;Farmland&lt;/h1&gt;
+&lt;p&gt;I started last week at a new client out in the farm lands of Pennsylvania.  Out of my comfort zone, this involved a hotel stay at the Inn at Leolas, a new client with a barrage of new concepts and code.  I was issued a new laptop, new e-mail, new MSDN account - more stuff to manage.  I did utilize a Google Chrome feature of setting up a Chrome profile for the new account.  This let me setup a profile with bookmarks, applications and settings specific to the account I will use at the client.&lt;/p&gt;
+
+&lt;h1 id=&quot;performance-testing&quot;&gt;Performance Testing&lt;/h1&gt;
+&lt;p&gt;I am following a basic process for performance testing:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Understand client issues that prompted their request for a specialist.&lt;/li&gt;
+  &lt;li&gt;Identify target environments to test&lt;/li&gt;
+  &lt;li&gt;Create test environment to plan and design tests&lt;/li&gt;
+  &lt;li&gt;Plan and design tests&lt;/li&gt;
+  &lt;li&gt;Execute tests and capture results&lt;/li&gt;
+  &lt;li&gt;Analyze results&lt;/li&gt;
+  &lt;li&gt;Write report, include approach, results and recommendations&lt;/li&gt;
+  &lt;li&gt;Present findings and recommendations&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;command&quot;&gt;Command&lt;/h1&gt;
+&lt;p&gt;I started a project for a server to run on my robot kits using &lt;a href=&quot;https://www.dexterindustries.com/gopigo/&quot;&gt;GoPiGo&lt;/a&gt; as a prototype.  Find it on Github, &lt;a href=&quot;https://github.com/roxberry/command&quot;&gt;command&lt;/a&gt;.  I ran into issues with the node-gopigo module, may need to write an interface and stub it out to work on the services code off robot.&lt;/p&gt;
+
+&lt;h1 id=&quot;secureworld-philadelphia&quot;&gt;SecureWorld Philadelphia&lt;/h1&gt;
+&lt;p&gt;I was approved and registered to go to &lt;a href=&quot;http://events.secureworldexpo.com/details/philadelphia-pa-2017/&quot;&gt;SecureWorld Philadelphia&lt;/a&gt; in April.  I also signed up for the “Designing and Building a Cybersecurity Program Based on the NIST Cybersecurity Framework” training option.  While &lt;a href=&quot;http://www.waveseeker.com/DSI/&quot;&gt;Database Solutions&lt;/a&gt; may not directly implement a Cybersecurity framework, I consider it critical that we understand what our clients are building.&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="coder" /><category term="maker" /><category term="hacker" /><category term="mentor" /><summary type="html">Catching up, this past week was a mix of old and new and a new client for the next few weeks.</summary></entry></feed>

@@ -1,0 +1,176 @@
+{
+  "collection": {
+    "href": "https://api.teamsnap.com/v3/",
+    "links": [
+      {
+        "href": "https://api.teamsnap.com/v2",
+        "rel": "apiv2_root"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/assignments",
+        "rel": "assignments"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/availabilities",
+        "rel": "availabilities"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/contact_email_addresses",
+        "rel": "contact_email_addresses"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/contact_phone_numbers",
+        "rel": "contact_phone_numbers"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/contacts",
+        "rel": "contacts"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/custom_data",
+        "rel": "custom_data"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/custom_fields",
+        "rel": "custom_fields"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/events",
+        "rel": "events"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/forum_posts",
+        "rel": "forum_posts"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/forum_subscriptions",
+        "rel": "forum_subscriptions"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/forum_topics",
+        "rel": "forum_topics"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/locations",
+        "rel": "locations"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/me",
+        "rel": "me"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/member_email_addresses",
+        "rel": "member_email_addresses"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/member_files",
+        "rel": "member_files"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/member_links",
+        "rel": "member_links"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/member_phone_numbers",
+        "rel": "member_phone_numbers"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/members",
+        "rel": "members"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/members_preferences",
+        "rel": "members_preferences"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/opponents",
+        "rel": "opponents"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/opponents_results",
+        "rel": "opponents_results"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/plans",
+        "rel": "plans"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/sms_gateways",
+        "rel": "sms_gateways"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/sponsors",
+        "rel": "sponsors"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/sports",
+        "rel": "sports"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/team_files",
+        "rel": "team_files"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/team_public_sites",
+        "rel": "team_public_sites"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/teams",
+        "rel": "teams"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/teams_preferences",
+        "rel": "teams_preferences"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/teams_results",
+        "rel": "teams_results"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/time_zones",
+        "rel": "time_zones"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/tracked_item_statuses",
+        "rel": "tracked_item_statuses"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/tracked_items",
+        "rel": "tracked_items"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/tsl_metadata",
+        "rel": "tsl_metadata"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/users",
+        "rel": "users"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/",
+        "rel": "root"
+      },
+      {
+        "href": "https://api.teamsnap.com/v3/",
+        "rel": "self"
+      }
+    ],
+    "queries": [
+      {
+        "data": [
+          {
+            "name": "team_id",
+            "value": null
+          },
+          {
+            "name": "types",
+            "value": null
+          }
+        ],
+        "href": "https://api.teamsnap.com/v3/bulk_load",
+        "rel": "bulk_load"
+      }
+    ],
+    "version": "3.31.1"
+  }
+}

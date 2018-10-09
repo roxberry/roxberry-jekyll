@@ -2,42 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28893e79-d693-47e4-b26e-8bff0511ddc8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/apps/standout/plan.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/apps/standout/schedule.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/apps/standout/team.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/apps/standout/user.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.jekyll/apps/standout/teams.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/apps/standout/teams.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/blog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/roxberry.min.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/apps/standout/teams.json" afterPath="$PROJECT_DIR$/app/apps/standout/api.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist" afterPath="$PROJECT_DIR$/dist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/2017/02/12/technology-briefing/index.html" afterPath="$PROJECT_DIR$/.jekyll/2017/02/12/technology-briefing/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/2017/04/05/perf-engineering-post-mortem/index.html" afterPath="$PROJECT_DIR$/.jekyll/2017/04/05/perf-engineering-post-mortem/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/2017/08/25/sql-server-linux-notes/index.html" afterPath="$PROJECT_DIR$/.jekyll/2017/08/25/sql-server-linux-notes/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/_pages/futureengineers/index.html" afterPath="$PROJECT_DIR$/.jekyll/_pages/futureengineers/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/_pages/projects/index.html" afterPath="$PROJECT_DIR$/.jekyll/_pages/projects/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/about/index.html" afterPath="$PROJECT_DIR$/.jekyll/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/apps/standout/coach.json" afterPath="$PROJECT_DIR$/.jekyll/apps/standout/coach.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/contact/index.html" afterPath="$PROJECT_DIR$/.jekyll/contact/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/feed.xml" afterPath="$PROJECT_DIR$/.jekyll/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/img/page/index.html" afterPath="$PROJECT_DIR$/.jekyll/img/page/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/index.1/index.html" afterPath="$PROJECT_DIR$/.jekyll/index.1/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/index.html" afterPath="$PROJECT_DIR$/.jekyll/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jekyll/thanks/index.html" afterPath="$PROJECT_DIR$/.jekyll/thanks/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BUILD.md" afterPath="$PROJECT_DIR$/BUILD.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_pages/about.md" afterPath="$PROJECT_DIR$/app/_pages/about.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/apps/standout/coach.json" afterPath="$PROJECT_DIR$/app/apps/standout/coach.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/apps/standout/coach.json" afterPath="$PROJECT_DIR$/dist/apps/standout/coach.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/feed.xml" afterPath="$PROJECT_DIR$/dist/feed.xml" />
+      <change afterPath="$PROJECT_DIR$/app/_posts/2018-10-01-technology-briefing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/2017/02/12/technology-briefing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/2017/02/12/technology-briefing/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/2017/04/05/perf-engineering-post-mortem/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/2017/04/05/perf-engineering-post-mortem/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/2017/08/25/sql-server-linux-notes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/2017/08/25/sql-server-linux-notes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/_pages/futureengineers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/_pages/futureengineers/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/_pages/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/_pages/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/img/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/img/page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/index.1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/index.1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/thanks/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/thanks/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BUILD.md" beforeDir="false" afterPath="$PROJECT_DIR$/BUILD.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gruntfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_includes/head-home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/_includes/head-home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/_includes/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_posts/2018-10-03-my-development-environment.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/_posts/2018-10-03-my-development-environment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_posts/2018-10-05-robotics-workshop-roadmap.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/_posts/2018-10-05-robotics-workshop-roadmap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist" beforeDir="false" afterPath="$PROJECT_DIR$/dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/2017/08/25/sql-server-linux-notes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/2017/08/25/sql-server-linux-notes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/roxberry.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,85 +44,62 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_config.build.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.build.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="60" column="23" lean-forward="false" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="30" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WALL-E-wall-e-2782723-1280-800.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/img/WALL-E-wall-e-2782723-1280-800.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="swift_banner-400.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/img/swift_banner-400.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="swift_banner.jpg" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/img/swift_banner.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/_layouts/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head-home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/_includes/head-home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="70" column="10" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FUSProjectUsageTrigger">
+    <session id="668040840">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Gemfile" value="1" />
+          <entry key="config" value="1" />
+          <entry key="html" value="5" />
+          <entry key="jpg" value="9" />
+          <entry key="js" value="2" />
+          <entry key="json" value="1" />
+          <entry key="md" value="7" />
+          <entry key="yml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="5" />
+          <entry key="Image" value="9" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="2" />
+          <entry key="Markdown" value="7" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="YAML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="8" />
+          <entry key="js" value="58" />
+          <entry key="md" value="239" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="8" />
+          <entry key="JavaScript" value="58" />
+          <entry key="Markdown" value="239" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>min.css</find>
-      <find>blog</find>
       <find>buildcontrol</find>
       <find>homepage</find>
       <find>bootstrap.min.css</find>
@@ -153,6 +128,8 @@
       <find>home</find>
       <find>.site</find>
       <find>.js</find>
+      <find>copyright_name</find>
+      <find>maxcdn</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -182,15 +159,11 @@
         <option value="$PROJECT_DIR$/app/_assets/less/homepage.less" />
         <option value="$PROJECT_DIR$/app/Web.config" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/app/_posts/2017-02-12-technology-weekly-briefing.md" />
         <option value="$PROJECT_DIR$/app/_posts/2017-02-12-technology-briefing.md" />
         <option value="$PROJECT_DIR$/app/_posts/2017-03-10-how-i-work.md" />
-        <option value="$PROJECT_DIR$/app/_layouts/post.html" />
         <option value="$PROJECT_DIR$/app/_posts/2017-04-05-perf-engineering-post-mortem.md" />
         <option value="$PROJECT_DIR$/app/_posts/2017-05-01-sitrep.md" />
-        <option value="$PROJECT_DIR$/app/_includes/head.html" />
-        <option value="$PROJECT_DIR$/app/_includes/head-home.html" />
         <option value="$PROJECT_DIR$/app/_posts/2017-05-01-sitrep-may.md" />
         <option value="$PROJECT_DIR$/app/_drafts/2017-06-01-sitrep-june.md" />
         <option value="$PROJECT_DIR$/app/_includes/footer.html" />
@@ -204,12 +177,32 @@
         <option value="$PROJECT_DIR$/app/apps/standout/plan.json" />
         <option value="$PROJECT_DIR$/app/apps/standout/coach.json" />
         <option value="$PROJECT_DIR$/app/apps/standout/api.json" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/app/_includes/head.html" />
+        <option value="$PROJECT_DIR$/app/_includes/head-home.html" />
+        <option value="$PROJECT_DIR$/app/_posts/2018-10-30-technology-briefing.md" />
+        <option value="$PROJECT_DIR$/app/_posts/2018-09-01-test.md" />
+        <option value="$PROJECT_DIR$/app/_posts/2018-10-01-technology-briefing.md" />
+        <option value="$PROJECT_DIR$/app/_layouts/post.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER">
     <gruntfile path="$PROJECT_DIR$/Gruntfile.js">
-      <alias-task name="build" info="Alias for &quot;clean:dist&quot;, &quot;jekyll:dist&quot;, &quot;imagemin&quot;, &quot;svgmin&quot;, &quot;sass:dist&quot;, &quot;less:dist&quot;, &quot;uncss&quot;, &quot;autoprefixer&quot;, &quot;cssmin&quot;, &quot;uglify&quot;, &quot;htmlmin&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+      <alias-task name="build" info="Alias for &quot;clean:dist&quot;, &quot;jekyll:dist&quot;, &quot;imagemin&quot;, &quot;svgmin&quot;, &quot;sass:dist&quot;, &quot;less:dist&quot;, &quot;autoprefixer&quot;, &quot;cssmin&quot;, &quot;uglify&quot;, &quot;critical&quot;, &quot;htmlmin&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="clean:dist" />
+        <dependency value="jekyll:dist" />
+        <dependency value="imagemin" />
+        <dependency value="svgmin" />
+        <dependency value="sass:dist" />
+        <dependency value="less:dist" />
+        <dependency value="autoprefixer" />
+        <dependency value="cssmin" />
+        <dependency value="uglify" />
+        <dependency value="critical" />
+        <dependency value="htmlmin" />
+      </alias-task>
+      <alias-task name="build-upgrade" info="Alias for &quot;clean:dist&quot;, &quot;jekyll:dist&quot;, &quot;imagemin&quot;, &quot;svgmin&quot;, &quot;sass:dist&quot;, &quot;less:dist&quot;, &quot;uncss&quot;, &quot;autoprefixer&quot;, &quot;cssmin&quot;, &quot;uglify&quot;, &quot;critical&quot;, &quot;htmlmin&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
         <dependency value="clean:dist" />
         <dependency value="jekyll:dist" />
         <dependency value="imagemin" />
@@ -220,6 +213,7 @@
         <dependency value="autoprefixer" />
         <dependency value="cssmin" />
         <dependency value="uglify" />
+        <dependency value="critical" />
         <dependency value="htmlmin" />
       </alias-task>
       <alias-task name="deploy" info="Alias for &quot;build&quot;, &quot;copy&quot;, &quot;buildcontrol&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
@@ -242,27 +236,17 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
-    <option name="y" value="22" />
-    <option name="width" value="1595" />
-    <option name="height" value="1028" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,19 +263,13 @@
               <item name="roxberry" type="b2602c69:ProjectViewProjectNode" />
               <item name="roxberry" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="_assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="roxberry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="roxberry" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="roxberry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="roxberry" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="roxberry" type="b2602c69:ProjectViewProjectNode" />
+              <item name="roxberry" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="roxberry" type="b2602c69:ProjectViewProjectNode" />
@@ -299,35 +277,23 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="roxberry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="roxberry" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="roxberry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="roxberry" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
-    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v6.9.5/bin/node" />
-    <property name="javascript.nodejs.core.library.configured.version" value="0.10.29" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="js.buildTools.grunt.grunt-cli.package" value="$PROJECT_DIR$/node_modules/grunt-cli" />
-    <property name="js.eslint.eslintPackage" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="0.10.29" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/v0.10.29/bin/node" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="$USER_HOME$/.nvm/versions/node/v10.10.0/lib/node_modules/grunt-cli" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v10.10.0/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -353,80 +319,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Grunt.js.build">
     <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v10.10.0/bin/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build-upgrade" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
       <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <tasks>
+        <task value="build-upgrade" />
+      </tasks>
       <envs />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
-    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="MongoRunConfiguration" factoryName="Mongo">
-      <setting name="path" value="" />
-      <setting name="shellParams" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" />
-      <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
+      <method v="2" />
     </configuration>
     <configuration name="build" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
       <node-interpreter value="project" />
@@ -435,6 +341,7 @@
         <task value="build" />
       </tasks>
       <envs />
+      <method v="2" />
     </configuration>
     <configuration name="default" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
       <node-interpreter value="project" />
@@ -443,6 +350,7 @@
         <task value="default" />
       </tasks>
       <envs />
+      <method v="2" />
     </configuration>
     <configuration name="deploy" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
       <node-interpreter value="project" />
@@ -451,42 +359,42 @@
         <task value="deploy" />
       </tasks>
       <envs />
+      <method v="2" />
     </configuration>
-    <configuration name="imagemin" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
+    <configuration name="uncss" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
       <node-interpreter value="project" />
       <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
       <tasks>
-        <task value="imagemin" />
+        <task value="uncss" />
       </tasks>
       <envs />
+      <method v="2" />
     </configuration>
-    <configuration name="serve" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
-      <node-interpreter value="project" />
-      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
-      <tasks>
-        <task value="serve" />
-      </tasks>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
       <envs />
+      <method v="2" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Grunt.js.build" />
-      <item index="1" class="java.lang.String" itemvalue="Grunt.js.serve" />
-      <item index="2" class="java.lang.String" itemvalue="Grunt.js.imagemin" />
-      <item index="3" class="java.lang.String" itemvalue="Grunt.js.deploy" />
-      <item index="4" class="java.lang.String" itemvalue="Grunt.js.default" />
+    <list>
+      <item itemvalue="Grunt.js.build" />
+      <item itemvalue="Grunt.js.build-upgrade" />
+      <item itemvalue="Grunt.js.uncss" />
+      <item itemvalue="Grunt.js.default" />
+      <item itemvalue="Grunt.js.deploy" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Grunt.js.serve" />
-        <item index="1" class="java.lang.String" itemvalue="Grunt.js.deploy" />
-        <item index="2" class="java.lang.String" itemvalue="Grunt.js.build" />
-        <item index="3" class="java.lang.String" itemvalue="Grunt.js.default" />
-        <item index="4" class="java.lang.String" itemvalue="Grunt.js.imagemin" />
+      <list>
+        <item itemvalue="Grunt.js.default" />
+        <item itemvalue="Grunt.js.build" />
+        <item itemvalue="Grunt.js.deploy" />
+        <item itemvalue="Grunt.js.build-upgrade" />
+        <item itemvalue="Grunt.js.uncss" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -540,6 +448,14 @@
       <workItem from="1509719270427" duration="194000" />
       <workItem from="1514067087886" duration="620000" />
       <workItem from="1515519268482" duration="256000" />
+      <workItem from="1527357805006" duration="13000" />
+      <workItem from="1535724764678" duration="159000" />
+      <workItem from="1537562031034" duration="1201000" />
+      <workItem from="1537725172762" duration="1729000" />
+      <workItem from="1537839440965" duration="4380000" />
+      <workItem from="1538318059108" duration="75000" />
+      <workItem from="1538318150606" duration="2571000" />
+      <workItem from="1538680151081" duration="414000" />
     </task>
     <task id="LOCAL-00001" summary="clean up and worked on weekly briefing">
       <created>1486866534518</created>
@@ -587,31 +503,31 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79024000" />
+    <option name="totallyTimeSpent" value="89566000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="22" width="1595" height="1028" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21764328" sideWeight="0.6345123" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21764328" sideWeight="0.36548766" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6698821" sideWeight="0.32967034" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284091" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6698821" sideWeight="0.6703297" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831" sideWeight="0.47313797" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.490232" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6189781" visible="true" weight="0.21728595" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Grunt " order="2" sideWeight="0.3810219" side_tool="true" visible="true" weight="0.21728595" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.490232" weight="0.3290993" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6703297" weight="0.29051095" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.497558" weight="0.3284091" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.47313797" weight="0.3270073" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.32967034" side_tool="true" weight="0.6698821" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,235 +544,87 @@
     <MESSAGE value="added SQL Server for Linux post" />
     <option name="LAST_COMMIT_MESSAGE" value="added SQL Server for Linux post" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/_drafts/2017-06-01-sitrep-june.md" />
-    <entry file="file://$PROJECT_DIR$/app/_layouts/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_pages/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_assets/less/roxberry.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7185">
-          <caret line="479" column="23" lean-forward="false" selection-start-line="479" selection-start-column="23" selection-end-line="479" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_includes/nav-bak.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/_includes/nav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="71" lean-forward="false" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/_drafts/2017-06-25-future-engineers-projects-2018.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/blockchain.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/img/projects-400.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/blockchain-400.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/img/profile-400.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/img/standout-400.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/_posts/2017-04-05-perf-engineering-post-mortem.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_posts/2017-02-12-technology-briefing.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/sqlserverlinux-list.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/sqlserverlinux-post.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/img/home-bg-post.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/img/projects.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/img/mongosec.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/_posts/2017-08-25-sql-server-linux-notes.md" />
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="68" lean-forward="false" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/_pages/projects.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="10" column="17" selection-start-line="10" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/_pages/about.md" />
     <entry file="file://$PROJECT_DIR$/app/apps/standout/team.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/apps/standout/user.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/apps/standout/schedule.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/apps/standout/plan.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/apps/standout/coach.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="60" lean-forward="false" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/apps/standout/api.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="762">
-          <caret line="175" column="1" lean-forward="false" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.production.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="10" lean-forward="false" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="175" column="1" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BUILD.md" />
     <entry file="file://$PROJECT_DIR$/DESIGN.md" />
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/_assets/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -868,65 +636,138 @@
     <entry file="file://$PROJECT_DIR$/dist/js/roxberry.min.js" />
     <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="392" lean-forward="false" selection-start-line="0" selection-start-column="392" selection-end-line="0" selection-end-column="392" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.build.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="23" lean-forward="false" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_includes/head-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" column="10" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="30" selection-end-column="3" />
-          <folding />
+        <state>
+          <caret column="392" selection-start-column="392" selection-end-column="392" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/img/Jameson.png" />
     <entry file="file://$PROJECT_DIR$/app/img/WALL-E-wall-e-2782723-1280-800.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/img/swift_banner-400.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/img/swift_banner.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="28" selection-start-line="28" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" selection-start-line="56" selection-end-line="56" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_includes/.bundle/config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_includes/head-home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/blockchain.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/about-bg-400.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/blockchain-post.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/blockchain-400.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/sqlserverlinux-post.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_posts/2017-08-25-sql-server-linux-notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_posts/2017-02-12-technology-briefing.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="72" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="72" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3310">
+          <caret line="313" column="10" selection-start-line="313" selection-start-column="10" selection-end-line="313" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.production.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.build.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/sqlserverlinux-list.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_posts/2018-09-01-test.md" />
+    <entry file="file://$PROJECT_DIR$/app/_posts/2018-10-01-technology-briefing.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="28" selection-start-line="28" selection-end-line="33" selection-end-column="22" />
+        </state>
       </provider>
     </entry>
   </component>

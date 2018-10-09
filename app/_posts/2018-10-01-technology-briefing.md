@@ -1,15 +1,25 @@
 ---
 layout:     post
-title:      SQL Server on Linux via Docker
-subtitle:   Reference post for getting SQL Server Linux up and running
+title:      Technology Briefing Fall 2018
+subtitle:   Technology stuff for review Fall 2018
 comments:   true
-date:       2017-08-25 14:00:00
+date:       2018-09-29 09:00:00
 author:     Mark Roxberry
-excerpt:    Running SQL Server on Linux for Docker Engine
-header-img-list:     "img/sqlserverlinux-list.jpg"
-header-img-post:     "img/sqlserverlinux-post.jpg"
-tags:       [sql server, linux, docker]
+excerpt:    Technology Briefing Fall 2018
+header-img-list:     "img/mars-fall-2018-list.jpg"
+header-img-post:     "img/mars-fall-2018-post.jpg"
+tags:       [coder, maker, hacker, mentor]
 featured:   true
-
 ---
 
+# Artificial Intelligence
+
+# Security: Sphere OS, IoT
+
+# Robotics: Lego FLL Distilled
+
+# Skills Inventory
+
+* Ansible
+* OpenShift
+* Kafka

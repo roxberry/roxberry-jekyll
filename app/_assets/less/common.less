@@ -5,16 +5,16 @@
 body {
 	.serif;
 	font-size: 2em;
-	color: darkgray; //@gray-dark;
+	color: @gray-dark;
 }
 
 a:hover {
     text-decoration: none;
-    color: #333;
+    color: @white-faded;
 }
 
 a {
-    color: @brand-primary;
+    color: @white-faded;
 }
 
 // Header
@@ -23,8 +23,14 @@ a {
 
 //CUSTOM-BEGIN
 
+.navbar-default  {
+	background-color: @gray-dark !important;
+	color: white !important;
+	.serif;
+}
+
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: gray;
+    background-color: @gray !important;
 	.serif;
 }
 
@@ -37,17 +43,21 @@ a {
     margin-bottom: 8px;
     background-color: transparent;
     background-image: none;
-    border: 2px solid gray;
+    border: 2px solid @gray !important;
     border-radius: 4px;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: lightgray;
+    background-color: @gray-dark !important;
 }
 
 .navbar-brand {
-	color: @brand-primary;
+	color: @brand-primary !important;
 	font-weight: bolder;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: @brand-primary !important;
 }
 
 .navbar {
@@ -167,7 +177,8 @@ a {
 			font-weight: 800;
 			letter-spacing: 1px;
 			padding: 10px 5px;
-			background-color: white;
+			background-color: @black;
+			color: white;
 			border-radius: 0;
 			@media only screen and (min-width: 768px) {
 				font-size: 14px;
@@ -177,9 +188,9 @@ a {
 
 		> a:hover,
 		> a:focus {
-			color: white;
-			background-color: @brand-primary;
-			border: 1px solid @brand-primary;
+			color: @white;
+			background-color: @gray-dark;
+			border: 1px solid @white-faded;
 		}
 	}
 

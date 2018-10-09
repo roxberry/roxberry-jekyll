@@ -184,16 +184,6 @@ module.exports = function(grunt) {
                 }
             }
         },
-        uncss: {
-            options: {
-                htmlroot: '<%= app.dist %>/<%= app.baseurl %>',
-                report: 'gzip'
-            },
-            dist: {
-                src: '<%= app.dist %>/<%= app.baseurl %>/**/*.html',
-                dest: '.tmp/<%= app.baseurl %>/css/blog.css'
-            }
-        },
         autoprefixer: {
             options: {
                 browsers: ['last 3 versions']
@@ -319,13 +309,28 @@ module.exports = function(grunt) {
         'jekyll:dist',
         'imagemin',
         'svgmin',
-        'sass:dist',
+        //'sass:dist',
+        'less:dist',
+        //'uncss',
+        'autoprefixer',
+        'cssmin',
+        'uglify',
+        'critical',
+        'htmlmin'
+    ]);
+
+    grunt.registerTask('build-upgrade', [
+        'clean:dist',
+        'jekyll:dist',
+        'imagemin',
+        'svgmin',
+        //'sass:dist',
         'less:dist',
         'uncss',
         'autoprefixer',
         'cssmin',
         'uglify',
-        // 'critical',
+        'critical',
         'htmlmin'
     ]);
 
@@ -334,6 +339,10 @@ module.exports = function(grunt) {
         'copy',
         'buildcontrol'
     ]);
+
+    // grunt.registerTask('uncss', [
+    //     'uncss'
+    // ]);
 
     grunt.registerTask('default', [
         'serve:dist'
