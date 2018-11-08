@@ -2,35 +2,297 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28893e79-d693-47e4-b26e-8bff0511ddc8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/_posts/2018-10-01-technology-briefing.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jekyll/2017/02/12/technology-briefing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/2017/02/12/technology-briefing/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jekyll/2017/04/05/perf-engineering-post-mortem/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/2017/04/05/perf-engineering-post-mortem/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jekyll/2017/08/25/sql-server-linux-notes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/2017/08/25/sql-server-linux-notes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/2018/09/29/technology-briefing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/2018/09/29/technology-briefing/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/2018/10/03/my-development-environment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/2018/10/03/my-development-environment/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/2018/10/03/robotics-workshop-roadmap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/2018/10/03/robotics-workshop-roadmap/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jekyll/_pages/futureengineers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/_pages/futureengineers/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jekyll/_pages/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/_pages/projects/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jekyll/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/about/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jekyll/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/contact/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jekyll/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/feed.xslt.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.jekyll/img/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/img/page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll/index.1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/index.1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/img/robotics-roadmap-post.png" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/img/robotics-roadmap-post.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/img/robotics-roadmap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/index.1/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll/page2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/page2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jekyll/thanks/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll/thanks/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUILD.md" beforeDir="false" afterPath="$PROJECT_DIR$/BUILD.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gruntfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_includes/head-home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/_includes/head-home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.production.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.production.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/BUILD.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/DESIGN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/2017/02/12/technology-briefing/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/2017/04/05/perf-engineering-post-mortem/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/2017/08/25/sql-server-linux-notes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/Web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/_pages/futureengineers/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/_pages/projects/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/apps/ct/challenges.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/apps/standout/api.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/apps/standout/coach.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/apps/standout/plan.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/apps/standout/schedule.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/apps/standout/team.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/apps/standout/user.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/css/syntax.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/css/syntax.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/css/web-fonts/west-european.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/css/web-fonts/west-european.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/games/remnant/callback.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/games/remnant/game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/games/remnant/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/games/remnant/js/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/games/remnant/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/games/remnant/server/proxy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/games/remnant/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/games/remnant/templates/secure.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/WALL-E-wall-e-2782723-1280-800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/a21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/about-bg-1-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/about-bg-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/about-bg-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/about-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/archive/about-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/archive/contact-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/archive/home-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/archive/post-bg-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/archive/post-bg-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/archive/post-bg-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/archive/post-bg-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/archive/post-bg-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/archive/post-bg-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/archive/post-sample-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/b21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/blockchain-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/blockchain-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/blockchain.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/briefing-post.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/briefing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/contact.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/datagrip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/android-chrome-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/android-chrome-36x36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/android-chrome-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/android-chrome-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/android-chrome-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/apple-touch-icon-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/apple-touch-icon-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/apple-touch-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/apple-touch-icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/apple-touch-icon-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/apple-touch-icon-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/apple-touch-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/apple-touch-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/apple-touch-icon-76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/favicon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/mstile-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/mstile-310x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/mstile-310x310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/mstile-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/favicon/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/home-bg-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/home-bg-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/home-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/mars-fall-2018-list.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/mars-fall-2018-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/mongosec-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/mongosec-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/mongosec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/originals/contact.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/page/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/performance-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/performance.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/profile-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/profile-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/projects-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/projects.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/sqlserverlinux-list.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/sqlserverlinux-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/standout-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/standout-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/standout.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/swift_banner-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/swift_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/toc-list.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/toc-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/webassembly-post-400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/img/webassembly-post-800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/index.1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/js/jssor.slider.mini.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/app/js/typed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/contact/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/2017/02/12/technology-briefing/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/2017/04/05/perf-engineering-post-mortem/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/2017/08/25/sql-server-linux-notes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/Web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/_pages/futureengineers/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/_pages/projects/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/about/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/apps/ct/challenges.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/apps/standout/api.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/apps/standout/coach.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/apps/standout/plan.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/apps/standout/schedule.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/apps/standout/team.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/apps/standout/user.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/contact/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/css/roxberry.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/css/syntax.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/css/syntax.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/css/web-fonts/west-european.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/css/web-fonts/west-european.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/feed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/feed.xslt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/games/remnant/callback.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/games/remnant/game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/games/remnant/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/games/remnant/js/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/games/remnant/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/games/remnant/server/proxy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/games/remnant/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/games/remnant/templates/secure.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/WALL-E-wall-e-2782723-1280-800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/a21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/about-bg-1-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/about-bg-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/about-bg-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/about-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/archive/about-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/archive/contact-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/archive/home-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/archive/post-bg-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/archive/post-bg-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/archive/post-bg-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/archive/post-bg-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/archive/post-bg-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/archive/post-bg-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/archive/post-sample-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/b21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/blockchain-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/blockchain-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/blockchain.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/briefing-post.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/briefing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/contact.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/datagrip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/android-chrome-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/android-chrome-36x36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/android-chrome-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/android-chrome-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/android-chrome-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/apple-touch-icon-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/apple-touch-icon-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/apple-touch-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/apple-touch-icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/apple-touch-icon-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/apple-touch-icon-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/apple-touch-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/apple-touch-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/apple-touch-icon-76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/favicon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/mstile-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/mstile-310x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/mstile-310x310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/mstile-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/favicon/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/home-bg-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/home-bg-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/home-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/mars-fall-2018-list.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/mars-fall-2018-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/mongosec-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/mongosec-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/mongosec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/originals/contact.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/page/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/performance-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/performance.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/profile-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/profile-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/projects-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/projects.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/sqlserverlinux-list.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/sqlserverlinux-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/standout-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/standout-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/standout.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/swift_banner-400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/swift_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/toc-list.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/toc-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/webassembly-post-400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/img/webassembly-post-800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/index.1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/js/jssor.slider.mini.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/js/typed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/dist/thanks/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xslt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/thanks/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_assets/less/common.less" beforeDir="false" afterPath="$PROJECT_DIR$/app/_assets/less/common.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_assets/less/roxberry.less" beforeDir="false" afterPath="$PROJECT_DIR$/app/_assets/less/roxberry.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_assets/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/app/_assets/less/variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_includes/head-home.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/_includes/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_posts/2018-10-03-my-development-environment.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/_posts/2018-10-03-my-development-environment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_includes/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/_includes/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layouts/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layouts/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layouts/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layouts/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/_pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_pages/futureengineers.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/_pages/futureengineers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_pages/thanks.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/_pages/thanks.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_posts/2018-10-05-robotics-workshop-roadmap.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/_posts/2018-10-05-robotics-workshop-roadmap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/robotics-roadmap-post.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/robotics-roadmap-post.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/robotics-roadmap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.1.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist" beforeDir="false" afterPath="$PROJECT_DIR$/dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/2017/08/25/sql-server-linux-notes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/2017/08/25/sql-server-linux-notes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/roxberry.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,13 +310,14 @@
     <session id="668040840">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -189,12 +452,11 @@
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER">
     <gruntfile path="$PROJECT_DIR$/Gruntfile.js">
-      <alias-task name="build" info="Alias for &quot;clean:dist&quot;, &quot;jekyll:dist&quot;, &quot;imagemin&quot;, &quot;svgmin&quot;, &quot;sass:dist&quot;, &quot;less:dist&quot;, &quot;autoprefixer&quot;, &quot;cssmin&quot;, &quot;uglify&quot;, &quot;critical&quot;, &quot;htmlmin&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+      <alias-task name="build" info="Alias for &quot;clean:dist&quot;, &quot;jekyll:dist&quot;, &quot;imagemin&quot;, &quot;svgmin&quot;, &quot;less:dist&quot;, &quot;autoprefixer&quot;, &quot;cssmin&quot;, &quot;uglify&quot;, &quot;critical&quot;, &quot;htmlmin&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
         <dependency value="clean:dist" />
         <dependency value="jekyll:dist" />
         <dependency value="imagemin" />
         <dependency value="svgmin" />
-        <dependency value="sass:dist" />
         <dependency value="less:dist" />
         <dependency value="autoprefixer" />
         <dependency value="cssmin" />
@@ -202,12 +464,11 @@
         <dependency value="critical" />
         <dependency value="htmlmin" />
       </alias-task>
-      <alias-task name="build-upgrade" info="Alias for &quot;clean:dist&quot;, &quot;jekyll:dist&quot;, &quot;imagemin&quot;, &quot;svgmin&quot;, &quot;sass:dist&quot;, &quot;less:dist&quot;, &quot;uncss&quot;, &quot;autoprefixer&quot;, &quot;cssmin&quot;, &quot;uglify&quot;, &quot;critical&quot;, &quot;htmlmin&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+      <alias-task name="build-upgrade" info="Alias for &quot;clean:dist&quot;, &quot;jekyll:dist&quot;, &quot;imagemin&quot;, &quot;svgmin&quot;, &quot;less:dist&quot;, &quot;uncss&quot;, &quot;autoprefixer&quot;, &quot;cssmin&quot;, &quot;uglify&quot;, &quot;critical&quot;, &quot;htmlmin&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
         <dependency value="clean:dist" />
         <dependency value="jekyll:dist" />
         <dependency value="imagemin" />
         <dependency value="svgmin" />
-        <dependency value="sass:dist" />
         <dependency value="less:dist" />
         <dependency value="uncss" />
         <dependency value="autoprefixer" />
@@ -235,7 +496,12 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -246,7 +512,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -281,6 +546,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -456,6 +722,7 @@
       <workItem from="1538318059108" duration="75000" />
       <workItem from="1538318150606" duration="2571000" />
       <workItem from="1538680151081" duration="414000" />
+      <workItem from="1541034641672" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="clean up and worked on weekly briefing">
       <created>1486866534518</created>
@@ -503,14 +770,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89566000" />
+    <option name="totallyTimeSpent" value="89589000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6189781" visible="true" weight="0.21728595" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.61751825" visible="true" weight="0.21728595" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Grunt " order="2" sideWeight="0.3810219" side_tool="true" visible="true" weight="0.21728595" />
+      <window_info id="Grunt " order="2" sideWeight="0.38248175" side_tool="true" visible="true" weight="0.21728595" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.490232" weight="0.3290993" />
@@ -648,9 +915,7 @@
     <entry file="file://$PROJECT_DIR$/app/img/swift_banner-400.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_layouts/home.html" />
     <entry file="file://$PROJECT_DIR$/app/img/swift_banner.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -688,13 +953,7 @@
     <entry file="file://$PROJECT_DIR$/app/_includes/.bundle/config">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/_includes/head-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_includes/head-home.html" />
     <entry file="file://$PROJECT_DIR$/app/img/blockchain.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>

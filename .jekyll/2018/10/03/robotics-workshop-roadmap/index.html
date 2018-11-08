@@ -27,7 +27,7 @@
     <link rel="icon" type="image/png" href=" /img/favicon/android-chrome-192x192.png " sizes="192x192">
     <link rel="icon" type="image/png" href=" /img/favicon/favicon-96x96.png " sizes="96x96">
     <link rel="icon" type="image/png" href=" /img/favicon/favicon-16x16.png " sizes="16x16">
-    <link rel="icon" href="/app/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="manifest" href=" /img/favicon/manifest.json ">
     <link rel="mask-icon" href=" /img/favicon/safari-pinned-tab.svg ">
     <meta name="apple-mobile-web-app-title" content="roxberry">
@@ -37,20 +37,20 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href=" /css/bootstrap.min.css ">
+    <link rel="stylesheet" href="/css/bootstrap-4.1.3/bootstrap.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href=" /css/roxberry.min.css ">
+    <link rel="stylesheet" href="/css/roxberry.min.css?v=1.10142018">
 
     <!-- Pygments Github CSS -->
-    <link rel="stylesheet" href=" /css/syntax.min.css ">
+    <link rel="stylesheet" href="/css/syntax.min.css">
 
-    <link rel="stylesheet" href=" /css/web-fonts/west-european.min.css ">
+    <link rel="stylesheet" href="/css/web-fonts/west-european.min.css">
 
     <!-- Custom Fonts -->
-    <!--<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
-    <!--<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>-->
-    <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     <!--&lt;!&ndash; HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries &ndash;&gt;-->
     <!--&lt;!&ndash; WARNING: Respond.js doesn't work if you view the page via file:// &ndash;&gt;-->
@@ -59,83 +59,234 @@
     <!--<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>-->
     <!--<![endif]&ndash;&gt;-->
 
+    <!-- Popper -->
+    <script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+    
     <!-- jQuery -->
-    <script src=" /js/jquery.min.js "></script>
+    <script src="/js/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src=" /js/bootstrap.min.js "></script>
+    <script src="/js/bootstrap-4.1.3/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src=" /js/roxberry.min.js "></script>
+    <script src="/js/roxberry.min.js?v=1.10142018"></script>
 
     <!-- Typing effect -->
-    <script src=" /js/typed.js "></script>
+    <script src="/js/typed.js"></script>
 
 </head>
 
 <body>
-
     <!-- Navigation -->
-<nav class="navbar navbar-default navbar-static-top">
+<nav class="navbar-container">
     <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-static-top">
             <a class="navbar-brand" href="/"><strong>Mark Roxberry</strong></a>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <!--<a class="navbar-brand" href="/">Mark Roxberry</a>-->
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                
-                
-				
-                <li>
-                    <a href="/contact/">Contact</a>
-                </li>
-				
-                
-                
-                
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact/">Contact</a>
+                    </li>
+                    
+                    
+                    
+                    
+                </ul>
+                <span class="navbar-text">
+                    coder, maker, hacker, mentor
+                </span>
+            </div>
+        </nav>  
     </div>
-    <!-- /.container -->
+    <div class="disclaimer">
+            <p>Disclaimer: The opinions expressed herein are my own personal opinions and do not represent my employer’s
+                view in any way.</p>
+    </div>
 </nav>
 
+    
 
     <script>
     pageVars = {
-        pageTitle : "Robotics Workshop Roadmap 2018-2019 (Future Engineers)",
-        typingMessage : "coder, maker, hacker, mentor"
+        pageTitle: "Robotics Workshop Roadmap 2018-2019 (Future Engineers)",
+        typingMessage: "coder, maker, hacker, mentor"
     }
 </script>
 <!-- Post Header -->
-<header class="intro-header">
+<!-- <header class="intro-header">
     <div class="container">
 
     </div>
-</header>
+</header> -->
 <article>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 blog-title">
-            <h1>Robotics Workshop Roadmap 2018-2019 (Future Engineers)</h1>
-            <span class="meta">Posted by Mark Roxberry on October 3, 2018</span>
+            <div class="col-lg-3 blog-sidebar">
+                <div class="sidebar-module sidebar-module-profile">
+    <img class="profile-img" src="/img/profile-2.jpg" />
+    <!-- <h3><span class="typing-message"></span></h3> -->
+</div>
+<div class="sidebar-module sidebar-module-inset">
+    <ul class="list-inline text-center">
+        <li class="list-inline-item">
+            <a href=" /feed.xml ">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-stack-2x"></i>
+                    <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+        
+        <li class="list-inline-item">
+            <a href="https://twitter.com/roxberry">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-stack-1x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+         
+        <li class="list-inline-item">
+            <a href="https://www.facebook.com/roxberry">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-stack-1x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+         
+        <li class="list-inline-item">
+            <a href="https://github.com/roxberry">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-stack-1x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+         
+        <li class="list-inline-item">
+            <a href="mailto:roxberry@outlook.com">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-stack-1x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+        
+    </ul>
+</div>
+<div class="sidebar-module sidebar-module-inset">
+    <h4>About Me</h4>
+    <p>Cross Platform Consultant</p>
+    <a href="http://www.waveseeker.com">Database Solutions</a>
+    <p>Husband, father, son, brother and uncle. Security driven developer and passionate cross platform
+        software engineer, architect and consultant.</p>
+</div>
+
+<div class="sidebar-module sidebar-module-inset">
+
+    <!-- <ul class="list-inline text-center">
+            <li>
+                <a href=" /feed.xml ">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-stack-2x"></i>
+                        <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="https://twitter.com/roxberry">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-stack-2x"></i>
+                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </li>
+             
+            <li>
+                <a href="https://www.facebook.com/roxberry">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-stack-2x"></i>
+                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </li>
+             
+            <li>
+                <a href="https://github.com/roxberry">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-stack-2x"></i>
+                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </li>
+             
+            <li>
+                <a href="mailto:roxberry@outlook.com">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-stack-2x"></i>
+                        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </li>
+            
+        </ul> -->
+</div>
+<div class="sidebar-module sidebar-module-inset">
+    <a class="twitter-timeline" href="https://twitter.com/roxberry" data-widget-id="654383130506166272">Tweets
+        by @roxberry</a>
+    <script>
+        ! function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+                p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = p + "://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+        }(document, "script", "twitter-wjs");
+    </script>
+</div>
+<div class="sidebar-module sidebar-module-inset">
+    <footer>
+        <div>
+            <p class="copyright">Copyright &copy; Mark Roxberry 2018</p>
+        </div>
+    </footer>
+</div>
             </div>
-            <div class="col-sm-9 blog-main">
-
-
-                <div class="post-photo">
-                    <img class="img-fluid" src="/img/robotics-roadmap-post.png" />
-                    <div class="post-photo-caption">
-                        <p>Road map for Robotics Elective 2018-2019</p>
+            <div class="col-md-12 col-lg-9 blog-main">
+                <article>
+                <div class="blog-title">
+                    <span class="meta">October 3, 2018 by Mark Roxberry</span>
+                    <h1>Robotics Workshop Roadmap 2018-2019 (Future Engineers)</h1>
+                    <div class="post-tags">
+  tags:
+  
+  
+  <a href="/tag/#robots">robots</a>,
+  
+  <a href="/tag/#robotics">robotics</a>,
+  
+  <a href="/tag/#roadmap">roadmap</a>,
+  
+  <a href="/tag/#servos">servos</a>
+  
+</div>
+                </div>
+                <div class="card card-inverse">
+                    <img class="card-img" src="/img/robotics-roadmap-post.png" />
+                    <div class="card-img-overlay">
+                        <h4 class="post-photo-caption">Roadmap for Robotics Elective 2018-2019</h4>
                     </div>
                 </div>
                 <hr> <h1 id="roadmap">Roadmap</h1>
@@ -157,30 +308,41 @@
   <li>Environment Building Materials</li>
 </ol>
 
-<h2 id="sessions---junior-engineer">Sessions - Junior Engineer</h2>
+<h2 id="challenges">Challenges</h2>
+
+<ol>
+  <li>The Crucible (Obstacle Course) - December</li>
+  <li>Security Gadget - February</li>
+  <li>Spin Art - March</li>
+  <li>Egg Roll Race - April</li>
+  <li>Sumo Robots - May</li>
+  <li>Into Orbit Project - June</li>
+</ol>
+
+<h2 id="sessions---module-track">Sessions - Module Track</h2>
 
 <h3 id="october-2018">October 2018</h3>
 
 <ol>
-  <li>First Day - Build the mobile base (1 - 3 “Drive Forward”) (10/12)</li>
-  <li>Autonomous Driving (4 - 9 “My Block”) (10/19)</li>
-  <li>Autonomous Driving (10 - 11 “Action Replay”) (10/26)</li>
+  <li><a href="https://1drv.ms/p/s!AkGJBuczDyhuiPkH2xt9WYhvEIdI0w">Kickoff - Class, software and kits (10/12)</a></li>
+  <li>Autonomy (1 - 3 “Drive Forward”) (10/19)</li>
+  <li>Autonomy (4 - 9 “My Block”) (10/26)</li>
 </ol>
 
 <h3 id="november-2018">November 2018</h3>
 
 <ol>
   <li>No class on 11/2</li>
-  <li>See and Hear (12 - 15 “Distance Control”) (11/9)</li>
-  <li>Line Follower (16 - 17 “Follow a Line”) (11/16)</li>
+  <li>Autonomy (10 - 11 “Action Replay”) (11/9)</li>
+  <li>See and Hear (12 - 15 “Distance Control”) (11/16)</li>
   <li>No class on 11/23</li>
-  <li>Hit the Ball (18 - 20 “Hit Red Ball”) (11/30)</li>
+  <li>Line Follower (16 - 17 “Follow a Line”) (11/30)</li>
 </ol>
 
 <h3 id="december-2018">December 2018</h3>
 
 <ol>
-  <li>The Crucible Challenge Design, Practice and Testing (12/7)</li>
+  <li>Hit the Ball (18 - 20 “Hit Red Ball”) (12/7)</li>
   <li>The Crucible Challenge Design, Practice and Testing (12/14)</li>
   <li>The Crucible Challenge and Pizza (12/21) (11:30 - 1:30)</li>
 </ol>
@@ -207,17 +369,17 @@
 
 <ol>
   <li><a href="http://www.nxtprograms.com/spin_art/index.html">Spin Art Challenge</a> (3/1) (11:30 - 1:30)</li>
-  <li>Into Orbit FLL (3/8)</li>
-  <li>Pi Day Belated (3/15)</li>
-  <li>Into Orbit FLL (3/22)</li>
-  <li>Into Orbit FLL (3/29)</li>
+  <li><a href="https://www.teachengineering.org/activities/view/nyu_getingear_activity1">Get In Gear</a>  (3/8)</li>
+  <li><a href="https://www.teachengineering.org/activities/view/nyu_robotgo_activity1">Pi Day Belated (Applied Geometry)</a> (3/15)</li>
+  <li><a href="http://nxtprograms.com/mini_sumo/index.html">Sumo Develop Design Test</a> (3/22)</li>
+  <li><a href="http://nxtprograms.com/mini_sumo/index.html">Sumo Develop Design Test</a> (3/29)</li>
 </ol>
 
 <h3 id="april-2019">April 2019</h3>
 
 <ol>
   <li>No class on 4/5</li>
-  <li>Into Orbit Challenge Design, Practice and Testing TBD (4/12)</li>
+  <li><a href="http://www.drgraeme.net/DrGraeme-free-NXT-G-tutorials/Ch46/SUMO-G/default.htm">Egg Roll Race (Use Sumo Builds)</a> (4/12)</li>
   <li>No class on 4/19</li>
   <li>No class on 4/26</li>
 </ol>
@@ -225,17 +387,17 @@
 <h3 id="may-2019">May 2019</h3>
 
 <ol>
-  <li>Into Orbit Challenge (5/3) (11:30 - 1:30)</li>
-  <li>(5/10)</li>
-  <li>(5/17)</li>
+  <li><a href="http://nxtprograms.com/mini_sumo/index.html">Sumo Challenge</a> (11:30 - 1:30)</li>
+  <li><a href="https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf">Into Orbit Project Challenge Design, Practice and Testing</a> (5/10)</li>
+  <li><a href="https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf">Into Orbit Project Challenge Design, Practice and Testing</a> (5/17)</li>
   <li>No class on 5/24</li>
-  <li>(5/31)</li>
+  <li><a href="https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf">Into Orbit Project Challenge Design, Practice and Testing</a> (5/31)</li>
 </ol>
 
 <h3 id="june-2019">June 2019</h3>
 
 <ol>
-  <li>Challenge (6/7) (11:30 - 1:30)</li>
+  <li><a href="https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf">Into Orbit Project Challenge - Presentations</a> (6/7) (11:30 - 1:30)</li>
   <li>Last Day 6/14</li>
 </ol>
 
@@ -259,27 +421,23 @@
   <li><a href="http://news.mit.edu/topic/robotics">MIT News - Robotics</a></li>
   <li><a href="https://scratch.mit.edu/">Scratch</a></li>
 </ol>
- <div class="post-tags">
-  tags:
-  
-  
-  <a href="/tag/#robots">robots</a>,
-  
-  <a href="/tag/#robotics">robotics</a>,
-  
-  <a href="/tag/#roadmap">roadmap</a>
-  
-</div>
 
-                <ul class="pager">
+
+                <ul class="pager list-inline">
                     
-                    <li class="previous">
-                        <a href="/2018/10/03/my-development-environment/" data-toggle="tooltip" data-placement="top" title="What's in my workshop?">&larr; Previous Post</a>
+                    <li class="previous list-inline-item float-left">
+                        <a href="/2018/10/03/my-development-environment/" data-toggle="tooltip"
+                            data-placement="top" title="What's in my workshop?">&larr; Previous Post</a>
                     </li>
                      
+                    <li class="next list-inline-item float-right">
+                        <a href="/2018/10/12/future-engineers-into-orbit-challenge/" data-toggle="tooltip"
+                            data-placement="top" title="Into Orbit - Future Engineers">Next Post &rarr;</a>
+                    </li>
+                    
                 </ul>
 
-                <br/>
+                <br />
 
                 <hr> 
                 <br /> <div id="disqus_thread"></div>
@@ -309,63 +467,7 @@ s.setAttribute('data-timestamp', +new Date());
 
 
                 <br /> 
-
-                
-            </div>
-            <div class="col-sm-3 blog-sidebar">
-                <div class="sidebar-module sidebar-module-profile">
-                    <img class="profile-img" src="/img/profile-2.jpg" />
-                </div>
-                <div class="sidebar-module sidebar-module-inset">
-                    <h4>About Me</h4>
-                    <p>Senior Consultant</p>
-                    <a href="http://www.waveseeker.com">Database Solutions</a>
-                    <p>Husband, father, son, brother and uncle. Security driven developer and passionate cross platform software engineer, architect and consultant.</p>
-                </div>
-                <div class="sidebar-module sidebar-module-inset">
-                    <a class="twitter-timeline" href="https://twitter.com/roxberry" data-widget-id="654383130506166272">Tweets by @roxberry</a>
-                    <script>
-                        ! function(d, s, id) {
-                            var js, fjs = d.getElementsByTagName(s)[0],
-                                p = /^http:/.test(d.location) ? 'http' : 'https';
-                            if (!d.getElementById(id)) {
-                                js = d.createElement(s);
-                                js.id = id;
-                                js.src = p + "://platform.twitter.com/widgets.js";
-                                fjs.parentNode.insertBefore(js, fjs);
-                            }
-                        }(document, "script", "twitter-wjs");
-                    </script>
-                </div>
-                <!--<div class="sidebar-module">
-                    <h4>Archives</h4>
-                    <ol class="list-unstyled">
-                    <li><a href="#">March 2014</a></li>
-                    <li><a href="#">February 2014</a></li>
-                    <li><a href="#">January 2014</a></li>
-                    <li><a href="#">December 2013</a></li>
-                    <li><a href="#">November 2013</a></li>
-                    <li><a href="#">October 2013</a></li>
-                    <li><a href="#">September 2013</a></li>
-                    <li><a href="#">August 2013</a></li>
-                    <li><a href="#">July 2013</a></li>
-                    <li><a href="#">June 2013</a></li>
-                    <li><a href="#">May 2013</a></li>
-                    <li><a href="#">April 2013</a></li>
-                    </ol>
-                </div>-->
-                <!--<div class="sidebar-module">
-                    <h4>Elsewhere</h4>
-                    <ol class="list-unstyled">
-                    <li><a href="#">GitHub</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    </ol>
-                </div>-->
-            </div>
-        </div>
-
-        <hr> <script type="text/javascript">
+                <hr> <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_enable_interest_ads = "true";
 amzn_assoc_tracking_id = "dbgeek-20";
@@ -380,76 +482,20 @@ amzn_assoc_fallback_mode = {"type":"search","value":"robot"};
 amzn_assoc_default_category = "All";
 </script>
 <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
-        
+            </div>
+        </article>
+        </div>
+
+
     </div>
 </article>
 
     <!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    <li>
-                        <a href=" /feed.xml ">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-stack-2x"></i>
-                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    <li>
-                        <a href="https://twitter.com/roxberry">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                     
-                    <li>
-                        <a href="https://www.facebook.com/roxberry">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                     
-                    <li>
-                        <a href="https://github.com/roxberry">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                     
-                    <li>
-                        <a href="mailto:roxberry@outlook.com">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-stack-2x"></i>
-                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                </ul>
-                <p class="copyright text-muted">Copyright &copy; Mark Roxberry 2018</p>
-            </div>
-        </div>
+<!-- <footer>
+    <div>
+            <p class="copyright text-muted">Copyright &copy; Mark Roxberry 2018</p>
     </div>
-    <div class="site-welcome">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Disclaimer: The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+</footer> -->
 
 <!--&lt;!&ndash; Bootstrap Core CSS &ndash;&gt;-->
 <!--<link rel="stylesheet" href=" /css/bootstrap.min.css ">-->

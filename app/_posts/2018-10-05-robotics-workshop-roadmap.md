@@ -5,12 +5,13 @@ subtitle:   The roadmap for the robotics elective for this school year.
 comments:   true
 date:       2018-10-03 22:00:00
 author:     Mark Roxberry
-excerpt:    Road map for Robotics Elective 2018-2019
-header-img-list:     "img/robotics-roadmap.png"
+excerpt:    Roadmap for Robotics Elective 2018-2019
+header-img-list:     "img/robotics-roadmap-list.png"
 header-img-post:     "img/robotics-roadmap-post.png"
-tags:       [robots, robotics, roadmap]
+tags:       [robots, robotics, roadmap, servos]
 featured:   true
 ---
+
 # Roadmap
 
 ## Goals
@@ -26,25 +27,34 @@ featured:   true
 1. Kit checks
 1. Environment Building Materials
 
-## Sessions - Junior Engineer
+## Challenges
+
+1. The Crucible (Obstacle Course) - December
+1. Security Gadget - February
+1. Spin Art - March
+1. Egg Roll Race - April
+1. Sumo Robots - May
+1. Into Orbit Project - June
+
+## Sessions - Module Track
 
 ### October 2018
 
-1. First Day - Build the mobile base (1 - 3 "Drive Forward") (10/12)
-1. Autonomous Driving (4 - 9 "My Block") (10/19)
-1. Autonomous Driving (10 - 11 "Action Replay") (10/26)
+1. [Kickoff - Class, software and kits (10/12)](https://1drv.ms/p/s!AkGJBuczDyhuiPkH2xt9WYhvEIdI0w)
+1. Autonomy (1 - 3 "Drive Forward") (10/19)
+1. Autonomy (4 - 9 "My Block") (10/26)
 
 ### November 2018
 
 1. No class on 11/2
-1. See and Hear (12 - 15 "Distance Control") (11/9)
-1. Line Follower (16 - 17 "Follow a Line") (11/16)
+1. Autonomy (10 - 11 "Action Replay") (11/9)
+1. See and Hear (12 - 15 "Distance Control") (11/16)
 1. No class on 11/23
-1. Hit the Ball (18 - 20 "Hit Red Ball") (11/30)
+1. Line Follower (16 - 17 "Follow a Line") (11/30)
 
 ### December 2018
 
-1. The Crucible Challenge Design, Practice and Testing (12/7)
+1. Hit the Ball (18 - 20 "Hit Red Ball") (12/7)
 1. The Crucible Challenge Design, Practice and Testing (12/14)
 1. The Crucible Challenge and Pizza (12/21) (11:30 - 1:30)
 
@@ -65,29 +75,29 @@ featured:   true
 ### March 2019
 
 1. [Spin Art Challenge](http://www.nxtprograms.com/spin_art/index.html) (3/1) (11:30 - 1:30)
-1. Into Orbit FLL (3/8)
-1. Pi Day Belated (3/15)
-1. Into Orbit FLL (3/22)
-1. Into Orbit FLL (3/29)
+1. [Get In Gear](https://www.teachengineering.org/activities/view/nyu_getingear_activity1)  (3/8)
+1. [Pi Day Belated (Applied Geometry)](https://www.teachengineering.org/activities/view/nyu_robotgo_activity1) (3/15)
+1. [Sumo Develop Design Test](http://nxtprograms.com/mini_sumo/index.html) (3/22)
+1. [Sumo Develop Design Test](http://nxtprograms.com/mini_sumo/index.html) (3/29)
 
 ### April 2019
 
 1. No class on 4/5
-1. Into Orbit Challenge Design, Practice and Testing TBD (4/12)
+1. [Egg Roll Race (Use Sumo Builds)](http://www.drgraeme.net/DrGraeme-free-NXT-G-tutorials/Ch46/SUMO-G/default.htm) (4/12)
 1. No class on 4/19
 1. No class on 4/26
 
 ### May 2019
 
-1. Into Orbit Challenge (5/3) (11:30 - 1:30)
-1. (5/10)
-1. (5/17)
+1. [Sumo Challenge](http://nxtprograms.com/mini_sumo/index.html) (11:30 - 1:30)
+1. [Into Orbit Project Challenge Design, Practice and Testing](https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf) (5/10)
+1. [Into Orbit Project Challenge Design, Practice and Testing](https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf) (5/17)
 1. No class on 5/24
-1. (5/31)
+1. [Into Orbit Project Challenge Design, Practice and Testing](https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf) (5/31)
 
 ### June 2019
 
-1. Challenge (6/7) (11:30 - 1:30)
+1. [Into Orbit Project Challenge - Presentations](https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf) (6/7) (11:30 - 1:30)
 1. Last Day 6/14
 
 ## Topics

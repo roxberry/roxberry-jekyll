@@ -1,0 +1,134 @@
+<div class="sidebar-module sidebar-module-profile">
+    <img class="profile-img" src="/img/profile-2.jpg" />
+    <!-- <h3><span class="typing-message"></span></h3> -->
+</div>
+<div class="sidebar-module sidebar-module-inset">
+    <ul class="list-inline text-center">
+        <li class="list-inline-item">
+            <a href="{{ " /feed.xml " | prepend: site.baseurl }}">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-stack-2x"></i>
+                    <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+        {% if site.twitter_username %}
+        <li class="list-inline-item">
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-stack-1x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+        {% endif %} {% if site.facebook_username %}
+        <li class="list-inline-item">
+            <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-stack-1x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+        {% endif %} {% if site.github_username %}
+        <li class="list-inline-item">
+            <a href="https://github.com/{{ site.github_username }}">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-stack-1x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+        {% endif %} {% if site.email_username %}
+        <li class="list-inline-item">
+            <a href="mailto:{{ site.email_username }}">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-stack-1x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+        {% endif %}
+    </ul>
+</div>
+<div class="sidebar-module sidebar-module-inset">
+    <h4>About Me</h4>
+    <p>Cross Platform Consultant</p>
+    <a href="http://www.waveseeker.com">Database Solutions</a>
+    <p>Husband, father, son, brother and uncle. Security driven developer and passionate cross platform
+        software engineer, architect and consultant.</p>
+</div>
+
+<div class="sidebar-module sidebar-module-inset">
+
+    <!-- <ul class="list-inline text-center">
+            <li>
+                <a href="{{ " /feed.xml " | prepend: site.baseurl }}">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-stack-2x"></i>
+                        <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </li>
+            {% if site.twitter_username %}
+            <li>
+                <a href="https://twitter.com/{{ site.twitter_username }}">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-stack-2x"></i>
+                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </li>
+            {% endif %} {% if site.facebook_username %}
+            <li>
+                <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-stack-2x"></i>
+                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </li>
+            {% endif %} {% if site.github_username %}
+            <li>
+                <a href="https://github.com/{{ site.github_username }}">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-stack-2x"></i>
+                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </li>
+            {% endif %} {% if site.email_username %}
+            <li>
+                <a href="mailto:{{ site.email_username }}">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-stack-2x"></i>
+                        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </li>
+            {% endif %}
+        </ul> -->
+</div>
+<div class="sidebar-module sidebar-module-inset">
+    <a class="twitter-timeline" href="https://twitter.com/roxberry" data-widget-id="654383130506166272">Tweets
+        by @roxberry</a>
+    <script>
+        ! function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+                p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = p + "://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+        }(document, "script", "twitter-wjs");
+    </script>
+</div>
+<div class="sidebar-module sidebar-module-inset">
+    <footer>
+        <div>
+            <p class="copyright">Copyright &copy; {{ site.copyright_name }} {{ site.time | date: '%Y' }}</p>
+        </div>
+    </footer>
+</div>

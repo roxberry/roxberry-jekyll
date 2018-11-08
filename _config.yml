@@ -13,6 +13,7 @@ twitter_username: roxberry
 github_username:  roxberry
 facebook_username:  roxberry
 email_username:  roxberry@outlook.com
+version: 1.10142018
 
 # Build settings
 markdown: kramdown
@@ -27,4 +28,4 @@ webrick:
   headers:
     "Access-Control-Allow-Origin": "*"
    
-gems: [jekyll-paginate, jekyll-feed]
+plugins: [jekyll-paginate, jekyll-feed]

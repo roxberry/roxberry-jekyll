@@ -1,110 +1,64 @@
---- 
-layout: default 
+---
+layout: default
 ---
 <script>
     pageVars = {
-        pageTitle : "{{ page.title }}",
-        typingMessage : "{{ site.description }}"
+        pageTitle: "{{ page.title }}",
+        typingMessage: "{{ site.description }}"
     }
 </script>
 <!-- Post Header -->
-<header class="intro-header">
+<!-- <header class="intro-header">
     <div class="container">
 
     </div>
-</header>
+</header> -->
 <article>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 blog-title">
-            <h1>{{ page.title }}</h1>
-            <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+            <div class="col-lg-3 blog-sidebar">
+                {% include sidebar.html %}
             </div>
-            <div class="col-sm-9 blog-main">
-
-
-                <div class="post-photo">
-                    <img class="img-fluid" src="{{ site.baseurl }}/{% if page.header-img-post %}{{ page.header-img-post }}{% else %}{{ site.header-img-post }}{% endif %}" />
-                    <div class="post-photo-caption">
-                        <p>{{ page.excerpt }}</p>
+            <div class="col-md-12 col-lg-9 blog-main">
+                <article>
+                <div class="blog-title">
+                    <span class="meta">{{ page.date | date: "%B %-d, %Y" }} by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{%
+                                endif %}</span>
+                    <h1>{{ page.title }}</h1>
+                    {% include post-tags.html %}
+                </div>
+                <div class="card card-inverse">
+                    <img class="card-img" src="{{ site.baseurl }}/{% if page.header-img-post %}{{ page.header-img-post }}{% else %}{{ site.header-img-post }}{% endif %}" />
+                    <div class="card-img-overlay">
+                        <h4 class="post-photo-caption">{{ page.excerpt }}</h4>
                     </div>
                 </div>
-                <hr> {{ content }} {% include post-tags.html %}
+                <hr> {{ content }}
 
-                <ul class="pager">
+                <ul class="pager list-inline">
                     {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+                    <li class="previous list-inline-item float-left">
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
+                            data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
                     </li>
                     {% endif %} {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                    <li class="next list-inline-item float-right">
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
+                            data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
                     </li>
                     {% endif %}
                 </ul>
 
-                <br/>
+                <br />
 
                 <hr> {% if page.comments %}
                 <br /> {% include disqus_comments.html %}
                 <br /> {% endif %}
-
-                
+                <hr> {% include amazon_nativead.html %}
             </div>
-            <div class="col-sm-3 blog-sidebar">
-                <div class="sidebar-module sidebar-module-profile">
-                    <img class="profile-img" src="/img/profile-2.jpg" />
-                </div>
-                <div class="sidebar-module sidebar-module-inset">
-                    <h4>About Me</h4>
-                    <p>Senior Consultant</p>
-                    <a href="http://www.waveseeker.com">Database Solutions</a>
-                    <p>Husband, father, son, brother and uncle. Security driven developer and passionate cross platform software engineer, architect and consultant.</p>
-                </div>
-                <div class="sidebar-module sidebar-module-inset">
-                    <a class="twitter-timeline" href="https://twitter.com/roxberry" data-widget-id="654383130506166272">Tweets by @roxberry</a>
-                    <script>
-                        ! function(d, s, id) {
-                            var js, fjs = d.getElementsByTagName(s)[0],
-                                p = /^http:/.test(d.location) ? 'http' : 'https';
-                            if (!d.getElementById(id)) {
-                                js = d.createElement(s);
-                                js.id = id;
-                                js.src = p + "://platform.twitter.com/widgets.js";
-                                fjs.parentNode.insertBefore(js, fjs);
-                            }
-                        }(document, "script", "twitter-wjs");
-                    </script>
-                </div>
-                <!--<div class="sidebar-module">
-                    <h4>Archives</h4>
-                    <ol class="list-unstyled">
-                    <li><a href="#">March 2014</a></li>
-                    <li><a href="#">February 2014</a></li>
-                    <li><a href="#">January 2014</a></li>
-                    <li><a href="#">December 2013</a></li>
-                    <li><a href="#">November 2013</a></li>
-                    <li><a href="#">October 2013</a></li>
-                    <li><a href="#">September 2013</a></li>
-                    <li><a href="#">August 2013</a></li>
-                    <li><a href="#">July 2013</a></li>
-                    <li><a href="#">June 2013</a></li>
-                    <li><a href="#">May 2013</a></li>
-                    <li><a href="#">April 2013</a></li>
-                    </ol>
-                </div>-->
-                <!--<div class="sidebar-module">
-                    <h4>Elsewhere</h4>
-                    <ol class="list-unstyled">
-                    <li><a href="#">GitHub</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    </ol>
-                </div>-->
-            </div>
+        </article>
         </div>
 
-        <hr> {% include amazon_nativead.html %}
-        
+
     </div>
 </article>

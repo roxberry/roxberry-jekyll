@@ -1,63 +1,154 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://roxberry.pro/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://roxberry.pro/feed.xml" rel="self" type="application/atom+xml" /><link href="http://roxberry.pro/" rel="alternate" type="text/html" /><updated>2018-10-09T16:08:49-04:00</updated><id>http://roxberry.pro//</id><title type="html">Mark Roxberry</title><subtitle>coder, maker, hacker, mentor</subtitle><entry><title type="html">Robotics Workshop Roadmap 2018-2019 (Future Engineers)</title><link href="http://roxberry.pro/2018/10/03/robotics-workshop-roadmap/" rel="alternate" type="text/html" title="Robotics Workshop Roadmap 2018-2019 (Future Engineers)" /><published>2018-10-03T18:00:00-04:00</published><updated>2018-10-03T18:00:00-04:00</updated><id>http://roxberry.pro/2018/10/03/robotics-workshop-roadmap</id><content type="html" xml:base="http://roxberry.pro/2018/10/03/robotics-workshop-roadmap/">&lt;h1 id=&quot;roadmap&quot;&gt;Roadmap&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://roxberry.pro/feed.xml" rel="self" type="application/atom+xml" /><link href="http://roxberry.pro/" rel="alternate" type="text/html" /><updated>2018-10-14T23:52:26-04:00</updated><id>http://roxberry.pro/feed.xml</id><title type="html">Mark Roxberry</title><subtitle>coder, maker, hacker, mentor</subtitle><entry><title type="html">Into Orbit - Future Engineers</title><link href="http://roxberry.pro/2018/10/12/future-engineers-into-orbit-challenge/" rel="alternate" type="text/html" title="Into Orbit - Future Engineers" /><published>2018-10-12T11:30:00-04:00</published><updated>2018-10-12T11:30:00-04:00</updated><id>http://roxberry.pro/2018/10/12/future-engineers-into-orbit-challenge</id><content type="html" xml:base="http://roxberry.pro/2018/10/12/future-engineers-into-orbit-challenge/">&lt;h1 id=&quot;future-engineers---into-orbit-project-challenge&quot;&gt;Future Engineers - Into Orbit Project Challenge&lt;/h1&gt;
 
-&lt;h2 id=&quot;goals&quot;&gt;Goals&lt;/h2&gt;
+&lt;p&gt;The Future Engineers Team is developing a modular, deployable, autonomous defense system to protect &lt;a href=&quot;https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf&quot;&gt;Into Orbit&lt;/a&gt; missions, in space and on planet outposts, from direct and indirect threats.&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Full Participation&lt;/li&gt;
-  &lt;li&gt;Foundations&lt;/li&gt;
-  &lt;li&gt;Exploration&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;The Future Engineers - Expeditionary Defense System (FE-EDS) will utilize mesh sensor technology, artificial intelligence and autonomous robotic platforms to provide persistent intelligent, surveillance and reconnaissance (Persistent ISR) capability from subsurface to space.&lt;/p&gt;
 
-&lt;h2 id=&quot;preparation&quot;&gt;Preparation&lt;/h2&gt;
+&lt;h2 id=&quot;expeditionary-defense-system&quot;&gt;Expeditionary Defense System&lt;/h2&gt;
+
+&lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Batteries&lt;/li&gt;
-  &lt;li&gt;Laptop checks&lt;/li&gt;
-  &lt;li&gt;Kit checks&lt;/li&gt;
-  &lt;li&gt;Environment Building Materials&lt;/li&gt;
+  &lt;li&gt;Identification Friend or Foe (IFF)&lt;/li&gt;
+  &lt;li&gt;Rapid Response&lt;/li&gt;
+  &lt;li&gt;Continuous Intelligence and Verification&lt;/li&gt;
+  &lt;li&gt;Mobile Redundant Operations Nodes (Decentralized Mesh)&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&quot;sessions---junior-engineer&quot;&gt;Sessions - Junior Engineer&lt;/h2&gt;
+&lt;h3 id=&quot;components&quot;&gt;Components&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Autonomous Space Defense Vehicle (Robotics)&lt;/li&gt;
+  &lt;li&gt;Intelligent Mission Managment and Tasking (AI)&lt;/li&gt;
+  &lt;li&gt;Expeditionary Sensor Grid Nodes (IoT)&lt;/li&gt;
+  &lt;li&gt;Tactical Defense Simulator and Trainer (Game / AI)&lt;/li&gt;
+  &lt;li&gt;Autonomous Space Reconnaissance Vehicle (Robotics Tracks)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;prototype-testing&quot;&gt;Prototype Testing&lt;/h3&gt;
+
+&lt;h4 id=&quot;foe-penetration&quot;&gt;FOE Penetration&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Train IMMT to identify FOE (TDST, IMMT) - e.g. Friend ASRV will send codes to ESG nodes, FOE will not.&lt;/li&gt;
+  &lt;li&gt;Identify FOE Simulation (TDST, ESG, IMMT)&lt;/li&gt;
+  &lt;li&gt;Deploy ASDV (IMMT, ASDV)&lt;/li&gt;
+  &lt;li&gt;ASDV marks home coordinates (ESG, ASDV)&lt;/li&gt;
+  &lt;li&gt;ASDV moves to FOE coordinates (ESG, ASDV)&lt;/li&gt;
+  &lt;li&gt;ASDV captures FOE (ASDV)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;projects&quot;&gt;Projects&lt;/h3&gt;
+
+&lt;h4 id=&quot;autonomous-space-defense-vehicle-asdv&quot;&gt;Autonomous Space Defense Vehicle (ASDV)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Interception / Intervention&lt;/li&gt;
+  &lt;li&gt;Mobile sensor data acquisition&lt;/li&gt;
+  &lt;li&gt;Autonomous Safety Protocol&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Engineer: RC&lt;/p&gt;
+
+&lt;h4 id=&quot;intelligent-mission-management-and-tasking-ai-immt&quot;&gt;Intelligent Mission Management and Tasking AI (IMMT)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Friend or Foe intrusion determination&lt;/li&gt;
+  &lt;li&gt;Coordinate instructions to ESG, ASDVs
+    &lt;ul&gt;
+      &lt;li&gt;Responses can include deploying ASDVs for rescue or intervention&lt;/li&gt;
+      &lt;li&gt;IMMT can broadcast instructions to nodes on ESG for containment, evacuation, …&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Assimilate directives, Friend or Foe models from TDST and instructions for response&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Engineer: GM&lt;/p&gt;
+
+&lt;h4 id=&quot;expeditionary-sensor-grid-esg&quot;&gt;Expeditionary Sensor Grid (ESG)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Develop Sensor Node (2x2, Sensor Tower)&lt;/li&gt;
+  &lt;li&gt;Needs to be mobile&lt;/li&gt;
+  &lt;li&gt;Needs to communicate with both IMMT, ASDVs&lt;/li&gt;
+  &lt;li&gt;Needs to scan all activity and send to IMMT for Friend Foe&lt;/li&gt;
+  &lt;li&gt;Needs to give location data to IMMT, ASDVs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Engineer: BF&lt;/p&gt;
+
+&lt;h4 id=&quot;tactical-defense-simulator-and-trainer-tdst&quot;&gt;Tactical Defense Simulator and Trainer (TDST)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Simulate EDS Code verification - FOE
+    &lt;ul&gt;
+      &lt;li&gt;Friend or FOE - invader broadcasts code&lt;/li&gt;
+      &lt;li&gt;ESG gets code and sends to IMMT&lt;/li&gt;
+      &lt;li&gt;ESG receives instructions from IMMT&lt;/li&gt;
+      &lt;li&gt;ESG sends instructions to ASDV&lt;/li&gt;
+      &lt;li&gt;ASDVs responds sends information to ESG&lt;/li&gt;
+      &lt;li&gt;ESG sends information to IMMT&lt;/li&gt;
+      &lt;li&gt;IMMT determines course of action
+        &lt;ul&gt;
+          &lt;li&gt;Containment&lt;/li&gt;
+          &lt;li&gt;Evacuation&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Engineer: QM&lt;/p&gt;
+
+&lt;h4 id=&quot;autonomous-space-reconnaissance-vehicle-asrv&quot;&gt;Autonomous Space Reconnaissance Vehicle (ASRV)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Basic Mindstorms driving base and sensor rig.  We will use ASRVs to test the EDS.&lt;/li&gt;
+  &lt;li&gt;Send Codes to ESG for Friend identification.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Engineer(s): KL, ML&lt;/p&gt;
+
+&lt;h3 id=&quot;roadmap&quot;&gt;Roadmap&lt;/h3&gt;
 
 &lt;h3 id=&quot;october-2018&quot;&gt;October 2018&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;First Day - Build the mobile base (1 - 3 “Drive Forward”) (10/12)&lt;/li&gt;
-  &lt;li&gt;Autonomous Driving (4 - 9 “My Block”) (10/19)&lt;/li&gt;
-  &lt;li&gt;Autonomous Driving (10 - 11 “Action Replay”) (10/26)&lt;/li&gt;
+  &lt;li&gt;Project Workshop (10/19)&lt;/li&gt;
+  &lt;li&gt;Task 1 (10/26)&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;november-2018&quot;&gt;November 2018&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;No class on 11/2&lt;/li&gt;
-  &lt;li&gt;See and Hear (12 - 15 “Distance Control”) (11/9)&lt;/li&gt;
-  &lt;li&gt;Line Follower (16 - 17 “Follow a Line”) (11/16)&lt;/li&gt;
+  &lt;li&gt;Task 2 (11/9)&lt;/li&gt;
+  &lt;li&gt;Task 3 (11/16)&lt;/li&gt;
   &lt;li&gt;No class on 11/23&lt;/li&gt;
-  &lt;li&gt;Hit the Ball (18 - 20 “Hit Red Ball”) (11/30)&lt;/li&gt;
+  &lt;li&gt;Task 4 (11/30)&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;december-2018&quot;&gt;December 2018&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;The Crucible Challenge Design, Practice and Testing (12/7)&lt;/li&gt;
-  &lt;li&gt;The Crucible Challenge Design, Practice and Testing (12/14)&lt;/li&gt;
-  &lt;li&gt;The Crucible Challenge and Pizza (12/21) (11:30 - 1:30)&lt;/li&gt;
+  &lt;li&gt;Task 5 (12/7)&lt;/li&gt;
+  &lt;li&gt;Task 6 (12/14)&lt;/li&gt;
+  &lt;li&gt;Tasks 7-8 (12/21) (11:30 - 1:30)&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;january-2019&quot;&gt;January 2019&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;No class on 1/4&lt;/li&gt;
-  &lt;li&gt;Complete Palette (21 - 25 “Reset Rotation Sensor”) (1/11)&lt;/li&gt;
-  &lt;li&gt;Complete Palette (26 - 32 “Random Duration”) (1/18)&lt;/li&gt;
-  &lt;li&gt;Complete Palette (33 - 39 “Multiple Download”) (1/25)&lt;/li&gt;
+  &lt;li&gt;Integration Testing 1 (1/11)&lt;/li&gt;
+  &lt;li&gt;Integration Testing 2 (1/18)&lt;/li&gt;
+  &lt;li&gt;Integration Testing 3 (1/25)&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;february-2019&quot;&gt;February 2019&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://education.lego.com/en-us/lessons/maker-middleschool/make-a-security-gadget&quot;&gt;Security Gadget Challenge&lt;/a&gt; (2/1) (11:30 - 1:30)&lt;/li&gt;
+  &lt;li&gt;FE-EDS Demo Phase 1 (2/1) (11:30 - 1:30)&lt;/li&gt;
   &lt;li&gt;Data Logging (2/8)&lt;/li&gt;
   &lt;li&gt;Data Logging (2/15)&lt;/li&gt;
   &lt;li&gt;Data Logging (2/22)&lt;/li&gt;
@@ -66,18 +157,18 @@
 &lt;h3 id=&quot;march-2019&quot;&gt;March 2019&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.nxtprograms.com/spin_art/index.html&quot;&gt;Spin Art Challenge&lt;/a&gt; (3/1) (11:30 - 1:30)&lt;/li&gt;
-  &lt;li&gt;Into Orbit FLL (3/8)&lt;/li&gt;
-  &lt;li&gt;Pi Day Belated (3/15)&lt;/li&gt;
-  &lt;li&gt;Into Orbit FLL (3/22)&lt;/li&gt;
-  &lt;li&gt;Into Orbit FLL (3/29)&lt;/li&gt;
+  &lt;li&gt;FE-EDS Phase 2 Project Workshop (3/1) (11:30 - 1:30)&lt;/li&gt;
+  &lt;li&gt;… (3/8)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.teachengineering.org/activities/view/nyu_robotgo_activity1&quot;&gt;Pi Day Belated (Applied Geometry)&lt;/a&gt; (3/15)&lt;/li&gt;
+  &lt;li&gt;… (3/22)&lt;/li&gt;
+  &lt;li&gt;… (3/29)&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;april-2019&quot;&gt;April 2019&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;No class on 4/5&lt;/li&gt;
-  &lt;li&gt;Into Orbit Challenge Design, Practice and Testing TBD (4/12)&lt;/li&gt;
+  &lt;li&gt;… (4/12)&lt;/li&gt;
   &lt;li&gt;No class on 4/19&lt;/li&gt;
   &lt;li&gt;No class on 4/26&lt;/li&gt;
 &lt;/ol&gt;
@@ -85,40 +176,23 @@
 &lt;h3 id=&quot;may-2019&quot;&gt;May 2019&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Into Orbit Challenge (5/3) (11:30 - 1:30)&lt;/li&gt;
-  &lt;li&gt;(5/10)&lt;/li&gt;
-  &lt;li&gt;(5/17)&lt;/li&gt;
+  &lt;li&gt;… (5/3) (11:30 - 1:30)&lt;/li&gt;
+  &lt;li&gt;… (5/10)&lt;/li&gt;
+  &lt;li&gt;… (5/17)&lt;/li&gt;
   &lt;li&gt;No class on 5/24&lt;/li&gt;
-  &lt;li&gt;(5/31)&lt;/li&gt;
+  &lt;li&gt;… (5/31)&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;june-2019&quot;&gt;June 2019&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Challenge (6/7) (11:30 - 1:30)&lt;/li&gt;
+  &lt;li&gt;… (6/7) (11:30 - 1:30)&lt;/li&gt;
   &lt;li&gt;Last Day 6/14&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&quot;topics&quot;&gt;Topics&lt;/h2&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Tools and Kits, &lt;a href=&quot;https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-EngNotebook-Letter.pdf&quot;&gt;Notebooks&lt;/a&gt;, &lt;a href=&quot;http://www.bl.uk/manuscripts/Viewer.aspx?ref=arundel_ms_263_f001r#&quot;&gt;Davinci’s Notebook&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Foundations of Robotics&lt;/li&gt;
-  &lt;li&gt;Latest in Robotics&lt;/li&gt;
-  &lt;li&gt;Power&lt;/li&gt;
-  &lt;li&gt;FLL &lt;a href=&quot;http://www.firstlegoleague.org/challenge&quot;&gt;Into Orbit&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Advanced Programming - Arrays&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;tools-and-references&quot;&gt;Tools and References&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://education.lego.com/en-us/middle-school/intro/mindstorms-ev3&quot;&gt;Lego Education Mindstorms&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://education.lego.com/en-us/middle-school/intro/mindstorms-ev3#Curriculum&quot;&gt;Lego Education Mindstorms Curriculum&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://robotics.news/&quot;&gt;Robotics News&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://news.mit.edu/topic/robotics&quot;&gt;MIT News - Robotics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://scratch.mit.edu/&quot;&gt;Scratch&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Mark Roxberry</name></author><category term="robots" /><category term="robotics" /><category term="roadmap" /><summary type="html">Road map for Robotics Elective 2018-2019</summary></entry><entry><title type="html">What’s in my workshop?</title><link href="http://roxberry.pro/2018/10/03/my-development-environment/" rel="alternate" type="text/html" title="What's in my workshop?" /><published>2018-10-03T18:00:00-04:00</published><updated>2018-10-03T18:00:00-04:00</updated><id>http://roxberry.pro/2018/10/03/my-development-environment</id><content type="html" xml:base="http://roxberry.pro/2018/10/03/my-development-environment/">&lt;h2 id=&quot;webstorm&quot;&gt;Webstorm&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf&quot;&gt;Into Orbit Project Challenge&lt;/a&gt;&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="ai" /><category term="future engineers" /><category term="robots" /><category term="robotics" /><category term="servos" /><category term="games" /><category term="iot" /><summary type="html">Coordinating the Future Engineers Projects with the First Lego League Into Orbit Challenge.</summary></entry><entry><title type="html">What’s in my workshop?</title><link href="http://roxberry.pro/2018/10/03/my-development-environment/" rel="alternate" type="text/html" title="What's in my workshop?" /><published>2018-10-03T18:00:00-04:00</published><updated>2018-10-03T18:00:00-04:00</updated><id>http://roxberry.pro/2018/10/03/my-development-environment</id><content type="html" xml:base="http://roxberry.pro/2018/10/03/my-development-environment/">&lt;h2 id=&quot;webstorm&quot;&gt;Webstorm&lt;/h2&gt;
 
 &lt;p&gt;Build: 2018.2.4&lt;/p&gt;
 
@@ -158,7 +232,138 @@
 
 &lt;p&gt;code –install-extension VisualStudioExptTeam.vscodeintellicode&lt;/p&gt;
 
-&lt;p&gt;code –install-extension xykong.format-all-files&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="tools" /><category term="code" /><category term="ide" /><category term="extensions" /><summary type="html">Tracking the tools, extensions and configurations I use for software/hardware development, development/operations and security.</summary></entry><entry><title type="html">Technology Briefing Fall 2018</title><link href="http://roxberry.pro/2018/09/29/technology-briefing/" rel="alternate" type="text/html" title="Technology Briefing Fall 2018" /><published>2018-09-29T05:00:00-04:00</published><updated>2018-09-29T05:00:00-04:00</updated><id>http://roxberry.pro/2018/09/29/technology-briefing</id><content type="html" xml:base="http://roxberry.pro/2018/09/29/technology-briefing/">&lt;h1 id=&quot;artificial-intelligence&quot;&gt;Artificial Intelligence&lt;/h1&gt;
+&lt;p&gt;code –install-extension xykong.format-all-files&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="tools" /><category term="code" /><category term="ide" /><category term="extensions" /><summary type="html">Tracking the tools, extensions and configurations I use for software/hardware development, development/operations and security.</summary></entry><entry><title type="html">Robotics Workshop Roadmap 2018-2019 (Future Engineers)</title><link href="http://roxberry.pro/2018/10/03/robotics-workshop-roadmap/" rel="alternate" type="text/html" title="Robotics Workshop Roadmap 2018-2019 (Future Engineers)" /><published>2018-10-03T18:00:00-04:00</published><updated>2018-10-03T18:00:00-04:00</updated><id>http://roxberry.pro/2018/10/03/robotics-workshop-roadmap</id><content type="html" xml:base="http://roxberry.pro/2018/10/03/robotics-workshop-roadmap/">&lt;h1 id=&quot;roadmap&quot;&gt;Roadmap&lt;/h1&gt;
+
+&lt;h2 id=&quot;goals&quot;&gt;Goals&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Full Participation&lt;/li&gt;
+  &lt;li&gt;Foundations&lt;/li&gt;
+  &lt;li&gt;Exploration&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;preparation&quot;&gt;Preparation&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Batteries&lt;/li&gt;
+  &lt;li&gt;Laptop checks&lt;/li&gt;
+  &lt;li&gt;Kit checks&lt;/li&gt;
+  &lt;li&gt;Environment Building Materials&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;challenges&quot;&gt;Challenges&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The Crucible (Obstacle Course) - December&lt;/li&gt;
+  &lt;li&gt;Security Gadget - February&lt;/li&gt;
+  &lt;li&gt;Spin Art - March&lt;/li&gt;
+  &lt;li&gt;Egg Roll Race - April&lt;/li&gt;
+  &lt;li&gt;Sumo Robots - May&lt;/li&gt;
+  &lt;li&gt;Into Orbit Project - June&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;sessions---module-track&quot;&gt;Sessions - Module Track&lt;/h2&gt;
+
+&lt;h3 id=&quot;october-2018&quot;&gt;October 2018&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://1drv.ms/p/s!AkGJBuczDyhuiPkH2xt9WYhvEIdI0w&quot;&gt;Kickoff - Class, software and kits (10/12)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Autonomy (1 - 3 “Drive Forward”) (10/19)&lt;/li&gt;
+  &lt;li&gt;Autonomy (4 - 9 “My Block”) (10/26)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;november-2018&quot;&gt;November 2018&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;No class on 11/2&lt;/li&gt;
+  &lt;li&gt;Autonomy (10 - 11 “Action Replay”) (11/9)&lt;/li&gt;
+  &lt;li&gt;See and Hear (12 - 15 “Distance Control”) (11/16)&lt;/li&gt;
+  &lt;li&gt;No class on 11/23&lt;/li&gt;
+  &lt;li&gt;Line Follower (16 - 17 “Follow a Line”) (11/30)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;december-2018&quot;&gt;December 2018&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Hit the Ball (18 - 20 “Hit Red Ball”) (12/7)&lt;/li&gt;
+  &lt;li&gt;The Crucible Challenge Design, Practice and Testing (12/14)&lt;/li&gt;
+  &lt;li&gt;The Crucible Challenge and Pizza (12/21) (11:30 - 1:30)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;january-2019&quot;&gt;January 2019&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;No class on 1/4&lt;/li&gt;
+  &lt;li&gt;Complete Palette (21 - 25 “Reset Rotation Sensor”) (1/11)&lt;/li&gt;
+  &lt;li&gt;Complete Palette (26 - 32 “Random Duration”) (1/18)&lt;/li&gt;
+  &lt;li&gt;Complete Palette (33 - 39 “Multiple Download”) (1/25)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;february-2019&quot;&gt;February 2019&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://education.lego.com/en-us/lessons/maker-middleschool/make-a-security-gadget&quot;&gt;Security Gadget Challenge&lt;/a&gt; (2/1) (11:30 - 1:30)&lt;/li&gt;
+  &lt;li&gt;Data Logging (2/8)&lt;/li&gt;
+  &lt;li&gt;Data Logging (2/15)&lt;/li&gt;
+  &lt;li&gt;Data Logging (2/22)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;march-2019&quot;&gt;March 2019&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.nxtprograms.com/spin_art/index.html&quot;&gt;Spin Art Challenge&lt;/a&gt; (3/1) (11:30 - 1:30)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.teachengineering.org/activities/view/nyu_getingear_activity1&quot;&gt;Get In Gear&lt;/a&gt;  (3/8)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.teachengineering.org/activities/view/nyu_robotgo_activity1&quot;&gt;Pi Day Belated (Applied Geometry)&lt;/a&gt; (3/15)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://nxtprograms.com/mini_sumo/index.html&quot;&gt;Sumo Develop Design Test&lt;/a&gt; (3/22)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://nxtprograms.com/mini_sumo/index.html&quot;&gt;Sumo Develop Design Test&lt;/a&gt; (3/29)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;april-2019&quot;&gt;April 2019&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;No class on 4/5&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.drgraeme.net/DrGraeme-free-NXT-G-tutorials/Ch46/SUMO-G/default.htm&quot;&gt;Egg Roll Race (Use Sumo Builds)&lt;/a&gt; (4/12)&lt;/li&gt;
+  &lt;li&gt;No class on 4/19&lt;/li&gt;
+  &lt;li&gt;No class on 4/26&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;may-2019&quot;&gt;May 2019&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://nxtprograms.com/mini_sumo/index.html&quot;&gt;Sumo Challenge&lt;/a&gt; (11:30 - 1:30)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf&quot;&gt;Into Orbit Project Challenge Design, Practice and Testing&lt;/a&gt; (5/10)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf&quot;&gt;Into Orbit Project Challenge Design, Practice and Testing&lt;/a&gt; (5/17)&lt;/li&gt;
+  &lt;li&gt;No class on 5/24&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf&quot;&gt;Into Orbit Project Challenge Design, Practice and Testing&lt;/a&gt; (5/31)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;june-2019&quot;&gt;June 2019&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf&quot;&gt;Into Orbit Project Challenge - Presentations&lt;/a&gt; (6/7) (11:30 - 1:30)&lt;/li&gt;
+  &lt;li&gt;Last Day 6/14&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;topics&quot;&gt;Topics&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Tools and Kits, &lt;a href=&quot;https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-EngNotebook-Letter.pdf&quot;&gt;Notebooks&lt;/a&gt;, &lt;a href=&quot;http://www.bl.uk/manuscripts/Viewer.aspx?ref=arundel_ms_263_f001r#&quot;&gt;Davinci’s Notebook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Foundations of Robotics&lt;/li&gt;
+  &lt;li&gt;Latest in Robotics&lt;/li&gt;
+  &lt;li&gt;Power&lt;/li&gt;
+  &lt;li&gt;FLL &lt;a href=&quot;http://www.firstlegoleague.org/challenge&quot;&gt;Into Orbit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Advanced Programming - Arrays&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;tools-and-references&quot;&gt;Tools and References&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://education.lego.com/en-us/middle-school/intro/mindstorms-ev3&quot;&gt;Lego Education Mindstorms&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://education.lego.com/en-us/middle-school/intro/mindstorms-ev3#Curriculum&quot;&gt;Lego Education Mindstorms Curriculum&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://robotics.news/&quot;&gt;Robotics News&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://news.mit.edu/topic/robotics&quot;&gt;MIT News - Robotics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://scratch.mit.edu/&quot;&gt;Scratch&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Mark Roxberry</name></author><category term="robots" /><category term="robotics" /><category term="roadmap" /><category term="servos" /><summary type="html">Roadmap for Robotics Elective 2018-2019</summary></entry><entry><title type="html">Technology Briefing Fall 2018</title><link href="http://roxberry.pro/2018/09/29/technology-briefing/" rel="alternate" type="text/html" title="Technology Briefing Fall 2018" /><published>2018-09-29T05:00:00-04:00</published><updated>2018-09-29T05:00:00-04:00</updated><id>http://roxberry.pro/2018/09/29/technology-briefing</id><content type="html" xml:base="http://roxberry.pro/2018/09/29/technology-briefing/">&lt;h1 id=&quot;artificial-intelligence&quot;&gt;Artificial Intelligence&lt;/h1&gt;
 
 &lt;h1 id=&quot;security-sphere-os-iot&quot;&gt;Security: Sphere OS, IoT&lt;/h1&gt;
 
@@ -179,42 +384,37 @@
 
     &lt;p&gt;I’m running Docker on MacOS, I will use the SQL Server on Linux for Docker Engine at &lt;a href=&quot;https://hub.docker.com/r/microsoft/mssql-server-linux/&quot;&gt;Docker Hub&lt;/a&gt;&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker pull microsoft/mssql-server-linux
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker pull microsoft/mssql-server-linux
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Set the settings and start the container&lt;/p&gt;
 
     &lt;p&gt;SQL Server on Linux for Docker Engine requires an environment setting to accept the EULA and set a strong SA password:&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ACCEPT_EULA = Y
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ACCEPT_EULA = Y
 SA_PASSWORD = &amp;lt;your password&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
 
     &lt;p&gt;Run this in the terminal:&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=yourStrong(!)Password' -p 1433:1433 -d microsoft/mssql-server-linux
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=yourStrong(!)Password' -p 1433:1433 -d microsoft/mssql-server-linux
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Copy a backup to the container&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker cp '/tmp/DatabaseName.bak' mssql-server-linux:/tmp
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker cp '/tmp/DatabaseName.bak' mssql-server-linux:/tmp
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Restore the backup&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RESTORE DATABASE DatabaseName FROM DISK='/tmp/DatabaseName.bak'
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RESTORE DATABASE DatabaseName FROM DISK='/tmp/DatabaseName.bak'
 WITH MOVE 'DatabaseName' TO '/var/opt/mssql/data/DatabaseName.MDF',
 MOVE 'DatabaseName_log' TO '/var/opt/mssql/data/DatabaseName_log.ldf'
 Go
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Connect with a docker command or an IDE like &lt;a href=&quot;https://www.jetbrains.com/datagrip/&quot;&gt;DataGrip&lt;/a&gt;&lt;/p&gt;
@@ -230,7 +430,7 @@ Go
   &lt;li&gt;You’re probably going to be rushed into “solving the problem” before you get a good grasp of how the system was developed, what choices were made through out its development lifecycle and what bad patterns are common in the architecture and code.&lt;/li&gt;
   &lt;li&gt;The people that are tasked to help you may have a personal stake in the system and may resent or fear your involvement as you’ll be calling out their or their team’s mistakes.  Recognize that this could happen and also that those mistakes may not be a result of incompetence - be objective and don’t attribute blame, but also be resolute - your job isn’t to make people look good or bad, your job is to get the system to perform better, so stick to your guns.&lt;/li&gt;
   &lt;li&gt;Always, always, always document.  Document setup tasks, document frustrations, document testing procedures, document every little observation.  Have good templates for reporting your documentation - templates for presentation, analysis, testing, results.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Mark Roxberry</name></author><category term="performance" /><summary type="html">Performance engineering is a black art, with a few potential traps along the way.  Here's just a few observations irrespective of the specifics of the engagement.</summary></entry><entry><title type="html">Technology Briefing</title><link href="http://roxberry.pro/2017/02/12/technology-briefing/" rel="alternate" type="text/html" title="Technology Briefing" /><published>2017-02-12T17:00:00-05:00</published><updated>2017-02-12T17:00:00-05:00</updated><id>http://roxberry.pro/2017/02/12/technology-briefing</id><content type="html" xml:base="http://roxberry.pro/2017/02/12/technology-briefing/">&lt;h1 id=&quot;farmland&quot;&gt;Farmland&lt;/h1&gt;
+&lt;/ol&gt;</content><author><name>Mark Roxberry</name></author><category term="performance" /><summary type="html">Performance engineering is a black art, with a few potential traps along the way. Here's just a few observations irrespective of the specifics of the engagement.</summary></entry><entry><title type="html">Technology Briefing</title><link href="http://roxberry.pro/2017/02/12/technology-briefing/" rel="alternate" type="text/html" title="Technology Briefing" /><published>2017-02-12T17:00:00-05:00</published><updated>2017-02-12T17:00:00-05:00</updated><id>http://roxberry.pro/2017/02/12/technology-briefing</id><content type="html" xml:base="http://roxberry.pro/2017/02/12/technology-briefing/">&lt;h1 id=&quot;farmland&quot;&gt;Farmland&lt;/h1&gt;
 &lt;p&gt;I started last week at a new client out in the farm lands of Pennsylvania.  Out of my comfort zone, this involved a hotel stay at the Inn at Leolas, a new client with a barrage of new concepts and code.  I was issued a new laptop, new e-mail, new MSDN account - more stuff to manage.  I did utilize a Google Chrome feature of setting up a Chrome profile for the new account.  This let me setup a profile with bookmarks, applications and settings specific to the account I will use at the client.&lt;/p&gt;
 
 &lt;h1 id=&quot;performance-testing&quot;&gt;Performance Testing&lt;/h1&gt;

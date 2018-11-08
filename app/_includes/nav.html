@@ -1,30 +1,30 @@
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-static-top">
+<nav class="navbar-container">
     <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-static-top">
             <a class="navbar-brand" href="{{ site.baseurl }}/"><strong>Mark Roxberry</strong></a>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <!--<a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>-->
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                {% for page in site.pages %}{% if page.title %}{% if page.navigation %}
-				{% if page.url != '/404.html' %}
-                <li>
-                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                </li>
-				{% endif %}{% endif %}
-                {% endif %}{% endfor %}
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    {% for page in site.pages %}{% if page.title %}{% if page.navigation %}
+                    {% if page.url != '/404.html' %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                    </li>
+                    {% endif %}{% endif %}
+                    {% endif %}{% endfor %}
+                </ul>
+                <span class="navbar-text">
+                    {{ site.description }}
+                </span>
+            </div>
+        </nav>  
     </div>
-    <!-- /.container -->
+    <div class="disclaimer">
+            <p>Disclaimer: The opinions expressed herein are my own personal opinions and do not represent my employer’s
+                view in any way.</p>
+    </div>
 </nav>
