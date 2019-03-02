@@ -8,7 +8,7 @@ email: mark@roxberries.com
 copyright_name: Mark Roxberry
 description: "coder, maker, hacker, mentor"
 baseurl: ""
-url: "http://roxberry.pro"
+url: "http://roxberry.dev"
 twitter_username: roxberry
 github_username:  roxberry
 facebook_username:  roxberry
@@ -21,7 +21,7 @@ highlighter: rouge
 permalink: pretty
 paginate: 5
 include: ["_pages"]
-exclude: ["about.md", "tag.md", "tasks.md", "_spikes", "_drafts", "less","node_modules","Gruntfile.js","package.json","README.md", "contact.html", "mail", "Gemfile", "Gemfile.lock", "README.md", "LICENSE"]
+exclude: ["about.md", "tag.md", "tasks.md", "futureengineers.md", "_spikes", "_drafts", "less","node_modules","Gruntfile.js","package.json","README.md", "contact.html", "mail", "Gemfile", "Gemfile.lock", "README.md", "LICENSE"]
 
 # Server settings
 webrick:

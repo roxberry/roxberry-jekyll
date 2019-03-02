@@ -315,7 +315,7 @@ module.exports = function(grunt) {
         'autoprefixer',
         'cssmin',
         'uglify',
-        'critical',
+        //'critical',
         'htmlmin'
     ]);
 
@@ -324,13 +324,13 @@ module.exports = function(grunt) {
         'jekyll:dist',
         'imagemin',
         'svgmin',
-        //'sass:dist',
+        'sass:dist',
         'less:dist',
-        'uncss',
+        //'uncss',
         'autoprefixer',
         'cssmin',
         'uglify',
-        'critical',
+        //'critical',
         'htmlmin'
     ]);
 
