@@ -6,8 +6,8 @@ comments:   true
 date:       2019-03-01 15:30:00
 author:     Mark Roxberry
 excerpt:    Coordinating the Future Engineers Projects with the First Lego League Into Orbit Challenge.
-header-img-list:     "img/dev-domain-logo-list.jpg"
-header-img-post:     "img/dev-domain-logo-post.jpg"
+header-img-list:     "img/dev-domain-logo-list.png"
+header-img-post:     "img/dev-domain-logo-post.png"
 tags:       [domains, hsts, security, tls, dev]
 featured:   true
 ---

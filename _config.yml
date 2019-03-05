@@ -1,9 +1,9 @@
 # Site settings
 title: Mark Roxberry
 catch-phrase: "Always Look on the Bright Side of Life"
-header-img: img/home-bg.jpg
-header-img-400: img/home-bg-400.jpg
-header-img-post: img/home-bg-post.jpg
+header-img: img/home-bg.png
+header-img-400: img/home-bg-400.png
+header-img-post: img/home-bg-post.png
 email: mark@roxberries.com
 copyright_name: Mark Roxberry
 description: "coder, maker, hacker, mentor"
@@ -12,7 +12,7 @@ url: "http://roxberry.dev"
 twitter_username: roxberry
 github_username:  roxberry
 facebook_username:  roxberry
-email_username:  roxberry@outlook.com
+email_username:  contact@roxberry.dev
 version: 1.10142018
 
 # Build settings

@@ -6,8 +6,8 @@ comments:   true
 date:       2018-09-29 09:00:00
 author:     Mark Roxberry
 excerpt:    Technology Briefing Fall 2018
-header-img-list:     "img/mars-fall-2018-list.jpg"
-header-img-post:     "img/mars-fall-2018-post.jpg"
+header-img-list:     "img/mars-fall-2018-list.png"
+header-img-post:     "img/mars-fall-2018-post.png"
 tags:       [coder, maker, hacker, mentor]
 featured:   true
 ---

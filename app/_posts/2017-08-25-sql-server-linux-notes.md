@@ -6,8 +6,8 @@ comments:   true
 date:       2017-08-25 14:00:00
 author:     Mark Roxberry
 excerpt:    Running SQL Server on Linux for Docker Engine
-header-img-list:     "img/sqlserverlinux-list.jpg"
-header-img-post:     "img/sqlserverlinux-post.jpg"
+header-img-list:     "img/sqlserverlinux-list.png"
+header-img-post:     "img/sqlserverlinux-post.png"
 tags:       [sql server, linux, docker]
 featured:   true
 ---

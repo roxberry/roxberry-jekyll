@@ -29,3 +29,8 @@ $(window).load(function() {
     var triggerheight = Math.round(boxheight/itemlength+1);
 	$('#home-carousel .list-group-item').outerHeight(triggerheight);
 });
+
+toggleSidebar = (function() {
+	$('.blog-main').toggleClass('col-lg-8');
+	$('.blog-sidebar').toggle();
+})
