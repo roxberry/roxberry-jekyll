@@ -43,9 +43,12 @@ app/_vendor
 
 # Jekyll output
 app/_site/
+.jekyll/
+dist/
 
 # Hidden files
 .DS_Store
 /.gitignore
 /.idea/workspace.xml
 app/_deploy/.deploy.sh.swp
+

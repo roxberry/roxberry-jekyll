@@ -19,7 +19,7 @@ version: 1.10142018
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-paginate: 5
+paginate: 6
 include: ["_pages"]
 exclude: ["about.md", "tag.md", "tasks.md", "futureengineers.md", "_spikes", "_drafts", "less","node_modules","Gruntfile.js","package.json","README.md", "contact.html", "mail", "Gemfile", "Gemfile.lock", "README.md", "LICENSE"]
 

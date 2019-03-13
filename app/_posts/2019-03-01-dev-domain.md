@@ -5,7 +5,7 @@ subtitle:   Why .dev and security is your friend.
 comments:   true
 date:       2019-03-01 15:30:00
 author:     Mark Roxberry
-excerpt:    Coordinating the Future Engineers Projects with the First Lego League Into Orbit Challenge.
+excerpt:    Switching Roxberry.PRO to Roxberry.DEV - Secure Comms FTW.
 header-img-list:     "img/dev-domain-logo-list.png"
 header-img-post:     "img/dev-domain-logo-post.png"
 tags:       [domains, hsts, security, tls, dev]
