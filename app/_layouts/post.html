@@ -7,58 +7,41 @@ layout: default
         typingMessage: "{{ site.description }}"
     }
 </script>
-<!-- Post Header -->
-<!-- <header class="intro-header">
-    <div class="container">
-
+<div class="blog-main">
+    <article>
+    <div class="blog-title">
+        <span class="meta">{{ page.date | date: "%B %-d, %Y" }} by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{%
+                    endif %}</span>
+        <h1>{{ page.title }}</h1>
+        {% include post-tags.html %}
     </div>
-</header> -->
-<article>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 blog-sidebar">
-                {% include sidebar.html %}
-            </div>
-            <div class="col-md-12 col-lg-9 blog-main">
-                <article>
-                <div class="blog-title">
-                    <span class="meta">{{ page.date | date: "%B %-d, %Y" }} by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{%
-                                endif %}</span>
-                    <h1>{{ page.title }}</h1>
-                    {% include post-tags.html %}
-                </div>
-                <div class="card card-inverse">
-                    <img class="card-img" src="{{ site.baseurl }}/{% if page.header-img-post %}{{ page.header-img-post }}{% else %}{{ site.header-img-post }}{% endif %}" />
-                    <div class="card-img-overlay">
-                        <h4 class="post-photo-caption">{{ page.excerpt }}</h4>
-                    </div>
-                </div>
-                <hr> {{ content }}
-
-                <ul class="pager list-inline">
-                    {% if page.previous.url %}
-                    <li class="previous list-inline-item float-left">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
-                            data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-                    </li>
-                    {% endif %} {% if page.next.url %}
-                    <li class="next list-inline-item float-right">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
-                            data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-                    </li>
-                    {% endif %}
-                </ul>
-
-                <br />
-
-                <hr> {% if page.comments %}
-                <br /> {% include disqus_comments.html %}
-                <br /> {% endif %}
-                <hr> {% include amazon_nativead.html %}
-            </div>
-        </article>
+    <div class="card card-inverse">
+        <img class="card-img" src="{{ site.baseurl }}/{% if page.header-img-post %}{{ page.header-img-post }}{% else %}{{ site.header-img-post }}{% endif %}" />
+        <div class="card-img-overlay">
+            <h4 class="post-photo-caption">{{ page.excerpt }}</h4>
         </div>
-
-
     </div>
-</article>
+    <hr> {{ content }}
+
+    <ul class="pager list-inline">
+        {% if page.previous.url %}
+        <li class="previous list-inline-item float-left">
+            <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
+                data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+        </li>
+        {% endif %} {% if page.next.url %}
+        <li class="next list-inline-item float-right">
+            <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
+                data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+        </li>
+        {% endif %}
+    </ul>
+
+    <br />
+
+    <hr> {% if page.comments %}
+    <br /> {% include disqus_comments.html %}
+    <br /> {% endif %}
+    <hr> {% include amazon_nativead.html %}
+    </article>
+</div>

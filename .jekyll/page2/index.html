@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/4.2.1/css/bootstrap.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/roxberry.min.css?v=1.10142018">
+    <link rel="stylesheet" href="/css/roxberry.min.css?v=1.04102019">
 
     <!-- Pygments Github CSS -->
     <link rel="stylesheet" href="/css/syntax.min.css">
@@ -70,7 +70,7 @@
     <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/4.2.1/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="/js/roxberry.min.js?v=1.10142018"></script>
+    <script src="/js/roxberry.min.js?v=1.04102019"></script>
 
     <!-- Typing effect -->
     <script src="/js/typed.js"></script>
@@ -100,6 +100,9 @@
                     
                     
                     
+                    
+                    
+                    
                 </ul>
                 <span class="navbar-text">
                     coder, maker, hacker, mentor
@@ -116,18 +119,29 @@
     
 
     <script>
-    pageVars = {
-        pageTitle: "",
-        typingMessage: "coder, maker, hacker, mentor"
-    }
-</script>
-
-<div class="container">
-    <div class="row">
-        <div class="col-xl-3 blog-sidebar">
-            <div class="sidebar-module sidebar-module-profile">
+        pageVars = {
+            pageTitle: " - ",
+            typingMessage: "coder, maker, hacker, mentor"
+        }
+    </script>
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 blog-sidebar">
+                    <div class="sidebar-module sidebar-module-profile">
     <img class="profile-img" src="/img/profile-3.png" />
     <!-- <h3><span class="typing-message"></span></h3> -->
+</div>
+<div class="sidebar-module sidebar-module-inset">
+    <h4>Categories</h4>
+
+    <a href="/Technology">Technology</a><br/>
+
+    <a href="/Performance">Performance</a><br/>
+
+    <a href="/Planning">Planning</a><br/>
+
+ 
 </div>
 <div class="sidebar-module sidebar-module-inset">
     <ul class="list-inline text-center">
@@ -246,18 +260,55 @@
         </div>
     </footer>
 </div>
-        </div>
-        <!-- Article list -->
-        <div class="col-md-12 col-lg-12 col-xl-9">
-            <div class="post-list">
-    <div class="site-welcome">
-        <p class="section-heading">Welcome</p>
-        I am a technologist and someone who seeks out new ideas and paradigms. On my blog, you will find my day to day
-        notes, ideas, projects and stuff that may be useful.
-    </div>
+                </div>
+                <!-- Article list -->
+                <div class="col-md-12 col-lg-12 col-xl-9">
+                    <div class="site-welcome">
+    <p class="section-heading">Welcome</p>
+    I am a technologist and someone who seeks out new ideas and paradigms. On my blog, you will find my day to day
+    notes, ideas, projects and stuff that may be useful.
+</div>
+<div class="post-list">
     <div class="card-list">
         <p class="section-heading">Posts</p>
         <div class="row">
+            
+            
+            <!-- <div class="card">
+            <div class="row no-gutters">
+                <div class="col-auto">
+                    <img class="img-fluid" src="/img/sqlserverlinux-list.png">
+                </div>
+                <div class="col">
+                    <div class="card-block">
+                        <h4 class="card-title"><a href='/2017/08/25/sql-server-linux-notes/'>SQL Server on Linux via Docker</a></h4>
+                        <p class="card-subtitle">Running SQL Server on Linux for Docker Engine</p>
+                        <p class="card-text"><small class="text-muted">Posted by Mark Roxberry on August 25, 2017</small></p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+            <!-- <ul class="list-unstyled">
+            <li class="media pb-md-5">
+                <img class="media-image img-fluid" src="/img/sqlserverlinux-list.png">
+                <div class="media-body">
+                    <h5 class="media-title mt-0 mb-1"><a href='/2017/08/25/sql-server-linux-notes/'>SQL Server on Linux via Docker</a></h5>
+                    <p>Running SQL Server on Linux for Docker Engine</p>
+                    <small class="text-muted">Posted by Mark Roxberry on August 25, 2017</small>
+                </div>
+            </li>
+        </ul> -->
+            <div class="col-md-4 col-sm-12">
+                <div class="card" style="background:transparent;padding-bottom:20px">
+                    <img class="card-img-top" src="/img/sqlserverlinux-list.png" alt="Card image cap">
+                    <div class="card-body" style="padding:20px 5px;">
+                        <h5 class="card-title" style="margin-bottom: 0px;"><a href='/2017/08/25/sql-server-linux-notes/'>SQL Server on Linux via Docker</a></h5>
+                        <small class="text-muted">Posted on August 25, 2017</small>
+                        <p class="card-text" style="font-size:14px;">Running SQL Server on Linux for Docker Engine</p>
+                    </div>
+                </div>
+            </div>
+            
             
             
             <!-- <div class="card">
@@ -267,7 +318,7 @@
                 </div>
                 <div class="col">
                     <div class="card-block">
-                        <h4 class="card-title"><a href='/2017/04/05/perf-engineering-post-mortem/'>Perf Engineering Post Mortem</a></h4>
+                        <h4 class="card-title"><a href='/performance/2017/04/05/perf-engineering-post-mortem/'>Perf Engineering Post Mortem</a></h4>
                         <p class="card-subtitle">Performance engineering is a black art, with a few potential traps along the way.  Here's just a few observations irrespective of the specifics of the engagement.</p>
                         <p class="card-text"><small class="text-muted">Posted by Mark Roxberry on April 5, 2017</small></p>
                     </div>
@@ -278,7 +329,7 @@
             <li class="media pb-md-5">
                 <img class="media-image img-fluid" src="/img/performance.png">
                 <div class="media-body">
-                    <h5 class="media-title mt-0 mb-1"><a href='/2017/04/05/perf-engineering-post-mortem/'>Perf Engineering Post Mortem</a></h5>
+                    <h5 class="media-title mt-0 mb-1"><a href='/performance/2017/04/05/perf-engineering-post-mortem/'>Perf Engineering Post Mortem</a></h5>
                     <p>Performance engineering is a black art, with a few potential traps along the way.  Here's just a few observations irrespective of the specifics of the engagement.</p>
                     <small class="text-muted">Posted by Mark Roxberry on April 5, 2017</small>
                 </div>
@@ -288,7 +339,7 @@
                 <div class="card" style="background:transparent;padding-bottom:20px">
                     <img class="card-img-top" src="/img/performance.png" alt="Card image cap">
                     <div class="card-body" style="padding:20px 5px;">
-                        <h5 class="card-title" style="margin-bottom: 0px;"><a href='/2017/04/05/perf-engineering-post-mortem/'>Perf Engineering Post Mortem</a></h5>
+                        <h5 class="card-title" style="margin-bottom: 0px;"><a href='/performance/2017/04/05/perf-engineering-post-mortem/'>Perf Engineering Post Mortem</a></h5>
                         <small class="text-muted">Posted on April 5, 2017</small>
                         <p class="card-text" style="font-size:14px;">Performance engineering is a black art, with a few potential traps along the way.  Here's just a few observations irrespective of the specifics of the engagement.</p>
                     </div>
@@ -304,7 +355,7 @@
                 </div>
                 <div class="col">
                     <div class="card-block">
-                        <h4 class="card-title"><a href='/2017/02/12/technology-briefing/'>Technology Briefing</a></h4>
+                        <h4 class="card-title"><a href='/technology/2017/02/12/technology-briefing/'>Technology Briefing</a></h4>
                         <p class="card-subtitle">Catching up, this past week was a mix of old and new and a new client for the next few weeks.</p>
                         <p class="card-text"><small class="text-muted">Posted by Mark Roxberry on February 12, 2017</small></p>
                     </div>
@@ -315,7 +366,7 @@
             <li class="media pb-md-5">
                 <img class="media-image img-fluid" src="/img/briefing.png">
                 <div class="media-body">
-                    <h5 class="media-title mt-0 mb-1"><a href='/2017/02/12/technology-briefing/'>Technology Briefing</a></h5>
+                    <h5 class="media-title mt-0 mb-1"><a href='/technology/2017/02/12/technology-briefing/'>Technology Briefing</a></h5>
                     <p>Catching up, this past week was a mix of old and new and a new client for the next few weeks.</p>
                     <small class="text-muted">Posted by Mark Roxberry on February 12, 2017</small>
                 </div>
@@ -325,7 +376,7 @@
                 <div class="card" style="background:transparent;padding-bottom:20px">
                     <img class="card-img-top" src="/img/briefing.png" alt="Card image cap">
                     <div class="card-body" style="padding:20px 5px;">
-                        <h5 class="card-title" style="margin-bottom: 0px;"><a href='/2017/02/12/technology-briefing/'>Technology Briefing</a></h5>
+                        <h5 class="card-title" style="margin-bottom: 0px;"><a href='/technology/2017/02/12/technology-briefing/'>Technology Briefing</a></h5>
                         <small class="text-muted">Posted on February 12, 2017</small>
                         <p class="card-text" style="font-size:14px;">Catching up, this past week was a mix of old and new and a new client for the next few weeks.</p>
                     </div>
@@ -346,11 +397,10 @@
         
         
     </ul>
-    
-</div>
-        </div>
     </div>
-</div>
+                </div>
+            </div>
+        </div>
 
     <!-- Footer -->
 <!-- <footer>

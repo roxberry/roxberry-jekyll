@@ -9,6 +9,7 @@ excerpt:    Catching up, this past week was a mix of old and new and a new clien
 header-img-list:     "img/briefing.png"
 header-img-post:     "img/briefing-post.png"
 tags:       [coder, maker, hacker, mentor]
+categories: Technology
 featured:   true
 ---
 

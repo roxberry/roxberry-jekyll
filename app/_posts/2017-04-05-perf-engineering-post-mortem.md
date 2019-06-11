@@ -9,6 +9,7 @@ excerpt:    Performance engineering is a black art, with a few potential traps a
 header-img-list:     "img/performance.png"
 header-img-post:     "img/performance-post.png"
 tags:       [performance]
+categories: Performance
 featured:   true
 ---
 # Performance Engineering Post Mortem

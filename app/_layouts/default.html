@@ -7,7 +7,24 @@
     {% include nav.html %}
     {% comment %}Hiding Nav{% include nav.html %}{% endcomment %}
 
-    {{ content }}
+    <script>
+        pageVars = {
+            pageTitle: "{{ page.title }} - {{ include.category }}",
+            typingMessage: "{{ site.description }}"
+        }
+    </script>
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 blog-sidebar">
+                    {% include sidebar.html %}
+                </div>
+                <!-- Article list -->
+                <div class="col-md-12 col-lg-12 col-xl-9">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
 
     {% include footer.html %}
 

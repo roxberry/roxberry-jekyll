@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     require('time-grunt')(grunt);
     // Load all Grunt tasks
     require('jit-grunt')(grunt, {
-            buildcontrol: 'grunt-build-control'
+            deploy: 'grunt-build-control'
         });
 
     grunt.initConfig({
@@ -267,7 +267,7 @@ module.exports = function(grunt) {
                 }]
             }
         },
-        buildcontrol: {
+        deploy: {
             dist: {
                 options: {
                     dir: '<%= app.dist %>/<%= app.baseurl %>',
@@ -290,7 +290,7 @@ module.exports = function(grunt) {
         grunt.task.run([
             'clean:server',
             'jekyll:server',
-            'sass:server',
+            // 'sass:server',
             'less:server',
             'autoprefixer',
             'uglify',
@@ -334,10 +334,10 @@ module.exports = function(grunt) {
         'htmlmin'
     ]);
 
-    grunt.registerTask('deploy', [
+    grunt.registerTask('publish', [
         'build',
         'copy',
-        'buildcontrol'
+        'deploy'
     ]);
 
     // grunt.registerTask('uncss', [
