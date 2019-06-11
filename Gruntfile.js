@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     require('time-grunt')(grunt);
     // Load all Grunt tasks
     require('jit-grunt')(grunt, {
-            deploy: 'grunt-build-control'
+            buildcontrol: 'grunt-build-control'
         });
 
     grunt.initConfig({
@@ -267,7 +267,7 @@ module.exports = function(grunt) {
                 }]
             }
         },
-        deploy: {
+        buildcontrol: {
             dist: {
                 options: {
                     dir: '<%= app.dist %>/<%= app.baseurl %>',
@@ -334,10 +334,10 @@ module.exports = function(grunt) {
         'htmlmin'
     ]);
 
-    grunt.registerTask('publish', [
+    grunt.registerTask('deploy', [
         'build',
         'copy',
-        'deploy'
+        'buildcontrol'
     ]);
 
     // grunt.registerTask('uncss', [
