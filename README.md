@@ -25,3 +25,8 @@ By producing a mix of content from different aspects of my experiences or creati
     1. Drones
 1. Journal Entries
     1. Noteworthy thoughts or observations
+
+### Categories
+1. Planning
+1. Technology
+1. Performance
