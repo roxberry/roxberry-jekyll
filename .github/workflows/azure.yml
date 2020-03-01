@@ -11,6 +11,7 @@ jobs:
       - name: Checkout Source
         uses: actions/checkout@v2
         with:
+          path: ./source
           ref: master
           fetch-depth: 10
 
@@ -21,17 +22,21 @@ jobs:
       - name: Build Jekyll
         uses: gha-utilities/jekyll-build@v0.0.2
         with:
-          source: ./
+          source: ./source
           destination: ~/www/roxberry
+
+      - name: Check Build
+        run: ls ~/www/roxberry
 
       - name: Checkout Destination
         uses: actions/checkout@v2
         with:
+          path: ./dest
           ref: deployment-test
           fetch-depth: 1
 
       - name: Copy to Git branch
-        run: echo 'list before' && ls ~/www/roxberry && cp -r ~/www/roxberry ./ && echo 'list after' && ls ./
+        run: echo 'list before' && ls ~/www/roxberry && cp -r ~/www/roxberry ./dest && echo 'list after' && ls ./dest
 
       - name: Add and Commit changes to pr-pages branch
         run: |
