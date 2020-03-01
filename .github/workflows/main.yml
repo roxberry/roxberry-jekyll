@@ -39,7 +39,7 @@ jobs:
         run: |
           git config --global user.email "roxberry@outlook.com"
           git config --global user.name "Mark Roxberry"
-          git clone https://${{ secrets.GITHUB_TOKEN }}@github.com:roxberry/roxberry.git
+          git clone https://${{ secrets.GITHUB_TOKEN }}::x-oauth-basic@github.com:roxberry/roxberry.git
           git checkout deployment-test
           git commit -m "Add changes" -a
           git push -f
