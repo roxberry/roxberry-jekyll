@@ -27,7 +27,7 @@ jobs:
           destination: ./_site
 
       - name: Check Build
-        run: ls ./_site
+        run: ls ./_site && ls /github/workspace/source/_site
 
       # - name: Checkout Destination
       #   uses: actions/checkout@v2
