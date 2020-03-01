@@ -12,8 +12,9 @@ jobs:
       # Checkout
       - name: checkout
         uses: actions/checkout@master
+        
       - name: dependencies
-        uses: docker://jekyll/jekyll:latest
+        uses: docker://ruby:2.6.7
         env:
           BUNDLE_PATH: .bundle
         with: 
