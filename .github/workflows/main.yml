@@ -27,5 +27,3 @@ jobs:
       # Build
       - name: Grunt Build and Copy
         run: grunt build && grunt copy
-      # Push
-      - name: Push Copy
