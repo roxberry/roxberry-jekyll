@@ -1,0 +1,48 @@
+on:
+  push:
+    branches:
+      - src-pages
+
+jobs:
+  jekyll_build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source branch for building Pages
+        uses: actions/checkout@v1
+        with:
+          ref: src-pages
+          fetch-depth: 10
+
+      # Note the following may not be required in future versions of Jekyll Build Actions
+      - name: Make build destination directory
+        run: mkdir -vp ~/www/repository-name
+
+      - name: Jekyll Build
+        uses: gha-utilities/jekyll-build@v0.0.2
+        with:
+          source: ./
+          destination: ~/www/repository-name
+
+      - name: Checkout branch for GitHub Pages
+        uses: actions/checkout@v1
+        with:
+          ref: pr-pages
+          fetch-depth: 1
+          submodules: true
+
+      - name: Copy built site files into Git branch
+        run: cp -r ~/www/repository-name ./
+
+      - name: Add and Commit changes to pr-pages branch
+        run: |
+          git config --local user.email 'action@github.com'
+          git config --local user.name 'GitHub Action'
+          git add -A .
+          git commit -m 'Updates compiled site files'
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: pr-pages
