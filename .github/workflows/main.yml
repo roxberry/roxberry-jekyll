@@ -13,7 +13,7 @@ on:
 jobs:
   run-deploy:
     runs-on: ubuntu-latest
-    container: jekyll/jekyll
+    container: jekyll/jekyll:3.8.4
     steps:
       # Checkout
       - name: Checkout Code
