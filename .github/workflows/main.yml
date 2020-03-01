@@ -39,10 +39,13 @@ jobs:
         run: |
           git config --global user.email "roxberry@outlook.com"
           git config --global user.name "Mark Roxberry"
-      - name: Git Checkout Deployment Branch    
-        uses: actions/checkout@v2
-        with:
-          ref: deployment-test
-          path: dist
+      # Deploy to local repo
+      - name: Deploy
+        uses: s0/git-publish-subdir-action@master
+        env:
+          REPO: self
+          BRANCH: deployment-test
+          FOLDER: dest
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
         
