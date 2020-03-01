@@ -29,4 +29,9 @@ jobs:
           npm install
       # Build
       - name: Grunt Build and Copy
-        run: npm run build
+        run: |
+          npm run clean
+          mkdir .jekyll-cache dist
+          npm run build
+        
+        

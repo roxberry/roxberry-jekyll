@@ -6,7 +6,8 @@
   "author": "Mark Roxberry",
   "license": "Apache-2.0",
   "scripts": {
-        "build": "grunt clean && grunt build",
+        "clean": "grunt clean",
+        "build": "grunt build",
         "test": "grunt test"
    },
   "devDependencies": {
