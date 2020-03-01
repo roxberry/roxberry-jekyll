@@ -31,6 +31,7 @@ jobs:
           ref: development-test
           fetch-depth: 1
           submodules: true
+          clean: false
 
       - name: Copy built site files into Git branch
         run: cp -r ~/www/repository-name dest
