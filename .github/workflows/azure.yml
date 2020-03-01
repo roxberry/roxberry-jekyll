@@ -34,7 +34,7 @@ jobs:
           clean: false
 
       - name: Copy built site files into Git branch
-        run: cp -r ~/www/repository-name dest
+        run: ls ~/www/repository-name && cp ~/www/repository-name -r ~/www/repository-name dest && ls dest
 
       - name: Add and Commit changes to pr-pages branch
         run: |
