@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - src-pages
+      - master
 
 jobs:
   jekyll_build:
@@ -11,7 +11,7 @@ jobs:
       - name: Checkout source branch for building Pages
         uses: actions/checkout@v1
         with:
-          ref: src-pages
+          ref: master
           fetch-depth: 10
 
       # Note the following may not be required in future versions of Jekyll Build Actions
@@ -27,7 +27,7 @@ jobs:
       - name: Checkout branch for GitHub Pages
         uses: actions/checkout@v1
         with:
-          ref: pr-pages
+          ref: development-test
           fetch-depth: 1
           submodules: true
 
@@ -36,8 +36,8 @@ jobs:
 
       - name: Add and Commit changes to pr-pages branch
         run: |
-          git config --local user.email 'action@github.com'
-          git config --local user.name 'GitHub Action'
+          git config --local user.email 'roxberry@outlook.com'
+          git config --local user.name 'Mark Roxberry'
           git add -A .
           git commit -m 'Updates compiled site files'
 
@@ -45,4 +45,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: pr-pages
+          branch: development-test
