@@ -34,8 +34,6 @@ jobs:
       - name: Grunt Deploy
         run: 
           npm run build
-          cd /__w/roxberry/roxberry/dist
-          ls
       # Git
       - name: Git
         run: |
