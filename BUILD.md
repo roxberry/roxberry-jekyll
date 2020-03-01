@@ -8,5 +8,4 @@ http://o.zasadnyy.com/blog/optimized-jekyll-site-with-grunt/
 1. npm install grunt-cli -g
 1. grunt build or grunt serve
 1. deploy grunt deploy
-
-1. working on github action
+1. working on github action - adding ruby steps
