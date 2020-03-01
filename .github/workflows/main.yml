@@ -35,13 +35,14 @@ jobs:
         run: 
           npm run build
       # Git
-      - name: Git
+      - name: Git Config
         run: |
           git config --global user.email "roxberry@outlook.com"
           git config --global user.name "Mark Roxberry"
-          git clone https://${{ secrets.GITHUB_TOKEN }}::x-oauth-basic@github.com:roxberry/roxberry.git
-          git checkout deployment-test
-          git commit -m "Add changes" -a
-          git push -f
+      - name: Git Checkout Deployment Branch    
+        uses: actions/checkout@v2
+        with:
+          ref: deployment-test
+          path: dist
         
         
