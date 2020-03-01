@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - deployment
+    paths:
+      - 'dist/**'
 
 jobs:
   run-deploy:
@@ -11,8 +16,16 @@ jobs:
     container: jekyll/jekyll
     steps:
       # Checkout
-      - name: checkout
+      - name: Checkout Code
         uses: actions/checkout@master
-        
-      - name: dependencies
+      # Jekyll  
+      - name: Get Jekyll Dependencies
         run: gem install
+      # Grunt
+      - name: Get Grunt Dependencies
+        run: npm install
+      # Build
+      - name: Grunt Build and Copy
+        run: grunt build && grunt copy
+      # Push
+      - name: Push Copy
