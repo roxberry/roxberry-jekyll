@@ -8,23 +8,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source branch for building Pages
+      - name: Checkout Source
         uses: actions/checkout@v1
         with:
           ref: master
           fetch-depth: 10
 
       # Note the following may not be required in future versions of Jekyll Build Actions
-      - name: Make build destination directory
+      - name: Create Destination
         run: mkdir -vp ~/www/repository-name
 
-      - name: Jekyll Build
+      - name: Build Jekyll
         uses: gha-utilities/jekyll-build@v0.0.2
         with:
           source: ./
           destination: ~/www/repository-name
 
-      - name: Checkout branch for GitHub Pages
+      - name: Checkout
         uses: actions/checkout@v1
         with:
           ref: development-test
