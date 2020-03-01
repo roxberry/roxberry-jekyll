@@ -30,7 +30,6 @@ jobs:
       # Build
       - name: Grunt Build and Copy
         run: 
-          mkdir dist
           chmod ugo+rwx dist
           npm run build
         
