@@ -5,6 +5,10 @@
   "homepage": "http://www.roxberry.dev",
   "author": "Mark Roxberry",
   "license": "Apache-2.0",
+  "scripts": {
+        "build": "grunt clean && grunt build",
+        "test": "grunt test"
+   },
   "devDependencies": {
     "grunt": "^1.0.4",
     "grunt-autoprefixer": "~3.0.4",
