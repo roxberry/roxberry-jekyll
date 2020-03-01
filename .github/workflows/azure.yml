@@ -23,39 +23,40 @@ jobs:
         uses: gha-utilities/jekyll-build@v0.0.2
         with:
           source: ./source
+          destination: ./_site
 
       - name: Check Build
-        run: ls ./source/_site
+        run: ls ./_site
 
-      - name: Checkout Destination
-        uses: actions/checkout@v2
-        with:
-          path: ./dest
-          ref: deployment-test
-          fetch-depth: 1
+      # - name: Checkout Destination
+      #   uses: actions/checkout@v2
+      #   with:
+      #     path: ./dest
+      #     ref: deployment-test
+      #     fetch-depth: 1
 
-      - name: Copy to Git branch
-        run: | 
-          echo 'list before' && 
-          ls /home/runner/www/roxberry && 
-          cp -r /home/runner/www/roxberry ./dest && 
-          echo 'list after' && 
-          ls ./
-          ls ./dest && 
-          ls ./dest/roxberry &&
-          echo 'build loc?' &&
-          ls /home/runner/www/roxberry
+      # - name: Copy to Git branch
+      #   run: | 
+      #     echo 'list before' && 
+      #     ls /home/runner/www/roxberry && 
+      #     cp -r /home/runner/www/roxberry ./dest && 
+      #     echo 'list after' && 
+      #     ls ./
+      #     ls ./dest && 
+      #     ls ./dest/roxberry &&
+      #     echo 'build loc?' &&
+      #     ls /home/runner/www/roxberry
 
-      - name: Add and Commit changes to pr-pages branch
-        run: |
-          git config --local user.email 'roxberry@outlook.com'
-          git config --local user.name 'Mark Roxberry'
-          git add -A .
-          git commit -m 'Updates compiled site files'
+      # - name: Add and Commit changes to pr-pages branch
+      #   run: |
+      #     git config --local user.email 'roxberry@outlook.com'
+      #     git config --local user.name 'Mark Roxberry'
+      #     git add -A .
+      #     git commit -m 'Updates compiled site files'
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: deployment-test
-          force: true
+      # - name: Push changes
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     branch: deployment-test
+      #     force: true
