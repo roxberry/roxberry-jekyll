@@ -32,7 +32,7 @@ jobs:
       #     submodules: true
 
       - name: Copy built site files into Git branch
-        run: ls ~/www/roxberry && cp ~/www/roxberry -r ~/www/repository-name ./ && ls ./
+        run: ls ~/www/roxberry && cp -r ~/www/roxberry ./ && ls ./
 
       - name: Add and Commit changes to pr-pages branch
         run: |
