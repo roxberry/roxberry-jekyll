@@ -30,6 +30,11 @@ jobs:
       - name: Get Grunt Dependencies
         run: |
           npm install
+      # Git
+      - name: Set Git Config
+        run: |
+          git config --global user.email "roxberry@outlook.com"
+          git config --global user.name "Mark Roxberry"
       # Build
       - name: Grunt Deploy
         run: 
