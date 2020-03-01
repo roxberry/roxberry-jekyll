@@ -17,16 +17,16 @@ jobs:
 
       # Note the following may not be required in future versions of Jekyll Build Actions
       - name: Create Destination
-        run: mkdir -vp ~/www/roxberry
+        run: mkdir -vp /home/runner/www/roxberry
 
       - name: Build Jekyll
         uses: gha-utilities/jekyll-build@v0.0.2
         with:
           source: ./source
-          destination: ~/www/roxberry
+          destination: /home/runner/www/roxberry
 
       - name: Check Build
-        run: ls ~/www/roxberry
+        run: ls /home/runner/www/roxberry
 
       - name: Checkout Destination
         uses: actions/checkout@v2
@@ -38,14 +38,14 @@ jobs:
       - name: Copy to Git branch
         run: | 
           echo 'list before' && 
-          ls ~/www/roxberry && 
-          cp -r ~/www/roxberry ./dest && 
+          ls /home/runner/www/roxberry && 
+          cp -r /home/runner/www/roxberry ./dest && 
           echo 'list after' && 
           ls ./
           ls ./dest && 
           ls ./dest/roxberry &&
           echo 'build loc?' &&
-          ls /github/home/www/roxberry
+          ls /home/runner/www/roxberry
 
       - name: Add and Commit changes to pr-pages branch
         run: |
