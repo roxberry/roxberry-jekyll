@@ -44,7 +44,9 @@ app/_vendor
 # Jekyll output
 app/_site/
 .jekyll/
+.jekyll-cache/
 dist/
+_site/
 
 # Hidden files
 .DS_Store
