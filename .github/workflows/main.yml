@@ -23,6 +23,7 @@ jobs:
         run: gem install
       # Grunt
       - name: Get Grunt Dependencies
+        run: npm install grunt-cli -g
         run: npm install
       # Build
       - name: Grunt Build and Copy
