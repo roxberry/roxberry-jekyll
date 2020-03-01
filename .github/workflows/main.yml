@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@master
         
       - name: dependencies
-        uses: docker://ruby:2.6
+        uses: docker://jekyll/jekyll:builder
         env:
           BUNDLE_PATH: .bundle
         with: 
