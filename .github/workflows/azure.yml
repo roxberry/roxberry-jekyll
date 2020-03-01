@@ -21,7 +21,7 @@ jobs:
       - name: Jekyll Build
         uses: gha-utilities/jekyll-build@v0.0.2
         with:
-          source: ./app/
+          source: app/
           destination: ~/www/repository-name
 
       - name: Checkout branch for GitHub Pages
