@@ -4,7 +4,7 @@ on:
       - master
 
 jobs:
-  jekyll_build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -41,6 +41,7 @@ jobs:
           ls ~/www/roxberry && 
           cp -r ~/www/roxberry ./dest && 
           echo 'list after' && 
+          ls ./
           ls ./dest && 
           ls ./dest/roxberry &&
           echo 'build loc?' &&
