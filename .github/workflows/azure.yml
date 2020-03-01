@@ -42,7 +42,9 @@ jobs:
           cp -r ~/www/roxberry ./dest && 
           echo 'list after' && 
           ls ./dest && 
-          ls ./dest/roxberry
+          ls ./dest/roxberry &&
+          echo 'build loc?' &&
+          ls /github/home/www/roxberry
 
       - name: Add and Commit changes to pr-pages branch
         run: |
