@@ -13,7 +13,7 @@ on:
 jobs:
   run-deploy:
     runs-on: ubuntu-latest
-    container: jekyll/jekyll:3.8.4
+    container: jekyll/builder:3.8.4
     steps:
       # Checkout
       - name: Checkout Code
@@ -21,6 +21,7 @@ jobs:
       # Jekyll  
       - name: Get Jekyll Dependencies
         run: |
+          gem update --system
           gem install bundler
           bundle install --jobs 4 --retry 3
       # Grunt
