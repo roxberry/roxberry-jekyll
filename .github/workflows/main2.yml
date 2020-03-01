@@ -3,7 +3,7 @@ name: Jekyll Build - Optional Deploy
 on:
   push:
     branches:
-    - dev
+    - master
 
 jobs: 
   build_and_deploy:
