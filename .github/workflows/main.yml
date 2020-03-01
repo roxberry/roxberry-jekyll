@@ -29,6 +29,9 @@ jobs:
           npm install
       # Build
       - name: Grunt Build and Copy
-        run: npm run build
+        run: 
+        mkdir dist
+        chmod ugo+rwx dist
+        npm run build
         
         
