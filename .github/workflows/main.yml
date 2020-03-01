@@ -37,6 +37,7 @@ jobs:
       # Git
       - name: Set Git Config
         run: |
+          git clone ${{ secrets.GITHUB_TOKEN }}@github.com:roxberry/roxberry.git
           git config --global user.email "roxberry@outlook.com"
           git config --global user.name "Mark Roxberry"
           git commit -m "Add changes" -a
