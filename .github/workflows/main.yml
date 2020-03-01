@@ -10,7 +10,7 @@ jobs:
     strategy:
       matrix:
        node-version: [8.x, 10.x, 12.x]
-       ruby: [ '2.3.3', '2.6' ]
+       ruby: [ '2.3.3' ]
 
     steps:
     - uses: actions/checkout@v2
@@ -18,7 +18,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: gem build
+    - run: gem install
     - run: npm install
     - run: grunt deploy
       env:
