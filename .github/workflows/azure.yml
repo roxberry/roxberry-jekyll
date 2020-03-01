@@ -27,12 +27,11 @@ jobs:
       - name: Checkout Destination
         uses: actions/checkout@v2
         with:
-          path: dest
           ref: deployment-test
           fetch-depth: 1
 
       - name: Copy to Git branch
-        run: echo 'list before' && ls ~/www/roxberry && cp -r ~/www/roxberry ./dest && echo 'list after' && ls ./dest
+        run: echo 'list before' && ls ~/www/roxberry && cp -r ~/www/roxberry ./ && echo 'list after' && ls ./
 
       - name: Add and Commit changes to pr-pages branch
         run: |
