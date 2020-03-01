@@ -1,25 +1,21 @@
-name: Node.js CI
+name: deploy
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
-  build:
-
-    runs-on: envygeeks/jekyll-docker
-
-    strategy:
-      matrix:
-       node-version: [ 12.x]
-       ruby: [ '2.6.7' ]
-
+  run-deploy:
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: gem install --user-install bundler jekyll
-    - run: npm install
-    - run: grunt deploy
-      env:
-        CI: true
+      # Checkout
+      - name: checkout
+        uses: actions/checkout@master
+      - name: dependencies
+        uses: docker://jekyll/jekyll
+        env:
+          BUNDLE_PATH: .bundle
+        with: 
+          entrypoint: bundle
+          args: install -j=4
