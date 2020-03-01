@@ -21,8 +21,8 @@ jobs:
       # Jekyll  
       - name: Get Jekyll Dependencies
         run: |
-        gem install bundler
-        bundle install --jobs 4 --retry 3
+          gem install bundler
+          bundle install --jobs 4 --retry 3
       # Grunt
       - name: Get Grunt Dependencies
         run: npm install
