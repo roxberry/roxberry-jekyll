@@ -16,25 +16,23 @@ jobs:
 
       # Note the following may not be required in future versions of Jekyll Build Actions
       - name: Create Destination
-        run: mkdir -vp ~/www/repository-name
+        run: mkdir -vp ~/www/roxberry
 
       - name: Build Jekyll
         uses: gha-utilities/jekyll-build@v0.0.2
         with:
           source: ./
-          destination: ~/www/repository-name
+          destination: ~/www/roxberry
 
       - name: Checkout
         uses: actions/checkout@v1
         with:
-          path: dest
           ref: deployment-test
           fetch-depth: 1
           submodules: true
-          clean: false
 
       - name: Copy built site files into Git branch
-        run: ls ~/www/repository-name && cp ~/www/repository-name -r ~/www/repository-name dest && ls dest
+        run: ls ~/www/roxberry && cp ~/www/roxberry -r ~/www/repository-name ./ && ls ./
 
       - name: Add and Commit changes to pr-pages branch
         run: |
