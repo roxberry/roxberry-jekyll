@@ -35,18 +35,13 @@ jobs:
         run: 
           npm run build
       # Git
-      - name: Set Git Config
+      - name: Git
         run: |
-          git clone ${{ secrets.GITHUB_TOKEN }}@github.com:roxberry/roxberry.git
           git config --global user.email "roxberry@outlook.com"
           git config --global user.name "Mark Roxberry"
+          git clone ${{ secrets.GITHUB_TOKEN }}@github.com:roxberry/roxberry.git
+          git checkout deployment
           git commit -m "Add changes" -a
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: deployment-test
-          directory: /__w/roxberry/roxberry/dist
-          force: true
+          git push -f
         
         
