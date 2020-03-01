@@ -18,6 +18,9 @@ jobs:
       # Checkout
       - name: Checkout Code
         uses: actions/checkout@master
+      # Note the following may not be required in future versions of Jekyll Build Actions
+      - name: Make build destination directory
+        run: mkdir -vp ~/dist
       # Jekyll  
       - name: Get Jekyll Dependencies
         run: |
