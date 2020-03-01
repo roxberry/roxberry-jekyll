@@ -17,7 +17,7 @@ jobs:
 
       # Note the following may not be required in future versions of Jekyll Build Actions
       - name: Create Destination
-        run: mkdir -vp ./site
+        run: mkdir -vp ./_site
         # run: mkdir -vp /home/runner/www/roxberry
 
       - name: Build Jekyll
