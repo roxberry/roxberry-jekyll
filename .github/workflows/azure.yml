@@ -31,8 +31,8 @@ jobs:
           ref: deployment-test
           fetch-depth: 1
 
-      - name: Copy built site files into Git branch
-        run: ls ~/www/roxberry && cp -r ~/www/roxberry ./dest && ls ./dest
+      - name: Copy to Git branch
+        run: echo 'list before' && ls ~/www/roxberry && cp -r ~/www/roxberry ./dest && echo 'list after' && ls ./dest
 
       - name: Add and Commit changes to pr-pages branch
         run: |
