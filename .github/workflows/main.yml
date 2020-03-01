@@ -8,15 +8,11 @@ on:
 jobs:
   run-deploy:
     runs-on: ubuntu-latest
+    container: jekyll/jekyll
     steps:
       # Checkout
       - name: checkout
         uses: actions/checkout@master
         
       - name: dependencies
-        uses: docker://jekyll/jekyll:builder
-        env:
-          BUNDLE_PATH: .bundle
-        with: 
-          entrypoint: bundle
-          args: install -j=4
+        run: gem install
