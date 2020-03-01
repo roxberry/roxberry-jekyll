@@ -30,7 +30,6 @@ jobs:
           path: dest
           ref: deployment-test
           fetch-depth: 1
-          submodules: true
 
       - name: Copy built site files into Git branch
         run: ls ~/www/roxberry && cp -r ~/www/roxberry ./dest && ls ./dest
