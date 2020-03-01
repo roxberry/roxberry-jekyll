@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v1
         with:
           path: dest
-          ref: development-test
+          ref: deployment-test
           fetch-depth: 1
           submodules: true
           clean: false
@@ -47,4 +47,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: development-test
+          branch: deployment-test
