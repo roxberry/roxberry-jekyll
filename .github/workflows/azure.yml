@@ -23,10 +23,9 @@ jobs:
         uses: gha-utilities/jekyll-build@v0.0.2
         with:
           source: ./source
-          destination: /home/runner/www/roxberry
 
       - name: Check Build
-        run: ls /home/runner/www/roxberry
+        run: ls ./source/_site
 
       - name: Checkout Destination
         uses: actions/checkout@v2
