@@ -17,7 +17,7 @@ navigation: true
 <form name="sentMessage" action="https://formspree.io/contact@roxberry.dev" method="POST" id="contactForm"
     novalidate>
         <div class="form-group">
-            <label>Email Address - CI TEST</label>
+            <label>Email Address</label>
             <input type="email" class="form-control" name="_replyto" placeholder="Email Address" id="email"
                 required data-validation-required-message="Please enter your email address.">
             <p class="help-block text-danger"></p>
