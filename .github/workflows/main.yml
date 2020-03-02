@@ -16,5 +16,5 @@ jobs:
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
           JEKYLL_ROOT: "./"
-          REMOTE_BRANCH: "gh-pages"
+          REMOTE_BRANCH: "deployment"
         uses: agentd00nut/jekyll-build-optional-deploy-gh-pages@master
