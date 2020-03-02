@@ -17,7 +17,6 @@ version: 2.03012020
 
 # Build settings
 source: ./app
-destination: ./build
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
