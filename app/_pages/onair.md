@@ -17,11 +17,14 @@ body {
 }
 .status {
     font-size: 120px;    
-    width: 100%;
-    height: 100%;
-    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 </style>
-<p class="status">
-ON AIR
-</p>
+<div class="status">
+    ON AIR
+</div>
