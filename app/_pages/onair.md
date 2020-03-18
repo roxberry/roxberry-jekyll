@@ -1,5 +1,5 @@
 ---
-layout:     page
+layout:     noframe
 title:      "On Air"
 permalink:  "/onair/"
 subtitle:   "On Air Board"
