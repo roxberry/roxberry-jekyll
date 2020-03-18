@@ -13,7 +13,7 @@ navigation: false
 ---
 <style>
 body {
-    background-color: red
+    background-color: red !important
 }
 .status {
     font-size: 120px;    
