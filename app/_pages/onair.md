@@ -1,6 +1,7 @@
 ---
 layout:     page
 title:      "On Air"
+permalink:  "/onair/"
 subtitle:   "On Air Board"
 comments:   false
 date:       2020-03-18 12:00:00
