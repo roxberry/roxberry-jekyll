@@ -17,6 +17,9 @@ body {
 }
 .status {
     font-size: 120px;    
+    width: 100%;
+    height: 100%;
+    margin: auto;
 }
 </style>
 <p class="status">
