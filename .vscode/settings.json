@@ -12,5 +12,6 @@
         "**/.vscode": true,
         "**/dist": true,
         "**/node_modules": true
-    }
+    },
+    "npm.enableScriptExplorer": true
 }
