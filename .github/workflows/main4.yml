@@ -25,3 +25,4 @@ jobs:
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
           JEKYLL_DESTINATION: dist
+          TARGET_BRANCH: deployment
