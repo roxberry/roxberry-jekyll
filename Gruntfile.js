@@ -330,7 +330,7 @@ module.exports = function(grunt) {
         'autoprefixer',
         'cssmin',
         'uglify',
-        //'critical',
+        'critical',
         'htmlmin'
     ]);
 
