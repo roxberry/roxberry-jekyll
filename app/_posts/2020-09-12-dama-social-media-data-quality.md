@@ -3,7 +3,7 @@ layout:     post
 title:      DAMA - Meeting Announcement - 9/17
 subtitle:   Virtual Meeting - Social Media Data Quality 
 comments:   true
-date:       2020-09-12 23:30:00
+date:       2020-09-12 10:30:00
 author:     Mark Roxberry
 excerpt:    Back and forth discussion of relevant topics.
 header-img-list:     "img/delta-list.jpg"
