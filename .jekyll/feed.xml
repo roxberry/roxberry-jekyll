@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://roxberry.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://roxberry.dev/" rel="alternate" type="text/html" /><updated>2020-08-18T14:49:23-04:00</updated><id>https://roxberry.dev/feed.xml</id><title type="html">Mark Roxberry</title><subtitle>coder, maker, hacker, mentor</subtitle><entry><title type="html">Delta</title><link href="https://roxberry.dev/planning/2020/03/01/delta/" rel="alternate" type="text/html" title="Delta" /><published>2020-03-01T18:30:00-05:00</published><updated>2020-03-01T18:30:00-05:00</updated><id>https://roxberry.dev/planning/2020/03/01/delta</id><content type="html" xml:base="https://roxberry.dev/planning/2020/03/01/delta/">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://roxberry.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://roxberry.dev/" rel="alternate" type="text/html" /><updated>2020-09-14T14:04:02-04:00</updated><id>https://roxberry.dev/feed.xml</id><title type="html">Mark Roxberry</title><subtitle>coder, maker, hacker, mentor</subtitle><entry><title type="html">Inference</title><link href="https://roxberry.dev/planning/2020/09/12/inference/" rel="alternate" type="text/html" title="Inference" /><published>2020-09-12T21:00:00-04:00</published><updated>2020-09-12T21:00:00-04:00</updated><id>https://roxberry.dev/planning/2020/09/12/inference</id><content type="html" xml:base="https://roxberry.dev/planning/2020/09/12/inference/">&lt;h2 id=&quot;put-a-quote-here&quot;&gt;Put a Quote here&lt;/h2&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;h2 id=&quot;inference-ideas&quot;&gt;Inference ideas&lt;/h2&gt;
+
+&lt;h2 id=&quot;forward-outlook&quot;&gt;Forward outlook&lt;/h2&gt;</content><author><name>Mark Roxberry</name></author><category term="september" /><category term="projects" /><summary type="html">Back and forth discussion of relevant topics.</summary></entry><entry><title type="html">DAMA Meeting 9/17</title><link href="https://roxberry.dev/meetings/planning/2020/09/12/dama-social-media-data-quality/" rel="alternate" type="text/html" title="DAMA Meeting 9/17" /><published>2020-09-12T06:30:00-04:00</published><updated>2020-09-12T06:30:00-04:00</updated><id>https://roxberry.dev/meetings/planning/2020/09/12/dama-social-media-data-quality</id><content type="html" xml:base="https://roxberry.dev/meetings/planning/2020/09/12/dama-social-media-data-quality/">&lt;h2 id=&quot;virtual-meeting-september-17-2020&quot;&gt;Virtual Meeting September 17, 2020&lt;/h2&gt;
+
+&lt;h3 id=&quot;social-media-data-quality&quot;&gt;Social Media Data Quality&lt;/h3&gt;
+
+&lt;p&gt;Register &lt;a href=&quot;https://dama-phila.org/meetinginfo.php?id=4&amp;amp;ts=1598994996&quot;&gt;Here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Speaker: Jennifer Radke&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dama-phila.org/index.php&quot;&gt;DAMA Philadelphia&lt;/a&gt; hosts five full day chapter meetings per year, every other month from September through May. There are additional professional development opportunities, such as instructor led training, seminars and certification camps. These special events are priced separately at a discounted rate. Networking functions are held after select meetings and events.&lt;/p&gt;
+
+&lt;p&gt;Please join us for our September virtual meeting – Thursday, Sept 17th.&lt;/p&gt;
+
+&lt;p&gt;We will dive into a timely topic – data quality and making sense of the information flow that surrounds us on social media, in the time of COVID-19!&lt;/p&gt;
+
+&lt;p&gt;During a global pandemic – data collection, quality, and privacy are ever-important. We are constantly faced with emerging studies, health guidelines, and news reports that aim to interpret these new findings; and there are reports that this social media platform (or that one) is misusing our personal data to influence voter decisions or healthcare practices. How do we know what to believe?&lt;/p&gt;
+
+&lt;p&gt;9:00 am – Welcome, DAMA Philadelphia chapter introduction and updates&lt;/p&gt;
+
+&lt;p&gt;9:15 am – Sponsor presentation – available&lt;/p&gt;
+
+&lt;p&gt;9:30 am – Feature Presentation – Data Quality in Social Media&lt;/p&gt;
+
+&lt;h2 id=&quot;about-dama---philadelphia&quot;&gt;About DAMA - Philadelphia&lt;/h2&gt;
+
+&lt;p&gt;The Data Administration Management Association (DAMA) International and the chapter DAMA Philadelphia are not-for-profit, vendor-independent, professional organizations dedicated to advancing the concepts and practices of enterprise information and data management, business intelligence, analytics, data science and related disciplines.&lt;/p&gt;
+
+&lt;p&gt;For more information about DAMA - Philadelphia, click &lt;a href=&quot;https://dama-phila.org/about&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="data" /><category term="social media" /><category term="dama" /><summary type="html">Data quality and making sense of the information flow that surrounds us on social media</summary></entry><entry><title type="html">Delta</title><link href="https://roxberry.dev/planning/2020/03/01/delta/" rel="alternate" type="text/html" title="Delta" /><published>2020-03-01T18:30:00-05:00</published><updated>2020-03-01T18:30:00-05:00</updated><id>https://roxberry.dev/planning/2020/03/01/delta</id><content type="html" xml:base="https://roxberry.dev/planning/2020/03/01/delta/">&lt;blockquote&gt;
   &lt;p&gt;“History is merely a list of surprises. It can only prepare us to be surprised yet again.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -305,7 +337,47 @@
 
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf&quot;&gt;Into Orbit Project Challenge&lt;/a&gt;&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="ai" /><category term="future engineers" /><category term="robots" /><category term="robotics" /><category term="servos" /><category term="games" /><category term="iot" /><summary type="html">Coordinating the Future Engineers Projects with the First Lego League Into Orbit Challenge.</summary></entry><entry><title type="html">Robotics Workshop Roadmap 2018-2019 (Future Engineers)</title><link href="https://roxberry.dev/2018/10/03/robotics-workshop-roadmap/" rel="alternate" type="text/html" title="Robotics Workshop Roadmap 2018-2019 (Future Engineers)" /><published>2018-10-03T18:00:00-04:00</published><updated>2018-10-03T18:00:00-04:00</updated><id>https://roxberry.dev/2018/10/03/robotics-workshop-roadmap</id><content type="html" xml:base="https://roxberry.dev/2018/10/03/robotics-workshop-roadmap/">&lt;h1 id=&quot;roadmap&quot;&gt;Roadmap&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf&quot;&gt;Into Orbit Project Challenge&lt;/a&gt;&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="ai" /><category term="future engineers" /><category term="robots" /><category term="robotics" /><category term="servos" /><category term="games" /><category term="iot" /><summary type="html">Coordinating the Future Engineers Projects with the First Lego League Into Orbit Challenge.</summary></entry><entry><title type="html">What’s in my workshop?</title><link href="https://roxberry.dev/2018/10/03/my-development-environment/" rel="alternate" type="text/html" title="What's in my workshop?" /><published>2018-10-03T18:00:00-04:00</published><updated>2018-10-03T18:00:00-04:00</updated><id>https://roxberry.dev/2018/10/03/my-development-environment</id><content type="html" xml:base="https://roxberry.dev/2018/10/03/my-development-environment/">&lt;h2 id=&quot;webstorm&quot;&gt;Webstorm&lt;/h2&gt;
+
+&lt;p&gt;Build: 2018.2.4&lt;/p&gt;
+
+&lt;h2 id=&quot;visual-studio-code&quot;&gt;Visual Studio Code&lt;/h2&gt;
+
+&lt;p&gt;Version: 1.27.2 (user setup)&lt;/p&gt;
+
+&lt;p&gt;Commit: f46c4c469d6e6d8c46f268d1553c5dc4b475840f&lt;/p&gt;
+
+&lt;p&gt;Date: 2018-09-12T16:17:45.060Z&lt;/p&gt;
+
+&lt;p&gt;Electron: 2.0.7&lt;/p&gt;
+
+&lt;p&gt;Chrome: 61.0.3163.100&lt;/p&gt;
+
+&lt;p&gt;Node.js: 8.9.3&lt;/p&gt;
+
+&lt;p&gt;V8: 6.1.534.41&lt;/p&gt;
+
+&lt;p&gt;Architecture: x64&lt;/p&gt;
+
+&lt;h3 id=&quot;extensions&quot;&gt;Extensions&lt;/h3&gt;
+
+&lt;p&gt;code –install-extension [createInstance] extensionManagementService depends on downloadService which is NOT registered.&lt;/p&gt;
+
+&lt;p&gt;code –install-extension Leopotam.csharpfixformat&lt;/p&gt;
+
+&lt;p&gt;code –install-extension ms-mssql.mssql&lt;/p&gt;
+
+&lt;p&gt;code –install-extension ms-python.python&lt;/p&gt;
+
+&lt;p&gt;code –install-extension ms-vscode.csharp&lt;/p&gt;
+
+&lt;p&gt;code –install-extension PeterJausovec.vscode-docker&lt;/p&gt;
+
+&lt;p&gt;code –install-extension ritwickdey.LiveServer&lt;/p&gt;
+
+&lt;p&gt;code –install-extension VisualStudioExptTeam.vscodeintellicode&lt;/p&gt;
+
+&lt;p&gt;code –install-extension xykong.format-all-files&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="tools" /><category term="code" /><category term="ide" /><category term="extensions" /><summary type="html">Tracking the tools, extensions and configurations I use for software/hardware development, development/operations and security.</summary></entry><entry><title type="html">Robotics Workshop Roadmap 2018-2019 (Future Engineers)</title><link href="https://roxberry.dev/2018/10/03/robotics-workshop-roadmap/" rel="alternate" type="text/html" title="Robotics Workshop Roadmap 2018-2019 (Future Engineers)" /><published>2018-10-03T18:00:00-04:00</published><updated>2018-10-03T18:00:00-04:00</updated><id>https://roxberry.dev/2018/10/03/robotics-workshop-roadmap</id><content type="html" xml:base="https://roxberry.dev/2018/10/03/robotics-workshop-roadmap/">&lt;h1 id=&quot;roadmap&quot;&gt;Roadmap&lt;/h1&gt;
 
 &lt;h2 id=&quot;goals&quot;&gt;Goals&lt;/h2&gt;
 
@@ -436,47 +508,7 @@
   &lt;li&gt;&lt;a href=&quot;https://robotics.news/&quot;&gt;Robotics News&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://news.mit.edu/topic/robotics&quot;&gt;MIT News - Robotics&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://scratch.mit.edu/&quot;&gt;Scratch&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Mark Roxberry</name></author><category term="robots" /><category term="robotics" /><category term="roadmap" /><category term="servos" /><summary type="html">Roadmap for Robotics Elective 2018-2019</summary></entry><entry><title type="html">What’s in my workshop?</title><link href="https://roxberry.dev/2018/10/03/my-development-environment/" rel="alternate" type="text/html" title="What's in my workshop?" /><published>2018-10-03T18:00:00-04:00</published><updated>2018-10-03T18:00:00-04:00</updated><id>https://roxberry.dev/2018/10/03/my-development-environment</id><content type="html" xml:base="https://roxberry.dev/2018/10/03/my-development-environment/">&lt;h2 id=&quot;webstorm&quot;&gt;Webstorm&lt;/h2&gt;
-
-&lt;p&gt;Build: 2018.2.4&lt;/p&gt;
-
-&lt;h2 id=&quot;visual-studio-code&quot;&gt;Visual Studio Code&lt;/h2&gt;
-
-&lt;p&gt;Version: 1.27.2 (user setup)&lt;/p&gt;
-
-&lt;p&gt;Commit: f46c4c469d6e6d8c46f268d1553c5dc4b475840f&lt;/p&gt;
-
-&lt;p&gt;Date: 2018-09-12T16:17:45.060Z&lt;/p&gt;
-
-&lt;p&gt;Electron: 2.0.7&lt;/p&gt;
-
-&lt;p&gt;Chrome: 61.0.3163.100&lt;/p&gt;
-
-&lt;p&gt;Node.js: 8.9.3&lt;/p&gt;
-
-&lt;p&gt;V8: 6.1.534.41&lt;/p&gt;
-
-&lt;p&gt;Architecture: x64&lt;/p&gt;
-
-&lt;h3 id=&quot;extensions&quot;&gt;Extensions&lt;/h3&gt;
-
-&lt;p&gt;code –install-extension [createInstance] extensionManagementService depends on downloadService which is NOT registered.&lt;/p&gt;
-
-&lt;p&gt;code –install-extension Leopotam.csharpfixformat&lt;/p&gt;
-
-&lt;p&gt;code –install-extension ms-mssql.mssql&lt;/p&gt;
-
-&lt;p&gt;code –install-extension ms-python.python&lt;/p&gt;
-
-&lt;p&gt;code –install-extension ms-vscode.csharp&lt;/p&gt;
-
-&lt;p&gt;code –install-extension PeterJausovec.vscode-docker&lt;/p&gt;
-
-&lt;p&gt;code –install-extension ritwickdey.LiveServer&lt;/p&gt;
-
-&lt;p&gt;code –install-extension VisualStudioExptTeam.vscodeintellicode&lt;/p&gt;
-
-&lt;p&gt;code –install-extension xykong.format-all-files&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="tools" /><category term="code" /><category term="ide" /><category term="extensions" /><summary type="html">Tracking the tools, extensions and configurations I use for software/hardware development, development/operations and security.</summary></entry><entry><title type="html">Technology Briefing Fall 2018</title><link href="https://roxberry.dev/2018/09/29/technology-briefing/" rel="alternate" type="text/html" title="Technology Briefing Fall 2018" /><published>2018-09-29T05:00:00-04:00</published><updated>2018-09-29T05:00:00-04:00</updated><id>https://roxberry.dev/2018/09/29/technology-briefing</id><content type="html" xml:base="https://roxberry.dev/2018/09/29/technology-briefing/">&lt;h1 id=&quot;artificial-intelligence&quot;&gt;Artificial Intelligence&lt;/h1&gt;
+&lt;/ol&gt;</content><author><name>Mark Roxberry</name></author><category term="robots" /><category term="robotics" /><category term="roadmap" /><category term="servos" /><summary type="html">Roadmap for Robotics Elective 2018-2019</summary></entry><entry><title type="html">Technology Briefing Fall 2018</title><link href="https://roxberry.dev/2018/09/29/technology-briefing/" rel="alternate" type="text/html" title="Technology Briefing Fall 2018" /><published>2018-09-29T05:00:00-04:00</published><updated>2018-09-29T05:00:00-04:00</updated><id>https://roxberry.dev/2018/09/29/technology-briefing</id><content type="html" xml:base="https://roxberry.dev/2018/09/29/technology-briefing/">&lt;h1 id=&quot;artificial-intelligence&quot;&gt;Artificial Intelligence&lt;/h1&gt;
 
 &lt;h1 id=&quot;security-sphere-os-iot&quot;&gt;Security: Sphere OS, IoT&lt;/h1&gt;
 
@@ -536,31 +568,4 @@ Go
 
 &lt;p&gt;&lt;img src=&quot;/img/datagrip.png&quot; alt=&quot;DataGrip SQL Server Connection&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Using SQL Server for Linux in Docker has allowed me to continue to develop using a Linux distro or macOS without needing to set up a VM to run the database backend.&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="sql server" /><category term="linux" /><category term="docker" /><summary type="html">Running SQL Server on Linux for Docker Engine</summary></entry><entry><title type="html">Perf Engineering Post Mortem</title><link href="https://roxberry.dev/performance/2017/04/05/perf-engineering-post-mortem/" rel="alternate" type="text/html" title="Perf Engineering Post Mortem" /><published>2017-04-05T10:00:00-04:00</published><updated>2017-04-05T10:00:00-04:00</updated><id>https://roxberry.dev/performance/2017/04/05/perf-engineering-post-mortem</id><content type="html" xml:base="https://roxberry.dev/performance/2017/04/05/perf-engineering-post-mortem/">&lt;h1 id=&quot;performance-engineering-post-mortem&quot;&gt;Performance Engineering Post Mortem&lt;/h1&gt;
-&lt;p&gt;I have been working for 2 months in a performance engineering role for a client.  The project had 2 phases, phase 1 was to conduct an analysis of areas identified by the users at the client.  Phase 2 focused on analysis, recommendations and remediation of specific operations.  Performance engineering is a black art, with a few potential traps along the way.  Here’s just a few observations irrespective of the specifics of the engagement:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;You’re probably not starting out at an optimal point in the lifecycle of the system.  Like security, performance is not a problem until it is - so it doesn’t get attention until someone feels pain.&lt;/li&gt;
-  &lt;li&gt;You’re probably going to be rushed into “solving the problem” before you get a good grasp of how the system was developed, what choices were made through out its development lifecycle and what bad patterns are common in the architecture and code.&lt;/li&gt;
-  &lt;li&gt;The people that are tasked to help you may have a personal stake in the system and may resent or fear your involvement as you’ll be calling out their or their team’s mistakes.  Recognize that this could happen and also that those mistakes may not be a result of incompetence - be objective and don’t attribute blame, but also be resolute - your job isn’t to make people look good or bad, your job is to get the system to perform better, so stick to your guns.&lt;/li&gt;
-  &lt;li&gt;Always, always, always document.  Document setup tasks, document frustrations, document testing procedures, document every little observation.  Have good templates for reporting your documentation - templates for presentation, analysis, testing, results.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Mark Roxberry</name></author><category term="performance" /><summary type="html">Performance engineering is a black art, with a few potential traps along the way. Here's just a few observations irrespective of the specifics of the engagement.</summary></entry><entry><title type="html">Technology Briefing</title><link href="https://roxberry.dev/technology/2017/02/12/technology-briefing/" rel="alternate" type="text/html" title="Technology Briefing" /><published>2017-02-12T17:00:00-05:00</published><updated>2017-02-12T17:00:00-05:00</updated><id>https://roxberry.dev/technology/2017/02/12/technology-briefing</id><content type="html" xml:base="https://roxberry.dev/technology/2017/02/12/technology-briefing/">&lt;h1 id=&quot;farmland&quot;&gt;Farmland&lt;/h1&gt;
-&lt;p&gt;I started last week at a new client out in the farm lands of Pennsylvania.  Out of my comfort zone, this involved a hotel stay at the Inn at Leolas, a new client with a barrage of new concepts and code.  I was issued a new laptop, new e-mail, new MSDN account - more stuff to manage.  I did utilize a Google Chrome feature of setting up a Chrome profile for the new account.  This let me setup a profile with bookmarks, applications and settings specific to the account I will use at the client.&lt;/p&gt;
-
-&lt;h1 id=&quot;performance-testing&quot;&gt;Performance Testing&lt;/h1&gt;
-&lt;p&gt;I am following a basic process for performance testing:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Understand client issues that prompted their request for a specialist.&lt;/li&gt;
-  &lt;li&gt;Identify target environments to test&lt;/li&gt;
-  &lt;li&gt;Create test environment to plan and design tests&lt;/li&gt;
-  &lt;li&gt;Plan and design tests&lt;/li&gt;
-  &lt;li&gt;Execute tests and capture results&lt;/li&gt;
-  &lt;li&gt;Analyze results&lt;/li&gt;
-  &lt;li&gt;Write report, include approach, results and recommendations&lt;/li&gt;
-  &lt;li&gt;Present findings and recommendations&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;command&quot;&gt;Command&lt;/h1&gt;
-&lt;p&gt;I started a project for a server to run on my robot kits using &lt;a href=&quot;https://www.dexterindustries.com/gopigo/&quot;&gt;GoPiGo&lt;/a&gt; as a prototype.  Find it on Github, &lt;a href=&quot;https://github.com/roxberry/command&quot;&gt;command&lt;/a&gt;.  I ran into issues with the node-gopigo module, may need to write an interface and stub it out to work on the services code off robot.&lt;/p&gt;
-
-&lt;h1 id=&quot;secureworld-philadelphia&quot;&gt;SecureWorld Philadelphia&lt;/h1&gt;
-&lt;p&gt;I was approved and registered to go to &lt;a href=&quot;http://events.secureworldexpo.com/details/philadelphia-pa-2017/&quot;&gt;SecureWorld Philadelphia&lt;/a&gt; in April.  I also signed up for the “Designing and Building a Cybersecurity Program Based on the NIST Cybersecurity Framework” training option.  While &lt;a href=&quot;http://www.waveseeker.com/DSI/&quot;&gt;Database Solutions&lt;/a&gt; may not directly implement a Cybersecurity framework, I consider it critical that we understand what our clients are building.&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="coder" /><category term="maker" /><category term="hacker" /><category term="mentor" /><summary type="html">Catching up, this past week was a mix of old and new and a new client for the next few weeks.</summary></entry></feed>
+&lt;p&gt;Using SQL Server for Linux in Docker has allowed me to continue to develop using a Linux distro or macOS without needing to set up a VM to run the database backend.&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="sql server" /><category term="linux" /><category term="docker" /><summary type="html">Running SQL Server on Linux for Docker Engine</summary></entry></feed>
