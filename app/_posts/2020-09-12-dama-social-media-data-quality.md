@@ -9,7 +9,6 @@ excerpt:    Data quality and making sense of the information flow that surrounds
 header-img-list:     "img/soc-data-list.jpg"
 header-img-post:     "img/soc-data-post.jpg"
 tags:       [data, social media, dama]
-categories: [Meetings, Planning]
 featured: true
 ---
 ## Virtual Meeting September 17, 2020
