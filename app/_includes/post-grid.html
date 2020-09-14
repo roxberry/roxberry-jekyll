@@ -9,31 +9,6 @@
         <div class="row">
             {% for post in paginator.posts %}
             {% if post.featured %}
-            <!-- <div class="card">
-            <div class="row no-gutters">
-                <div class="col-auto">
-                    <img class="img-fluid" src="/{% if post.header-img-list %}{{ post.header-img-list }}{% else %}{{ site.header-img-list }}{% endif %}">
-                </div>
-                <div class="col">
-                    <div class="card-block">
-                        <h4 class="card-title"><a href='{{ post.url | prepend: site.baseurl }}'>{{ post.title }}</a></h4>
-                        <p class="card-subtitle">{{ post.excerpt}}</p>
-                        <p class="card-text"><small class="text-muted">Posted by {% if post.author %}{{ post.author }}{% else %}{{site.title}}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</small></p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-            <!-- <ul class="list-unstyled">
-            <li class="media pb-md-5">
-                <img class="media-image img-fluid" src="/{% if post.header-img-list %}{{ post.header-img-list }}{% else %}{{ site.header-img-list }}{% endif %}">
-                <div class="media-body">
-                    <h5 class="media-title mt-0 mb-1"><a href='{{ post.url | prepend: site.baseurl }}'>{{ post.title }}</a></h5>
-                    <p>{{ post.excerpt }}</p>
-                    <small class="text-muted">Posted by {% if post.author %}{{ post.author }}{% else %}{{site.title}}{%
-                        endif %} on {{ post.date | date: "%B %-d, %Y" }}</small>
-                </div>
-            </li>
-        </ul> -->
             <div class="col-md-4 col-sm-12">
                 <div class="card" style="background:transparent;padding-bottom:20px">
                     <img class="card-img-top" src="/{% if post.header-img-list %}{{ post.header-img-list }}{% else %}{{ site.header-img-list }}{% endif %}" alt="Card image cap">
