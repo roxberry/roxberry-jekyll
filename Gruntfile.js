@@ -307,7 +307,7 @@ module.exports = function(grunt) {
     grunt.registerTask('build', [
         //'clean:dist',
         'jekyll:dist',
-        //'imagemin',
+        'imagemin',
         //'svgmin',
         //'sass:dist',
         'less:dist',
@@ -330,7 +330,7 @@ module.exports = function(grunt) {
         'autoprefixer',
         'cssmin',
         'uglify',
-        //'critical',
+        'critical',
         'htmlmin'
     ]);
 

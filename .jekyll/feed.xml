@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://roxberry.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="http://roxberry.dev/" rel="alternate" type="text/html" /><updated>2019-08-15T16:13:44-04:00</updated><id>http://roxberry.dev/feed.xml</id><title type="html">Mark Roxberry</title><subtitle>coder, maker, hacker, mentor</subtitle><entry><title type="html">Summer Time</title><link href="http://roxberry.dev/planning/2019/05/01/summer-time/" rel="alternate" type="text/html" title="Summer Time" /><published>2019-05-01T11:30:00-04:00</published><updated>2019-05-01T11:30:00-04:00</updated><id>http://roxberry.dev/planning/2019/05/01/summer-time</id><content type="html" xml:base="http://roxberry.dev/planning/2019/05/01/summer-time/">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://roxberry.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://roxberry.dev/" rel="alternate" type="text/html" /><updated>2020-08-18T14:49:23-04:00</updated><id>https://roxberry.dev/feed.xml</id><title type="html">Mark Roxberry</title><subtitle>coder, maker, hacker, mentor</subtitle><entry><title type="html">Delta</title><link href="https://roxberry.dev/planning/2020/03/01/delta/" rel="alternate" type="text/html" title="Delta" /><published>2020-03-01T18:30:00-05:00</published><updated>2020-03-01T18:30:00-05:00</updated><id>https://roxberry.dev/planning/2020/03/01/delta</id><content type="html" xml:base="https://roxberry.dev/planning/2020/03/01/delta/">&lt;blockquote&gt;
+  &lt;p&gt;“History is merely a list of surprises. It can only prepare us to be surprised yet again.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;– Kurt Vonnegut&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;post-from-my-ipad&quot;&gt;Post from my iPad&lt;/h2&gt;
+&lt;p&gt;I had been meaning to make my blog site more bloggable. I wanted to really be able to edit some markup on my iPad, grab and resize a few images and get it to my site.  On my MBP, I run the Jekyll / Grunt toolchain.  This compiles the site, compiles the LESS styles and JavaScript.  It also minifies these assets and compresses the images.  I am not able to do this yet on the iPad, but I thought maybe a hosted Docker container could do it.&lt;/p&gt;
+
+&lt;p&gt;Basically, I need a container in the cloud that can run the toolchain.  Firstly, checkout my source after I push to my Github repo.  Then bundle install any tools, e.g. Jekyll 4.0.  Build will use the _config.yml and compile the source.  Push to my repo deployment branch and let Azure pull the code into the app service.&lt;/p&gt;
+
+&lt;p&gt;So what to use to do that? AWS containers? Maybe, maybe check that out sometime. But I decided to take a look at &lt;a href=&quot;https://help.github.com/en/actions&quot;&gt;Github Actions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I found a Jekyll action and was able to create a workflow that runs on every push.  Right now, all but minification and image compression is in place.  Posting from my iPad now, hopefully, I’ll be a bit more productive.&lt;/p&gt;
+
+&lt;h2 id=&quot;professional&quot;&gt;Professional&lt;/h2&gt;
+
+&lt;h3 id=&quot;ccsp&quot;&gt;CCSP&lt;/h3&gt;
+
+&lt;h2 id=&quot;robots&quot;&gt;Robots&lt;/h2&gt;
+
+&lt;h3 id=&quot;future-engineers&quot;&gt;Future Engineers&lt;/h3&gt;
+
+&lt;h2 id=&quot;soccer&quot;&gt;Soccer&lt;/h2&gt;
+
+&lt;h3 id=&quot;3v3&quot;&gt;3v3&lt;/h3&gt;
+
+&lt;h3 id=&quot;offseason&quot;&gt;Offseason&lt;/h3&gt;
+
+&lt;h2 id=&quot;apps-and-games&quot;&gt;Apps and Games&lt;/h2&gt;
+
+&lt;h3 id=&quot;standout&quot;&gt;Standout&lt;/h3&gt;
+
+&lt;h3 id=&quot;remnant&quot;&gt;Remnant&lt;/h3&gt;
+
+&lt;h2 id=&quot;writing&quot;&gt;Writing&lt;/h2&gt;
+
+&lt;h3 id=&quot;blog-plan&quot;&gt;Blog Plan&lt;/h3&gt;
+
+&lt;h3 id=&quot;fiction&quot;&gt;Fiction&lt;/h3&gt;</content><author><name>Mark Roxberry</name></author><category term="march" /><category term="continuous deployment" /><category term="plans" /><category term="projects" /><summary type="html">Back and forth discussion of relevant topics.</summary></entry><entry><title type="html">Summer Time</title><link href="https://roxberry.dev/planning/2019/05/01/summer-time/" rel="alternate" type="text/html" title="Summer Time" /><published>2019-05-01T11:30:00-04:00</published><updated>2019-05-01T11:30:00-04:00</updated><id>https://roxberry.dev/planning/2019/05/01/summer-time</id><content type="html" xml:base="https://roxberry.dev/planning/2019/05/01/summer-time/">&lt;blockquote&gt;
   &lt;p&gt;“And so with the sunshine and the great bursts of leaves growing on the trees, just as things grow in fast movies, I had that familiar conviction that life was beginning over again with the summer.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -32,7 +73,7 @@
 
 &lt;h3 id=&quot;blog-plan&quot;&gt;Blog Plan&lt;/h3&gt;
 
-&lt;h3 id=&quot;fiction&quot;&gt;Fiction&lt;/h3&gt;</content><author><name>Mark Roxberry</name></author><category term="summer" /><category term="planning" /><category term="plans" /><category term="projects" /><summary type="html">Summer is here - the best time of year for new projects and plans.</summary></entry><entry><title type="html">Roxberry.DEV is live</title><link href="http://roxberry.dev/2019/03/01/dev-domain/" rel="alternate" type="text/html" title="Roxberry.DEV is live" /><published>2019-03-01T10:30:00-05:00</published><updated>2019-03-01T10:30:00-05:00</updated><id>http://roxberry.dev/2019/03/01/dev-domain</id><content type="html" xml:base="http://roxberry.dev/2019/03/01/dev-domain/">&lt;h1 id=&quot;dev-sites-are-available-as-of-2282019&quot;&gt;.DEV sites are available as of 2/28/2019&lt;/h1&gt;
+&lt;h3 id=&quot;fiction&quot;&gt;Fiction&lt;/h3&gt;</content><author><name>Mark Roxberry</name></author><category term="summer" /><category term="planning" /><category term="plans" /><category term="projects" /><summary type="html">Summer is here - the best time of year for new projects and plans.</summary></entry><entry><title type="html">Roxberry.DEV is live</title><link href="https://roxberry.dev/2019/03/01/dev-domain/" rel="alternate" type="text/html" title="Roxberry.DEV is live" /><published>2019-03-01T10:30:00-05:00</published><updated>2019-03-01T10:30:00-05:00</updated><id>https://roxberry.dev/2019/03/01/dev-domain</id><content type="html" xml:base="https://roxberry.dev/2019/03/01/dev-domain/">&lt;h1 id=&quot;dev-sites-are-available-as-of-2282019&quot;&gt;.DEV sites are available as of 2/28/2019&lt;/h1&gt;
 
 &lt;p&gt;The .DEV TLD was made available for domain name registrars yesterday 2/28 and today I registered Roxberry.DEV and a few others.&lt;/p&gt;
 
@@ -70,7 +111,7 @@
 
 &lt;p&gt;And …&lt;/p&gt;
 
-&lt;p&gt;Roxberry.dev - &lt;a href=&quot;https://roxberry.dev&quot;&gt;Here&lt;/a&gt;&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="domains" /><category term="hsts" /><category term="security" /><category term="tls" /><category term="dev" /><summary type="html">Switching Roxberry.PRO to Roxberry.DEV - Secure Comms FTW.</summary></entry><entry><title type="html">Into Orbit - Future Engineers</title><link href="http://roxberry.dev/2018/10/12/future-engineers-into-orbit-challenge/" rel="alternate" type="text/html" title="Into Orbit - Future Engineers" /><published>2018-10-12T11:30:00-04:00</published><updated>2018-10-12T11:30:00-04:00</updated><id>http://roxberry.dev/2018/10/12/future-engineers-into-orbit-challenge</id><content type="html" xml:base="http://roxberry.dev/2018/10/12/future-engineers-into-orbit-challenge/">&lt;h1 id=&quot;future-engineers---into-orbit-project-challenge&quot;&gt;Future Engineers - Into Orbit Project Challenge&lt;/h1&gt;
+&lt;p&gt;Roxberry.dev - &lt;a href=&quot;https://roxberry.dev&quot;&gt;Here&lt;/a&gt;&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="domains" /><category term="hsts" /><category term="security" /><category term="tls" /><category term="dev" /><summary type="html">Switching Roxberry.PRO to Roxberry.DEV - Secure Comms FTW.</summary></entry><entry><title type="html">Into Orbit - Future Engineers</title><link href="https://roxberry.dev/2018/10/12/future-engineers-into-orbit-challenge/" rel="alternate" type="text/html" title="Into Orbit - Future Engineers" /><published>2018-10-12T11:30:00-04:00</published><updated>2018-10-12T11:30:00-04:00</updated><id>https://roxberry.dev/2018/10/12/future-engineers-into-orbit-challenge</id><content type="html" xml:base="https://roxberry.dev/2018/10/12/future-engineers-into-orbit-challenge/">&lt;h1 id=&quot;future-engineers---into-orbit-project-challenge&quot;&gt;Future Engineers - Into Orbit Project Challenge&lt;/h1&gt;
 
 &lt;p&gt;The Future Engineers Team is developing a modular, deployable, autonomous defense system to protect &lt;a href=&quot;https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf&quot;&gt;Into Orbit&lt;/a&gt; missions, in space and on planet outposts, from direct and indirect threats.&lt;/p&gt;
 
@@ -264,7 +305,7 @@
 
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf&quot;&gt;Into Orbit Project Challenge&lt;/a&gt;&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="ai" /><category term="future engineers" /><category term="robots" /><category term="robotics" /><category term="servos" /><category term="games" /><category term="iot" /><summary type="html">Coordinating the Future Engineers Projects with the First Lego League Into Orbit Challenge.</summary></entry><entry><title type="html">Robotics Workshop Roadmap 2018-2019 (Future Engineers)</title><link href="http://roxberry.dev/2018/10/03/robotics-workshop-roadmap/" rel="alternate" type="text/html" title="Robotics Workshop Roadmap 2018-2019 (Future Engineers)" /><published>2018-10-03T18:00:00-04:00</published><updated>2018-10-03T18:00:00-04:00</updated><id>http://roxberry.dev/2018/10/03/robotics-workshop-roadmap</id><content type="html" xml:base="http://roxberry.dev/2018/10/03/robotics-workshop-roadmap/">&lt;h1 id=&quot;roadmap&quot;&gt;Roadmap&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf&quot;&gt;Into Orbit Project Challenge&lt;/a&gt;&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="ai" /><category term="future engineers" /><category term="robots" /><category term="robotics" /><category term="servos" /><category term="games" /><category term="iot" /><summary type="html">Coordinating the Future Engineers Projects with the First Lego League Into Orbit Challenge.</summary></entry><entry><title type="html">Robotics Workshop Roadmap 2018-2019 (Future Engineers)</title><link href="https://roxberry.dev/2018/10/03/robotics-workshop-roadmap/" rel="alternate" type="text/html" title="Robotics Workshop Roadmap 2018-2019 (Future Engineers)" /><published>2018-10-03T18:00:00-04:00</published><updated>2018-10-03T18:00:00-04:00</updated><id>https://roxberry.dev/2018/10/03/robotics-workshop-roadmap</id><content type="html" xml:base="https://roxberry.dev/2018/10/03/robotics-workshop-roadmap/">&lt;h1 id=&quot;roadmap&quot;&gt;Roadmap&lt;/h1&gt;
 
 &lt;h2 id=&quot;goals&quot;&gt;Goals&lt;/h2&gt;
 
@@ -395,7 +436,7 @@
   &lt;li&gt;&lt;a href=&quot;https://robotics.news/&quot;&gt;Robotics News&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://news.mit.edu/topic/robotics&quot;&gt;MIT News - Robotics&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://scratch.mit.edu/&quot;&gt;Scratch&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Mark Roxberry</name></author><category term="robots" /><category term="robotics" /><category term="roadmap" /><category term="servos" /><summary type="html">Roadmap for Robotics Elective 2018-2019</summary></entry><entry><title type="html">What’s in my workshop?</title><link href="http://roxberry.dev/2018/10/03/my-development-environment/" rel="alternate" type="text/html" title="What's in my workshop?" /><published>2018-10-03T18:00:00-04:00</published><updated>2018-10-03T18:00:00-04:00</updated><id>http://roxberry.dev/2018/10/03/my-development-environment</id><content type="html" xml:base="http://roxberry.dev/2018/10/03/my-development-environment/">&lt;h2 id=&quot;webstorm&quot;&gt;Webstorm&lt;/h2&gt;
+&lt;/ol&gt;</content><author><name>Mark Roxberry</name></author><category term="robots" /><category term="robotics" /><category term="roadmap" /><category term="servos" /><summary type="html">Roadmap for Robotics Elective 2018-2019</summary></entry><entry><title type="html">What’s in my workshop?</title><link href="https://roxberry.dev/2018/10/03/my-development-environment/" rel="alternate" type="text/html" title="What's in my workshop?" /><published>2018-10-03T18:00:00-04:00</published><updated>2018-10-03T18:00:00-04:00</updated><id>https://roxberry.dev/2018/10/03/my-development-environment</id><content type="html" xml:base="https://roxberry.dev/2018/10/03/my-development-environment/">&lt;h2 id=&quot;webstorm&quot;&gt;Webstorm&lt;/h2&gt;
 
 &lt;p&gt;Build: 2018.2.4&lt;/p&gt;
 
@@ -435,7 +476,7 @@
 
 &lt;p&gt;code –install-extension VisualStudioExptTeam.vscodeintellicode&lt;/p&gt;
 
-&lt;p&gt;code –install-extension xykong.format-all-files&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="tools" /><category term="code" /><category term="ide" /><category term="extensions" /><summary type="html">Tracking the tools, extensions and configurations I use for software/hardware development, development/operations and security.</summary></entry><entry><title type="html">Technology Briefing Fall 2018</title><link href="http://roxberry.dev/2018/09/29/technology-briefing/" rel="alternate" type="text/html" title="Technology Briefing Fall 2018" /><published>2018-09-29T05:00:00-04:00</published><updated>2018-09-29T05:00:00-04:00</updated><id>http://roxberry.dev/2018/09/29/technology-briefing</id><content type="html" xml:base="http://roxberry.dev/2018/09/29/technology-briefing/">&lt;h1 id=&quot;artificial-intelligence&quot;&gt;Artificial Intelligence&lt;/h1&gt;
+&lt;p&gt;code –install-extension xykong.format-all-files&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="tools" /><category term="code" /><category term="ide" /><category term="extensions" /><summary type="html">Tracking the tools, extensions and configurations I use for software/hardware development, development/operations and security.</summary></entry><entry><title type="html">Technology Briefing Fall 2018</title><link href="https://roxberry.dev/2018/09/29/technology-briefing/" rel="alternate" type="text/html" title="Technology Briefing Fall 2018" /><published>2018-09-29T05:00:00-04:00</published><updated>2018-09-29T05:00:00-04:00</updated><id>https://roxberry.dev/2018/09/29/technology-briefing</id><content type="html" xml:base="https://roxberry.dev/2018/09/29/technology-briefing/">&lt;h1 id=&quot;artificial-intelligence&quot;&gt;Artificial Intelligence&lt;/h1&gt;
 
 &lt;h1 id=&quot;security-sphere-os-iot&quot;&gt;Security: Sphere OS, IoT&lt;/h1&gt;
 
@@ -447,7 +488,7 @@
   &lt;li&gt;Ansible&lt;/li&gt;
   &lt;li&gt;OpenShift&lt;/li&gt;
   &lt;li&gt;Kafka&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Mark Roxberry</name></author><category term="coder" /><category term="maker" /><category term="hacker" /><category term="mentor" /><summary type="html">Technology Briefing Fall 2018</summary></entry><entry><title type="html">SQL Server on Linux via Docker</title><link href="http://roxberry.dev/2017/08/25/sql-server-linux-notes/" rel="alternate" type="text/html" title="SQL Server on Linux via Docker" /><published>2017-08-25T10:00:00-04:00</published><updated>2017-08-25T10:00:00-04:00</updated><id>http://roxberry.dev/2017/08/25/sql-server-linux-notes</id><content type="html" xml:base="http://roxberry.dev/2017/08/25/sql-server-linux-notes/">&lt;ol&gt;
+&lt;/ul&gt;</content><author><name>Mark Roxberry</name></author><category term="coder" /><category term="maker" /><category term="hacker" /><category term="mentor" /><summary type="html">Technology Briefing Fall 2018</summary></entry><entry><title type="html">SQL Server on Linux via Docker</title><link href="https://roxberry.dev/2017/08/25/sql-server-linux-notes/" rel="alternate" type="text/html" title="SQL Server on Linux via Docker" /><published>2017-08-25T10:00:00-04:00</published><updated>2017-08-25T10:00:00-04:00</updated><id>https://roxberry.dev/2017/08/25/sql-server-linux-notes</id><content type="html" xml:base="https://roxberry.dev/2017/08/25/sql-server-linux-notes/">&lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;Get &lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker&lt;/a&gt; (if it is not already running)&lt;/p&gt;
   &lt;/li&gt;
@@ -456,7 +497,7 @@
 
     &lt;p&gt;I’m running Docker on MacOS, I will use the SQL Server on Linux for Docker Engine at &lt;a href=&quot;https://hub.docker.com/r/microsoft/mssql-server-linux/&quot;&gt;Docker Hub&lt;/a&gt;&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker pull microsoft/mssql-server-linux
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker pull microsoft/mssql-server-linux
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -464,25 +505,25 @@
 
     &lt;p&gt;SQL Server on Linux for Docker Engine requires an environment setting to accept the EULA and set a strong SA password:&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ACCEPT_EULA = Y
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ACCEPT_EULA = Y
 SA_PASSWORD = &amp;lt;your password&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
 
     &lt;p&gt;Run this in the terminal:&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=yourStrong(!)Password' -p 1433:1433 -d microsoft/mssql-server-linux
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=yourStrong(!)Password' -p 1433:1433 -d microsoft/mssql-server-linux
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Copy a backup to the container&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker cp '/tmp/DatabaseName.bak' mssql-server-linux:/tmp
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker cp '/tmp/DatabaseName.bak' mssql-server-linux:/tmp
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Restore the backup&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RESTORE DATABASE DatabaseName FROM DISK='/tmp/DatabaseName.bak'
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RESTORE DATABASE DatabaseName FROM DISK='/tmp/DatabaseName.bak'
 WITH MOVE 'DatabaseName' TO '/var/opt/mssql/data/DatabaseName.MDF',
 MOVE 'DatabaseName_log' TO '/var/opt/mssql/data/DatabaseName_log.ldf'
 Go
@@ -495,14 +536,14 @@ Go
 
 &lt;p&gt;&lt;img src=&quot;/img/datagrip.png&quot; alt=&quot;DataGrip SQL Server Connection&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Using SQL Server for Linux in Docker has allowed me to continue to develop using a Linux distro or macOS without needing to set up a VM to run the database backend.&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="sql server" /><category term="linux" /><category term="docker" /><summary type="html">Running SQL Server on Linux for Docker Engine</summary></entry><entry><title type="html">Perf Engineering Post Mortem</title><link href="http://roxberry.dev/performance/2017/04/05/perf-engineering-post-mortem/" rel="alternate" type="text/html" title="Perf Engineering Post Mortem" /><published>2017-04-05T10:00:00-04:00</published><updated>2017-04-05T10:00:00-04:00</updated><id>http://roxberry.dev/performance/2017/04/05/perf-engineering-post-mortem</id><content type="html" xml:base="http://roxberry.dev/performance/2017/04/05/perf-engineering-post-mortem/">&lt;h1 id=&quot;performance-engineering-post-mortem&quot;&gt;Performance Engineering Post Mortem&lt;/h1&gt;
+&lt;p&gt;Using SQL Server for Linux in Docker has allowed me to continue to develop using a Linux distro or macOS without needing to set up a VM to run the database backend.&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="sql server" /><category term="linux" /><category term="docker" /><summary type="html">Running SQL Server on Linux for Docker Engine</summary></entry><entry><title type="html">Perf Engineering Post Mortem</title><link href="https://roxberry.dev/performance/2017/04/05/perf-engineering-post-mortem/" rel="alternate" type="text/html" title="Perf Engineering Post Mortem" /><published>2017-04-05T10:00:00-04:00</published><updated>2017-04-05T10:00:00-04:00</updated><id>https://roxberry.dev/performance/2017/04/05/perf-engineering-post-mortem</id><content type="html" xml:base="https://roxberry.dev/performance/2017/04/05/perf-engineering-post-mortem/">&lt;h1 id=&quot;performance-engineering-post-mortem&quot;&gt;Performance Engineering Post Mortem&lt;/h1&gt;
 &lt;p&gt;I have been working for 2 months in a performance engineering role for a client.  The project had 2 phases, phase 1 was to conduct an analysis of areas identified by the users at the client.  Phase 2 focused on analysis, recommendations and remediation of specific operations.  Performance engineering is a black art, with a few potential traps along the way.  Here’s just a few observations irrespective of the specifics of the engagement:&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;You’re probably not starting out at an optimal point in the lifecycle of the system.  Like security, performance is not a problem until it is - so it doesn’t get attention until someone feels pain.&lt;/li&gt;
   &lt;li&gt;You’re probably going to be rushed into “solving the problem” before you get a good grasp of how the system was developed, what choices were made through out its development lifecycle and what bad patterns are common in the architecture and code.&lt;/li&gt;
   &lt;li&gt;The people that are tasked to help you may have a personal stake in the system and may resent or fear your involvement as you’ll be calling out their or their team’s mistakes.  Recognize that this could happen and also that those mistakes may not be a result of incompetence - be objective and don’t attribute blame, but also be resolute - your job isn’t to make people look good or bad, your job is to get the system to perform better, so stick to your guns.&lt;/li&gt;
   &lt;li&gt;Always, always, always document.  Document setup tasks, document frustrations, document testing procedures, document every little observation.  Have good templates for reporting your documentation - templates for presentation, analysis, testing, results.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Mark Roxberry</name></author><category term="performance" /><summary type="html">Performance engineering is a black art, with a few potential traps along the way. Here's just a few observations irrespective of the specifics of the engagement.</summary></entry><entry><title type="html">Technology Briefing</title><link href="http://roxberry.dev/technology/2017/02/12/technology-briefing/" rel="alternate" type="text/html" title="Technology Briefing" /><published>2017-02-12T17:00:00-05:00</published><updated>2017-02-12T17:00:00-05:00</updated><id>http://roxberry.dev/technology/2017/02/12/technology-briefing</id><content type="html" xml:base="http://roxberry.dev/technology/2017/02/12/technology-briefing/">&lt;h1 id=&quot;farmland&quot;&gt;Farmland&lt;/h1&gt;
+&lt;/ol&gt;</content><author><name>Mark Roxberry</name></author><category term="performance" /><summary type="html">Performance engineering is a black art, with a few potential traps along the way. Here's just a few observations irrespective of the specifics of the engagement.</summary></entry><entry><title type="html">Technology Briefing</title><link href="https://roxberry.dev/technology/2017/02/12/technology-briefing/" rel="alternate" type="text/html" title="Technology Briefing" /><published>2017-02-12T17:00:00-05:00</published><updated>2017-02-12T17:00:00-05:00</updated><id>https://roxberry.dev/technology/2017/02/12/technology-briefing</id><content type="html" xml:base="https://roxberry.dev/technology/2017/02/12/technology-briefing/">&lt;h1 id=&quot;farmland&quot;&gt;Farmland&lt;/h1&gt;
 &lt;p&gt;I started last week at a new client out in the farm lands of Pennsylvania.  Out of my comfort zone, this involved a hotel stay at the Inn at Leolas, a new client with a barrage of new concepts and code.  I was issued a new laptop, new e-mail, new MSDN account - more stuff to manage.  I did utilize a Google Chrome feature of setting up a Chrome profile for the new account.  This let me setup a profile with bookmarks, applications and settings specific to the account I will use at the client.&lt;/p&gt;
 
 &lt;h1 id=&quot;performance-testing&quot;&gt;Performance Testing&lt;/h1&gt;

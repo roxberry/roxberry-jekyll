@@ -8,12 +8,12 @@ email: mark@roxberries.com
 copyright_name: Mark Roxberry
 description: "coder, maker, hacker, mentor"
 baseurl: ""
-url: "http://roxberry.dev"
+url: "https://roxberry.dev"
 twitter_username: roxberry
 github_username:  roxberry
 facebook_username:  roxberry
 email_username:  contact@roxberry.dev
-version: 2.03012020
+version: 2.08152020
 
 # Build settings
 source: ./app

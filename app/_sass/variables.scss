@@ -1,11 +1,15 @@
 $termblue: rgba(38, 177, 217, 0.61);
 $termgreen: rgba(51, 255, 0, 0.605);
 $termpurple: rgba(75, 0, 130, 1);
+$steelblue: #2B3856;
+$bluegray: #677492;
+
 $gray-dark: rgb(40,40,40);
 
-$brand-primary: $termpurple;
-$brand-primary-banner: $termpurple;
+$brand-primary: $bluegray;
+$brand-primary-banner: $steelblue;
 $brand-navbar: $gray-dark;
+
 $gray-dark-transparent: rgba(40,40,40, .8);
 $gray: #798088;
 $white-faded: fade(white, 80%);
@@ -13,8 +17,6 @@ $white: white;
 $gray-light: rgb(179, 179, 179);
 $black: black;
 $orange: #ed4c15;
-$steelblue: #2B3856;
-$bluegray: #677492;
 $red: red;
 $amber: rgb(255,176,0);
 $darkgoldenrod: darkgoldenrod;

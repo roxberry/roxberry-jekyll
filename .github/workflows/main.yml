@@ -1,4 +1,4 @@
-name: Jekyll Build - Optional Deploy
+name: Roxberry.DEV Build
 
 on:
   push:
@@ -10,11 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Building a jekyll site from configured directory, maybe deploying it.
+      - name: Build ROXBERRY.DEV to deployment branch.
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+          REMOVE_GEMLOCK: true
           JEKYLL_ROOT: "./"
           REMOTE_BRANCH: "deployment"
         uses: roxberry/jekyll-build-optional-deploy-gh-pages@master

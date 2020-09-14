@@ -2,15 +2,20 @@
   "name": "roxberry",
   "title": "Roxberry.DEV",
   "version": "1.0.0",
-  "homepage": "http://www.roxberry.dev",
+  "homepage": "https://www.roxberry.dev",
   "author": "Mark Roxberry",
   "license": "Apache-2.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.9.5"
+  },
   "scripts": {
-        "clean": "grunt clean",
-        "build": "grunt build",
-        "test": "grunt test",
-        "deploy": "grunt deploy"
-   },
+    "clean": "grunt clean",
+    "build": "grunt build",
+    "serve": "grunt serve",
+    "test": "grunt test",
+    "deploy": "grunt deploy"
+  },
   "devDependencies": {
     "grunt": "^1.0.4",
     "grunt-autoprefixer": "~3.0.4",
@@ -31,9 +36,6 @@
     "grunt-uncss": "^0.8.5",
     "jit-grunt": "~0.10.0",
     "time-grunt": "~1.4.0"
-  },
-  "engines": {
-    "node": ">=6.9.5"
   },
   "dependencies": {
     "grunt-cli": "^1.3.2"
