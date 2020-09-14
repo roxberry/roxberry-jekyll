@@ -9,7 +9,6 @@ excerpt:    Back and forth discussion of relevant topics.
 header-img-list:     "img/delta-list.jpg"
 header-img-post:     "img/delta-post.jpg"
 tags:       [data, social media, dama]
-categories: Meetings
 feature: true
 ---
 
