@@ -3,12 +3,13 @@ $termgreen: rgba(51, 255, 0, 0.605);
 $termpurple: rgba(75, 0, 130, 1);
 $steelblue: #2B3856;
 $bluegray: #677492;
+$cinnabar: rgba(231, 76, 60, 1);
 
 $gray-dark: rgb(40,40,40);
 
-$brand-primary: $bluegray;
-$brand-primary-banner: $steelblue;
-$brand-navbar: $gray-dark;
+$brand-primary: $cinnabar;
+$brand-primary-banner: $cinnabar;
+$brand-navbar: $cinnabar;
 
 $gray-dark-transparent: rgba(40,40,40, .8);
 $gray: #798088;
