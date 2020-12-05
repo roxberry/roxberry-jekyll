@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://roxberry.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://roxberry.dev/" rel="alternate" type="text/html" /><updated>2020-09-14T15:50:16-04:00</updated><id>https://roxberry.dev/feed.xml</id><title type="html">Mark Roxberry</title><subtitle>coder, maker, hacker, mentor</subtitle><entry><title type="html">Inference</title><link href="https://roxberry.dev/planning/2020/09/12/inference/" rel="alternate" type="text/html" title="Inference" /><published>2020-09-12T21:00:00-04:00</published><updated>2020-09-12T21:00:00-04:00</updated><id>https://roxberry.dev/planning/2020/09/12/inference</id><content type="html" xml:base="https://roxberry.dev/planning/2020/09/12/inference/">&lt;h2 id=&quot;put-a-quote-here&quot;&gt;Put a Quote here&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://roxberry.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://roxberry.dev/" rel="alternate" type="text/html" /><updated>2020-12-04T19:19:13-05:00</updated><id>https://roxberry.dev/feed.xml</id><title type="html">Mark Roxberry</title><subtitle>coder, maker, hacker, mentor</subtitle><entry><title type="html">Inference</title><link href="https://roxberry.dev/planning/2020/09/12/inference/" rel="alternate" type="text/html" title="Inference" /><published>2020-09-12T21:00:00-04:00</published><updated>2020-09-12T21:00:00-04:00</updated><id>https://roxberry.dev/planning/2020/09/12/inference</id><content type="html" xml:base="https://roxberry.dev/planning/2020/09/12/inference/">&lt;h2 id=&quot;put-a-quote-here&quot;&gt;Put a Quote here&lt;/h2&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
@@ -566,6 +566,6 @@ Go
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;/img/datagrip.png&quot; alt=&quot;DataGrip SQL Server Connection&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/_posts/2017-08-25-sql-server-linux-notes.md/datagrip.png&quot; alt=&quot;DataGrip SQL Server Connection&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Using SQL Server for Linux in Docker has allowed me to continue to develop using a Linux distro or macOS without needing to set up a VM to run the database backend.&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="sql server" /><category term="linux" /><category term="docker" /><summary type="html">Running SQL Server on Linux for Docker Engine</summary></entry></feed>

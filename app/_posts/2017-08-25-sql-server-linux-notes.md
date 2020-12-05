@@ -6,11 +6,13 @@ comments:   true
 date:       2017-08-25 14:00:00
 author:     Mark Roxberry
 excerpt:    Running SQL Server on Linux for Docker Engine
-header-img-list:     "img/sqlserverlinux-list.png"
-header-img-post:     "img/sqlserverlinux-post.png"
+header-img-list:     "sqlserverlinux-list.png"
+header-img-post:     "sqlserverlinux-post.png"
 tags:       [sql server, linux, docker]
 featured:   true
 ---
+{% include assignments.html %}
+
 1. Get [Docker](https://www.docker.com/) (if it is not already running)
 
 1. Get the SQL Server on Linux for Docker Engine image
@@ -54,6 +56,6 @@ featured:   true
 
 1. Connect with a docker command or an IDE like [DataGrip](https://www.jetbrains.com/datagrip/)
 
-![DataGrip SQL Server Connection](/img/datagrip.png)
+![DataGrip SQL Server Connection]({{ post_image_path | append: 'datagrip.png' }})
 
 Using SQL Server for Linux in Docker has allowed me to continue to develop using a Linux distro or macOS without needing to set up a VM to run the database backend.

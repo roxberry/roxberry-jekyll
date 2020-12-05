@@ -6,8 +6,8 @@ comments:   true
 date:       2017-04-05 14:00:00
 author:     Mark Roxberry
 excerpt:    Performance engineering is a black art, with a few potential traps along the way.  Here's just a few observations irrespective of the specifics of the engagement.
-header-img-list:     "img/performance.png"
-header-img-post:     "img/performance-post.png"
+header-img-list:     "performance.png"
+header-img-post:     "performance-post.png"
 tags:       [performance]
 categories: Performance
 featured:   true

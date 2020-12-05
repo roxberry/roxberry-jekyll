@@ -6,8 +6,8 @@ comments:   true
 date:       2020-09-12 10:30:00
 author:     Mark Roxberry
 excerpt:    Data quality and making sense of the information flow that surrounds us on social media
-header-img-list:     "img/soc-data-list.jpg"
-header-img-post:     "img/soc-data-post.jpg"
+header-img-list:     "soc-data-list.jpg"
+header-img-post:     "soc-data-post.jpg"
 tags:       [data, social media, dama]
 featured: true
 ---

@@ -6,8 +6,8 @@ comments:   true
 date:       2019-05-01 15:30:00
 author:     Mark Roxberry
 excerpt:    Summer is here - the best time of year for new projects and plans.
-header-img-list:     "img/summer-summer-list.jpg"
-header-img-post:     "img/summer-summer-post.jpg"
+header-img-list:     "summer-summer-list.jpg"
+header-img-post:     "summer-summer-post.jpg"
 tags:       [summer, planning, plans, projects]
 categories: Planning
 featured:   true

@@ -5,6 +5,16 @@
 		}
 	],
 	"settings": {
-		"npm.enableScriptExplorer": true
+		"npm.enableScriptExplorer": true,
+		"workbench.colorCustomizations": {
+			"statusBar.background": "#677492",
+			"statusBar.foreground": "#e7e7e7",
+			"statusBarItem.hoverBackground": "#848fa8",
+			"titleBar.activeBackground": "#677492",
+			"titleBar.activeForeground": "#e7e7e7",
+			"titleBar.inactiveBackground": "#67749299",
+			"titleBar.inactiveForeground": "#e7e7e799"
+		},
+		"peacock.color": "#677492"
 	}
 }

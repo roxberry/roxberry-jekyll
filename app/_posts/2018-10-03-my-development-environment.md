@@ -6,8 +6,8 @@ comments:   true
 date:       2018-10-03 22:00:00
 author:     Mark Roxberry
 excerpt:    Tracking the tools, extensions and configurations I use for software/hardware development, development/operations and security.
-header-img-list:     "img/clean-code-list.png"
-header-img-post:     "img/clean-code-post.png"
+header-img-list:     "clean-code-list.png"
+header-img-post:     "clean-code-post.png"
 tags:       [tools, code, ide, extensions]
 featured:   true
 ---

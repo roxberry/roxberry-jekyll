@@ -6,8 +6,8 @@ comments:   true
 date:       2019-03-01 15:30:00
 author:     Mark Roxberry
 excerpt:    Switching Roxberry.PRO to Roxberry.DEV - Secure Comms FTW.
-header-img-list:     "img/dev-domain-logo-list.png"
-header-img-post:     "img/dev-domain-logo-post.png"
+header-img-list:     "dev-domain-logo-list.png"
+header-img-post:     "dev-domain-logo-post.png"
 tags:       [domains, hsts, security, tls, dev]
 featured:   true
 ---

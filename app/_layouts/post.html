@@ -7,6 +7,7 @@ layout: default
         typingMessage: "{{ site.description }}"
     }
 </script>
+
 <div class="blog-main">
     <article>
     <div class="blog-title">
@@ -16,7 +17,7 @@ layout: default
         {% include post-tags.html %}
     </div>
     <div class="card card-inverse">
-        <img class="card-img" src="{{ site.baseurl }}/{% if page.header-img-post %}{{ page.header-img-post }}{% else %}{{ site.header-img-post }}{% endif %}" />
+        <img class="card-img" src="{{ site.baseurl }}/{% if page.header-img-post %}{{  'img/' | append: page.path | append: '/' | append: page.header-img-post }}{% else %}{{ site.header-img-post }}{% endif %}" />
         <div class="card-img-overlay">
             <h4 class="post-photo-caption">{{ page.excerpt }}</h4>
         </div>
