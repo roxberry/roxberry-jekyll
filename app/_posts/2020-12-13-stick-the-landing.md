@@ -3,7 +3,7 @@ layout:     post
 title:      Stick The Landing
 subtitle:   A wrap up of 2020, the year of the pandemic.
 comments:   true
-date:       2020-09-13 01:00:00
+date:       2020-12-13 23:00:00
 author:     Mark Roxberry
 excerpt:    2020 has been a tough year, but it is not without a few successes and joy.
 header-img-list:     "landing.jpg"
