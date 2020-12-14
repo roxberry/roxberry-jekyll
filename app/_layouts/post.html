@@ -19,7 +19,7 @@ layout: default
     <div class="card card-inverse">
         <img class="card-img" src="{{ site.baseurl }}/{% if page.header-img-post %}{{  'img/' | append: page.path | replace_first: '_posts', 'posts' | append: '/' | append: page.header-img-post }}{% else %}{{ site.header-img-post }}{% endif %}" />
         <div class="card-img-overlay">
-            <h4 class="post-photo-caption">{{ page.excerpt }}</h4>
+            <h4 class="post-photo-caption">{{ page.subtitle }}</h4>
         </div>
     </div>
     <hr> {{ content }}
