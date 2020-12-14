@@ -10,13 +10,11 @@ header-img-list:     "landing.jpg"
 header-img-post:     "landing.jpg"
 tags:       [yearend, projects]
 categories: Planning
-featured:   true
+featured:   false
 
 ---
 
-"The future is already here – it's just not evenly distributed.
-
-The Economist, December 4, 2003" 
+"The future is already here – it's just not evenly distributed." 
 ― William Gibson
 
 ## Timeline
@@ -33,7 +31,7 @@ On my extracurricular list SJSL and my election
 
 ### Succeeding despite or because of the isolation
 
-### Achilles 
+### Achilles revenge
 
 
 
