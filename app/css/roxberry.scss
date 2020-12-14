@@ -3,7 +3,7 @@
 @import "variables";
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: $brand-font, sans-serif;
     font-display: auto;
     font-size: 2em;
     color: #282828;
@@ -53,7 +53,7 @@ body {
   
     li > {
       a, span {
-        font-family: 'Raleway', sans-serif;
+        font-family: $brand-font, sans-serif;
         font-display: auto;
         text-transform: uppercase;
         font-size: 14px;
@@ -115,7 +115,7 @@ body {
   }
   
   body {
-    font-family: 'Raleway', sans-serif;
+    font-family: $brand-font, sans-serif;
     font-display: auto;
     font-size: 20px;
     color: rgba(255, 255, 255, 0.8);
@@ -131,7 +131,7 @@ body {
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Raleway', sans-serif;
+    font-family: $brand-font, sans-serif;
     font-display: auto;
     font-weight: 800;
   }
@@ -207,7 +207,7 @@ body {
       }
   
       .subheading {
-        font-family: 'Raleway', sans-serif;
+        font-family: $brand-font, sans-serif;
         font-display: auto;
         font-size: 24px;
         margin: 10px 0 30px;
@@ -217,7 +217,7 @@ body {
   
       .meta {
         margin-top: 10px;
-        font-family: 'Raleway', sans-serif;
+        font-family: $brand-font, sans-serif;
         font-display: auto;
         font-style: italic;
         font-weight: 300;
@@ -405,7 +405,7 @@ body {
   }
   
   .btn {
-    font-family: 'Raleway', sans-serif;
+    font-family: $brand-font, sans-serif;
     font-display: auto;
     text-transform: uppercase;
     font-size: 14px;
@@ -513,7 +513,7 @@ body {
       font-size: 2em;
       color: rgba(255, 255, 255, 0.8);
       font-weight: bolder;
-      font-family: 'Raleway', sans-serif;
+      font-family: $brand-font, sans-serif;
       font-display: auto;
     }
   
@@ -602,7 +602,7 @@ body {
       font-size: 18px;
       line-height: 1.1;
       display: block;
-      font-family: 'Raleway', sans-serif;
+      font-family: $brand-font, sans-serif;
       font-display: auto;
       font-weight: 300;
       margin: 10px 0 0;
