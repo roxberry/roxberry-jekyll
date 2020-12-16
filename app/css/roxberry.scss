@@ -197,20 +197,20 @@ body {
       color: white;
   
       h1 {
-        font-size: 35px;
+        font-size: 24px;
         color: white;
       }
   
       .subheading, .meta {
-        line-height: 1;
+        line-height: 1.1;
         display: block;
       }
   
       .subheading {
         font-family: $brand-font, sans-serif;
         font-display: auto;
-        font-size: 24px;
-        margin: 5px 0 30px;
+        font-size: 18px;
+        margin: 5px 0 20px;
         font-weight: 600;
         color: white;
       }
@@ -235,11 +235,11 @@ body {
       padding: 100px;
   
       h1 {
-        font-size: 55px;
+        font-size: 35px;
       }
   
       .subheading {
-        font-size: 30px;
+        font-size: 18px;
       }
     }
   }
