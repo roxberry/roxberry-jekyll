@@ -1,15 +1,15 @@
 ---
 layout:     post
 title:      Stick The Landing
-subtitle:   Scoring a 99 on my GTmetrix has been fun
+subtitle:   A wrap up of 2020, the year of the pandemic.
 comments:   true
-date:       2020-12-14 23:00:00
+date:       2020-12-13 23:00:00
 author:     Mark Roxberry
-excerpt:    Roxberry.dev is scoring a 99 on the GTmetrix performance report.  I documented a few of the things that I did to optimize the site.
+excerpt:    2020 has been a tough year, but it is not without a few successes and joy.
 header-img-list:     "landing.jpg"
 header-img-post:     "landing.jpg"
-tags:       [performance, projects]
-categories: Performance
+tags:       [yearend, projects]
+categories: Planning
 featured:   false
 
 ---
