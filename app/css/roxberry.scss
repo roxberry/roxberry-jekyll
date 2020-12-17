@@ -2,7 +2,7 @@
 ---
 @import "variables";
 
-body {
+  body {
     font-family: $brand-font, sans-serif;
     font-display: auto;
     font-size: 2em;
@@ -115,14 +115,6 @@ body {
     font-size: 14px;
     text-align: center;
     margin: 20px auto;
-  }
-  
-  body {
-    font-family: $brand-font, sans-serif;
-    font-display: auto;
-    font-size: 20px;
-    color: rgba(255, 255, 255, 0.8);
-    background-color: black !important;
   }
   
   p {
@@ -482,7 +474,7 @@ body {
   
     h1 {
       color: $brand-primary;
-      font-size: 3em;
+      font-size: 2em;
     }
   }
   
@@ -616,8 +608,6 @@ body {
       margin: auto;
     }
   }
-  
-  @media only screen and (min-width: 768px) {}
   
   @media only screen and (min-width: 768px) {
     .intro-header {
