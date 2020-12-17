@@ -217,9 +217,10 @@ article {
 
     .sidebar-module {
         h4 {
-            color: $brand-primary;
+          color: $brand-primary;
+          border-bottom: 2px solid $brand-primary;
+          line-height: 2;
         }
-
         margin: 25px;
     }
 

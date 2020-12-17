@@ -3,8 +3,6 @@
     <!-- <h3><span class="typing-message"></span></h3> -->
 </div>
 <div class="sidebar-module sidebar-module-inset">
-</div>
-<div class="sidebar-module sidebar-module-inset">
     <ul class="list-inline text-center">
         <li class="list-inline-item">
             <a href="{{ " /feed.xml " | prepend: site.baseurl }}">
@@ -52,6 +50,9 @@
         </li>
         {% endif %}
     </ul>
+</div>
+<div class="sidebar-module sidebar-module-inset">
+    {% include categories.html %}
 </div>
 <div class="sidebar-module sidebar-module-inset">
     <h4>About Me</h4>
