@@ -6,7 +6,7 @@
 body {
     font-family: $brand-font, sans-serif;
     font-display: auto;
-    font-size: 1em;
+    font-size: 1.1em;
     color: rgba(255, 255, 255, 0.8);
     background-color: black !important;
 }
@@ -25,6 +25,7 @@ body {
     }
 
     .disclaimer {
+        font-size: 1em;
         text-align: center;
         height: 25px;
         background-color: $brand-primary;
