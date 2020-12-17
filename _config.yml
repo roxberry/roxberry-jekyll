@@ -13,7 +13,7 @@ twitter_username: roxberry
 github_username:  roxberry
 facebook_username:  roxberry
 email_username:  contact@roxberry.dev
-version: 2.11242020.1
+version: 2.12172020.1
 
 # Build settings
 source: ./app

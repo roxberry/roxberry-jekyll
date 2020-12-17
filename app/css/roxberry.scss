@@ -11,15 +11,6 @@ body {
     background-color: black !important;
 }
 
-a {
-    &:hover {
-        text-decoration: none;
-        color: rgba(255, 255, 255, 0.8);
-    }
-
-    color: rgba(255, 255, 255, 0.8);
-}
-
 .navbar-container {
     margin-bottom: 0px !important;
     background-color: #282828 !important;
@@ -402,10 +393,6 @@ img {
     }
 }
 
-body {
-    webkit-tap-highlight-color: rgba(255, 255, 255, 0.8);
-}
-
 .blog-main {
     .meta {
         font-size: 1em;
@@ -569,40 +556,6 @@ body {
 }
 
 @media screen and (max-width: 767.98px) {
-    .media {
-        display: unset;
-
-        .media-image {
-            width: 100%;
-            padding: 20px;
-        }
-
-        .media-body {
-            margin: 20px;
-        }
-
-        .media-title {
-            font-size: 1.5em;
-        }
-    }
-
-    .post-photo-caption {
-        display: none;
-    }
-
-    .navbar {
-        padding-bottom: 1em;
-        padding-top: 1em;
-        padding-left: unset;
-        padding-right: unset;
-    }
-    .navbar-brand {
-        font-size: 1.5em;
-    }
-
-    .navbar-toggler {
-        padding: 0.25rem;
-    }
 }
 
 @media screen and (min-width: 768px) {
@@ -664,6 +617,46 @@ body {
             margin-top: 20px;
         }
     }
+
+    .media {
+        display: unset;
+
+        .media-image {
+            width: 100%;
+            padding: 20px;
+        }
+
+        .media-body {
+            margin: 20px;
+        }
+
+        .media-title {
+            font-size: 1.5em;
+        }
+    }
+
+    .post-photo-caption {
+        display: none;
+    }
+
+    .navbar {
+        padding-bottom: auto;
+        padding-top: auto;
+        padding-left: unset;
+        padding-right: unset;
+    }
+
+    .navbar-brand {
+        font-size: 1.5em;
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem;
+    }
+
+    .blog-main {
+      padding-top: 10px;
+  }
 }
 
 @media screen and (max-width: 991.98px) {
@@ -677,10 +670,11 @@ body {
 }
 
 @media screen and (min-width: 992px) {
+
     .blog-main {
         padding-left: 50px;
         padding-right: 50px;
-        padding-top: 25px;
+        padding-top: 10px;
     }
 
     .site-welcome,
