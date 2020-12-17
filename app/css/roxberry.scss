@@ -114,11 +114,11 @@ h6 {
 }
 
 a {
-    color: white;
+    color: $brand-primary;
 
     &:hover,
     &:focus {
-        color: $brand-primary;
+        color: white;
     }
 
     img {
@@ -214,12 +214,26 @@ article {
     padding-top: 2em;
     font-size: 0.75em;
     background: linear-gradient(to right, black, #282828);
+    a {
+        color: white;
 
+        &:hover,
+        &:focus {
+            color: $brand-primary;
+        }
+
+        img {
+            &:hover,
+            &:focus {
+                cursor: zoom-in;
+            }
+        }
+    }
     .sidebar-module {
         h4 {
-          color: $brand-primary;
-          border-bottom: 2px solid $brand-primary;
-          line-height: 2;
+            color: $brand-primary;
+            border-bottom: 2px solid $brand-primary;
+            line-height: 2;
         }
         margin: 25px;
     }
@@ -656,8 +670,8 @@ img {
     }
 
     .blog-main {
-      padding-top: 10px;
-  }
+        padding-top: 10px;
+    }
 }
 
 @media screen and (max-width: 991.98px) {
@@ -671,7 +685,6 @@ img {
 }
 
 @media screen and (min-width: 992px) {
-
     .blog-main {
         padding-left: 50px;
         padding-right: 50px;
