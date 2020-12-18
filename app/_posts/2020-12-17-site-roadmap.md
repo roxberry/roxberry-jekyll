@@ -38,7 +38,7 @@ Following the tools "opportunities", I made several changes to the content of my
 TODO: Future improvements will include a compression review, and taking a harder look at the mobile score.
 
 ## Responsiveness
-Add details about changes to my SASS files for media queries, development using Safari and Responsive tools.  I added format changes for spacing on main content areas, a fix for the categories **card-list** layout.
+Made a first effort to refactor SASS files for media queries, improved layout using Safari and Responsive tools.  I added format changes for spacing on main content areas, a fix for the categories **card-list** layout.
 
 TODO: Going forward, I'll continue to refactor the SASS classes.  I'd like to add features to make the sidebar act like a drawer on a click and switch from dark to light mode.
 
