@@ -12,7 +12,7 @@ tags:       [blog, site, retrospective, improvements, projects]
 categories: Planning
 featured:   true
 ---
-## Site Roadmap
+## Past, Present, Future
 The site is looking good and it's pretty fast.  I've spent some time on features and formatting, making it easy to publish to and something I can promote.  
 
 Now to think of the roadmap of what I did and what I want going forward.  I have some features to work on and will get some good content published.  I listed the milestones here on the roadmap, completed and planned:
