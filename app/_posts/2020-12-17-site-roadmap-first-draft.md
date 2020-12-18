@@ -13,9 +13,9 @@ categories: Planning
 featured:   true
 ---
 ## Site Roadmap
-I've done a ton of layout and formatting work more than I have done writing for my site recently.  I hope to change that, starting by keeping notes on that work and other projects.  
+The site is looking good and it's pretty fast.  I've spent some time on features and formatting, making it easy to publish to and something I can promote.  
 
-These are milestones on that roadmap, completed and planned:
+Now to think of the roadmap of what I did and what I want going forward.  I have some features to work on and will get some good content published.  I listed the milestones here on that roadmap, completed and planned:
 
 1. Workflow improvement
 1. Continuous performance improvements
@@ -25,7 +25,7 @@ These are milestones on that roadmap, completed and planned:
 1. Content features
 
 ## Workflow improvement
-Using Github actions and Azure deployment center, I can quickly deploy site changes and content on a push to my Github repo.  Details on the Github action and Azure configuration to follow.  
+Using Github actions and Azure deployment center, I can quickly deploy site changes and content on a push to my Github repo.  I wrote and published this post on my Ipad Pro, using the [WorkingCopy](https://workingcopyapp.com) app.  WorkingCopy lets me post to my Github repo, and the repo Actions take care of compiling the Jekyll code.  Azure then picks up the branch changes and deploys to wwwroot on my Azure App Service.
 
 TODO: One note, I hit a snag with Azure running out of space after I made a bunch of pushes to my repo.  It looks like the **.repository** directory increases each time, maybe the **.git** directory?  I will need to figure that out.
 
@@ -60,4 +60,4 @@ TODO: Plan the 2021 content calendar.
 Ideas - I'm in the middle of my C|EH reup, so have a few things to write about that.  I need to do a Java and C# catchup - need some ideas for projects.  I'd like to do an AI and Robotics project.  Maybe something totally different, publish some writing on Russia / Russian Language / Soviet stufies (my academic background).  Or a peek into personal / professional productivity or fun and games? Also, need a work environment and tools update, now that I'm working out of my basement bunker.
 
 ## Wrap Up
-Reading through, I don't have an excuse not to have more content here.  I'm excited to hit the milestones on this roadmap.
+Reading through, I don't have an excuse not to have more content here.  I'm excited to hit my future milestones on this roadmap.
