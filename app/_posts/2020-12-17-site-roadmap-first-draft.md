@@ -57,7 +57,7 @@ TODO: Add more pages for projects that need tracking and that I can show others.
 
 TODO: Plan the 2021 content calendar.  
 
-Ideas - I'm in the middle of my C|EH reup, so have a few things to write about that.  I need to do a Java and C# catchup - need some ideas for projects.  I'd like to do an AI and Robotics project.  Maybe something totally different, publish some writing on Russia / Russian Language / Soviet stufies (my academic background).  Or a peek into personal / professional productivity or fun and games? Also, need a work environment and tools update, now that I'm working out of my basement bunker.
+Ideas - I'm in the middle of my CEH reup, so I can write about that.  I need to do a Java and C# catchup - need some ideas for projects.  I'd like to do an AI and Robotics project.  Maybe something totally different, publish some writing on Russia / Russian Language / Soviet stufies (my academic background).  Or a peek into personal / professional productivity or fun and games? Also, need a work environment and tools update, now that I'm working out of my basement bunker.
 
 ## Wrap Up
 Reading through, I don't have an excuse not to have more content here.  I'm excited to hit my future milestones on this roadmap.
