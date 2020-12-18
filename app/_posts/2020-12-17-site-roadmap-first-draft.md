@@ -15,7 +15,7 @@ featured:   true
 ## Site Roadmap
 The site is looking good and it's pretty fast.  I've spent some time on features and formatting, making it easy to publish to and something I can promote.  
 
-Now to think of the roadmap of what I did and what I want going forward.  I have some features to work on and will get some good content published.  I listed the milestones here on that roadmap, completed and planned:
+Now to think of the roadmap of what I did and what I want going forward.  I have some features to work on and will get some good content published.  I listed the milestones here on the roadmap, completed and planned:
 
 1. Workflow improvement
 1. Continuous performance improvements
@@ -23,6 +23,7 @@ Now to think of the roadmap of what I did and what I want going forward.  I have
 1. Scheduled branding
 1. Integration features
 1. Content features
+1. Platform
 
 ## Workflow improvement
 Using Github actions and Azure deployment center, I can quickly deploy site changes and content on a push to my Github repo.  I wrote and published this post on my Ipad Pro, using the [WorkingCopy](https://workingcopyapp.com) app.  WorkingCopy lets me post to my Github repo, and the repo Actions take care of compiling the Jekyll code.  Azure then picks up the branch changes and deploys to wwwroot on my Azure App Service.
@@ -58,6 +59,9 @@ TODO: Add more pages for projects that need tracking and that I can show others.
 TODO: Plan the 2021 content calendar.  
 
 Ideas - I'm in the middle of my CEH reup, so I can write about that.  I need to do a Java and C# catchup - need some ideas for projects.  I'd like to do an AI and Robotics project.  Maybe something totally different, publish some writing on Russia / Russian Language / Soviet stufies (my academic background).  Or a peek into personal / professional productivity or fun and games? Also, need a work environment and tools update, now that I'm working out of my basement bunker.
+
+## Platform
+I'm considering going to a Javascript / Node based platform, Gatsby or Next.js.  Leaving this here as a reference [Jekyll to Gatsby](https://www.gatsbyjs.com/blog/2017-11-08-migrate-from-jekyll-to-gatsby/)
 
 ## Wrap Up
 Reading through, I don't have an excuse not to have more content here.  I'm excited to hit my future milestones on this roadmap.
