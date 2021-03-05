@@ -6,12 +6,9 @@ $bluegray: #677492;
 $cinnabar: rgba(231, 76, 60, 1);
 $glacialblue: rgba(54, 139, 193, 1);
 $gray-dark: rgb(40,40,40);
-
-$brand-primary: $glacialblue;
-$brand-primary-banner: $glacialblue;
-$brand-navbar: $glacialblue;
-$brand-font: 'Raleway';
-
+$new-year-gold: rgb(252,194,0);
+$new-year-gold-disclaimer: rgb(207,181,59);
+$kelley-green: rgb(76,187,23);
 $gray-dark-transparent: rgba(40,40,40, .8);
 $gray: #798088;
 $white-faded: fade(white, 80%);
@@ -22,4 +19,12 @@ $orange: #ed4c15;
 $red: red;
 $amber: rgb(255,176,0);
 $darkgoldenrod: darkgoldenrod;
+
+$brand-primary: $kelley-green;
+$brand-primary-banner: $kelley-green;
+$brand-navbar: $kelley-green;
+$brand-font: 'Raleway';
+$disclaimer-color:$gray-dark;
+
+
 
