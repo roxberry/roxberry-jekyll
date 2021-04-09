@@ -34,7 +34,9 @@ navigation: false
     }
 
     .flip-clock-title {
-        font-size: 108px;
+        font-size: 5vw;
+        margin: 25px;
+        text-align: center;
     }
 
     .flip-clock {
