@@ -25,7 +25,7 @@ navigation: false
         background: #EEE;
     }
     body { 
-        background: url(/img/backgrounds/Armada-Interior-Web-53-2-1.jpg) no-repeat center center fixed;
+        background: url(/img/backgrounds/wildwood/photo2.jpg) no-repeat center center fixed;
         min-height: 100%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
