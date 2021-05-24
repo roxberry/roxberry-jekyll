@@ -31,5 +31,5 @@ I am following a basic process for performance testing:
 I started a project for a server to run on my robot kits using [GoPiGo](https://www.dexterindustries.com/gopigo/) as a prototype.  Find it on Github, [command](https://github.com/roxberry/command).  I ran into issues with the node-gopigo module, may need to write an interface and stub it out to work on the services code off robot.
 
 # SecureWorld Philadelphia
-I was approved and registered to go to [SecureWorld Philadelphia](http://events.secureworldexpo.com/details/philadelphia-pa-2017/) in April.  I also signed up for the "Designing and Building a Cybersecurity Program Based on the NIST Cybersecurity Framework" training option.  While [Database Solutions](http://www.waveseeker.com/DSI/) may not directly implement a Cybersecurity framework, I consider it critical that we understand what our clients are building.
+I was approved and registered to go to [SecureWorld Philadelphia](http://events.secureworldexpo.com/details/philadelphia-pa-2017/) in April.  I also signed up for the "Designing and Building a Cybersecurity Program Based on the NIST Cybersecurity Framework" training option.  While [Database Solutions](https://www.waveseeker.com/DSI/) may not directly implement a Cybersecurity framework, I consider it critical that we understand what our clients are building.
 
