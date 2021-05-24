@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://roxberry.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://roxberry.dev/" rel="alternate" type="text/html" /><updated>2021-05-24T19:56:23+00:00</updated><id>https://roxberry.dev/feed.xml</id><title type="html">Roxberry.DEV</title><subtitle>coder, maker, hacker, mentor</subtitle><entry><title type="html">2021 Useful tools and tips for web work</title><link href="https://roxberry.dev/technology/2021/05/02/web-tools-and-tips/" rel="alternate" type="text/html" title="2021 Useful tools and tips for web work" /><published>2021-05-02T23:00:00+00:00</published><updated>2021-05-02T23:00:00+00:00</updated><id>https://roxberry.dev/technology/2021/05/02/web-tools-and-tips</id><content type="html" xml:base="https://roxberry.dev/technology/2021/05/02/web-tools-and-tips/">&lt;h1 id=&quot;tools-and-tips&quot;&gt;Tools and Tips&lt;/h1&gt;
+
+&lt;p&gt;Blog post to capture useful web tool and tip stuff&lt;/p&gt;
+
+&lt;!-- ## Sitesucker, curl  --&gt;
+
+&lt;h2 id=&quot;html-select-options-to-plain-text&quot;&gt;Html Select Options to Plain text&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;On the page with the dropdown box (in HTML, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;select&lt;/code&gt; box), inspect the element.&lt;/li&gt;
+  &lt;li&gt;Copy the options in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;select&amp;gt;&lt;/code&gt; element or copy the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;select&amp;gt;&lt;/code&gt; item and delete the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;select&amp;gt;&lt;/code&gt; open and close tags.&lt;/li&gt;
+  &lt;li&gt;Paste into a file into Visual Studio Code&lt;/li&gt;
+  &lt;li&gt;Using Find and Replace, select the Regular Expression search in the Find input box.&lt;/li&gt;
+  &lt;li&gt;Use the following regex &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\s*&amp;lt;/?option.*?&amp;gt;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;In Replace, leave empty and select Replace / Replace All&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Mark Roxberry</name></author><category term="Technology" /><category term="toolbox" /><category term="tips" /><category term="javascript" /><category term="html" /><summary type="html">Capturing useful tools and tips for working with the web and data</summary></entry><entry><title type="html">Site Roadmap</title><link href="https://roxberry.dev/planning/2020/12/17/site-roadmap/" rel="alternate" type="text/html" title="Site Roadmap" /><published>2020-12-17T18:00:00+00:00</published><updated>2020-12-17T18:00:00+00:00</updated><id>https://roxberry.dev/planning/2020/12/17/site-roadmap</id><content type="html" xml:base="https://roxberry.dev/planning/2020/12/17/site-roadmap/">&lt;h2 id=&quot;past-present-future&quot;&gt;Past, Present, Future&lt;/h2&gt;
+&lt;p&gt;The site is looking good and it’s pretty fast.  I’ve spent some time on features and formatting, making it easy to publish to and something I can promote.&lt;/p&gt;
+
+&lt;p&gt;Now to think of the roadmap of what I did and what I want going forward.  I have some features to work on and will get some good content published.  I listed the milestones here on the roadmap, completed and planned:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Workflow improvement&lt;/li&gt;
+  &lt;li&gt;Continuous performance improvements&lt;/li&gt;
+  &lt;li&gt;Responsiveness&lt;/li&gt;
+  &lt;li&gt;Scheduled branding&lt;/li&gt;
+  &lt;li&gt;Integration features&lt;/li&gt;
+  &lt;li&gt;Content features&lt;/li&gt;
+  &lt;li&gt;Platform&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;workflow-improvement&quot;&gt;Workflow improvement&lt;/h2&gt;
+&lt;p&gt;Using Github actions and Azure deployment center, I can quickly deploy site changes and content on a push to my Github repo.  I wrote and published this post on my Ipad Pro, using the &lt;a href=&quot;https://workingcopyapp.com&quot;&gt;WorkingCopy&lt;/a&gt; app.  WorkingCopy lets me post to my Github repo, and the repo Actions take care of compiling the Jekyll code.  Azure then picks up the branch changes and deploys to wwwroot on my Azure App Service.&lt;/p&gt;
+
+&lt;p&gt;TODO: One note, I hit a snag with Azure running out of space after I made a bunch of pushes to my repo.  It looks like the &lt;strong&gt;.repository&lt;/strong&gt; directory increases each time, maybe the &lt;strong&gt;.git&lt;/strong&gt; directory?  I will need to figure that out.&lt;/p&gt;
+
+&lt;h2 id=&quot;continuous-performance-improvements&quot;&gt;Continuous performance improvements&lt;/h2&gt;
+&lt;p&gt;Roxberry.dev is hitting an outstanding &lt;strong&gt;95&lt;/strong&gt; on mobile and a &lt;strong&gt;99&lt;/strong&gt; on desktop on the Pagespeed site (using &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.Roxberry.dev&amp;amp;tab=desktop&quot;&gt;Lighthouse&lt;/a&gt; /  &lt;a href=&quot;https://gtmetrix.com&quot;&gt;Gtmetrix.com&lt;/a&gt; ). Both of these tools (Gtmetrix uses Lighthouse) I made a few changes to get this score.&lt;/p&gt;
+
+&lt;p&gt;Following the tools “opportunities”, I made several changes to the content of my website and process to build it. I added a grunt step to compress my images. I used “uncss” and “critical” to slim down linked styles.  I used preloads, preconnects, async calls to speed up getting assets to get the “First Contentful Paint” as soon as possible.&lt;/p&gt;
+
+&lt;p&gt;TODO: Future improvements will include a compression review, and taking a harder look at the mobile score.&lt;/p&gt;
+
+&lt;h2 id=&quot;responsiveness&quot;&gt;Responsiveness&lt;/h2&gt;
+&lt;p&gt;Made a first effort to refactor SASS files for media queries, improved layout using Safari and Responsive tools.  I added format changes for spacing on main content areas, a fix for the categories &lt;strong&gt;card-list&lt;/strong&gt; layout.&lt;/p&gt;
+
+&lt;p&gt;TODO: Going forward, I’ll continue to refactor the SASS classes.  I’d like to add features to make the sidebar act like a drawer on a click and switch from dark to light mode.&lt;/p&gt;
+
+&lt;h2 id=&quot;scheduled-branding&quot;&gt;Scheduled branding&lt;/h2&gt;
+&lt;p&gt;TODO: I just thought of a new feature for changing the css colors based on a schedule.  I expect this will probably be some jquery call on page load, need to see if it is feasible (and if it won’t impact my awesome perf score).  Maybe read from a json with key value pairs of the date, the source class and to class, with the classes already predefined.&lt;/p&gt;
+
+&lt;h2 id=&quot;integration-features&quot;&gt;Integration features&lt;/h2&gt;
+&lt;p&gt;TODO: Some ideas for new features:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Photo album integration&lt;/li&gt;
+  &lt;li&gt;RSS briefing&lt;/li&gt;
+  &lt;li&gt;Code Kata demos&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;content-features&quot;&gt;Content features&lt;/h2&gt;
+&lt;p&gt;I made a change to the images code for posts. Before, I just dumped images into the /img folder and the path on the post would always need to find it from that starting point.  I changed that to use the convention of a folder with the same name as the post file name, e.g. 2020-03-01-delta.md will have a folder in img/posts/ named 2020-03-01-delta.md.  All of the post images can be put there and managed a bit better.&lt;/p&gt;
+
+&lt;p&gt;TODO: Add more pages for projects that need tracking and that I can show others.&lt;/p&gt;
+
+&lt;p&gt;TODO: Plan the 2021 content calendar.&lt;/p&gt;
+
+&lt;p&gt;Ideas - I’m in the middle of my CEH reup, so I can write about that.  I need to do a Java and C# catchup - need some ideas for projects.  I’d like to do an AI and Robotics project.  Maybe something totally different, publish some writing on Russia / Russian Language / Soviet stufies (my academic background).  Or a peek into personal / professional productivity or fun and games? Also, need a work environment and tools update, now that I’m working out of my basement bunker.&lt;/p&gt;
+
+&lt;h2 id=&quot;platform&quot;&gt;Platform&lt;/h2&gt;
+&lt;p&gt;I’m considering going to a Javascript / Node based platform, Gatsby or Next.js.  Leaving this here as a reference &lt;a href=&quot;https://www.gatsbyjs.com/blog/2017-11-08-migrate-from-jekyll-to-gatsby/&quot;&gt;Jekyll to Gatsby&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;wrap-up&quot;&gt;Wrap Up&lt;/h2&gt;
+&lt;p&gt;Reading through, I don’t have an excuse not to have more content here.  I’m excited to hit my future milestones on this roadmap.&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="Planning" /><category term="blog" /><category term="site" /><category term="retrospective" /><category term="improvements" /><category term="projects" /><summary type="html">Reviewing site improvements over the past month and setting a plan for future improvements. Done, todo and obstacles.</summary></entry><entry><title type="html">Stick The Landing</title><link href="https://roxberry.dev/performance/2020/12/14/stick-the-landing/" rel="alternate" type="text/html" title="Stick The Landing" /><published>2020-12-14T23:00:00+00:00</published><updated>2020-12-14T23:00:00+00:00</updated><id>https://roxberry.dev/performance/2020/12/14/stick-the-landing</id><content type="html" xml:base="https://roxberry.dev/performance/2020/12/14/stick-the-landing/">&lt;p&gt;“The future is already here – it’s just not evenly distributed.” 
+― William Gibson&lt;/p&gt;
+
+&lt;h2 id=&quot;timeline&quot;&gt;Timeline&lt;/h2&gt;
+&lt;p&gt;Writing some things down for posterity, to remember a year that could have really been bad, and still could be.  But with my wife, my daughters, my family, friends, colleagues, 2020 will definitely be remembered.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-return-to-a-good-client&quot;&gt;A return to a good client&lt;/h3&gt;
+&lt;p&gt;The year started out with a new contract with a familiar client.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-nexus-of-my-interest&quot;&gt;The nexus of my interest&lt;/h3&gt;
+&lt;p&gt;On my extracurricular list SJSL and my election&lt;/p&gt;
+
+&lt;h3 id=&quot;the-fear-of-pandemic&quot;&gt;The fear of pandemic&lt;/h3&gt;
+&lt;p&gt;“Buy more food, canned goods, paper products today.”  I remember saying this to my wife after reading about the outbreak of some flu in China and stories of it reaching Italy.  I was half believing that my paranoia of things was getting the best of me and half believing that it was going to be bad this time.&lt;/p&gt;
+
+&lt;h3 id=&quot;succeeding-despite-or-because-of-the-isolation&quot;&gt;Succeeding despite or because of the isolation&lt;/h3&gt;
+
+&lt;h3 id=&quot;achilles-revenge&quot;&gt;Achilles revenge&lt;/h3&gt;
+
+&lt;h2 id=&quot;thoughts-about-the-future&quot;&gt;Thoughts about the future&lt;/h2&gt;
+
+&lt;h3 id=&quot;cassandra-complex&quot;&gt;Cassandra complex&lt;/h3&gt;</content><author><name>Mark Roxberry</name></author><category term="Performance" /><category term="performance" /><category term="projects" /><summary type="html">Roxberry.dev is scoring a 99 on the GTmetrix performance report. I documented a few of the things that I did to optimize the site.</summary></entry><entry><title type="html">Stick The Landing</title><link href="https://roxberry.dev/planning/2020/12/13/year-of-the-pandemic/" rel="alternate" type="text/html" title="Stick The Landing" /><published>2020-12-13T23:00:00+00:00</published><updated>2020-12-13T23:00:00+00:00</updated><id>https://roxberry.dev/planning/2020/12/13/year-of-the-pandemic</id><content type="html" xml:base="https://roxberry.dev/planning/2020/12/13/year-of-the-pandemic/">&lt;p&gt;“The future is already here – it’s just not evenly distributed.” 
+― William Gibson&lt;/p&gt;
+
+&lt;h2 id=&quot;timeline&quot;&gt;Timeline&lt;/h2&gt;
+&lt;p&gt;Writing some things down for posterity, to remember a year that could have really been bad, and still could be.  But with my wife, my daughters, my family, friends, colleagues, 2020 will definitely be remembered.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-return-to-a-good-client&quot;&gt;A return to a good client&lt;/h3&gt;
+&lt;p&gt;The year started out with a new contract with a familiar client.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-nexus-of-my-interest&quot;&gt;The nexus of my interest&lt;/h3&gt;
+&lt;p&gt;On my extracurricular list SJSL and my election&lt;/p&gt;
+
+&lt;h3 id=&quot;the-fear-of-pandemic&quot;&gt;The fear of pandemic&lt;/h3&gt;
+&lt;p&gt;“Buy more food, canned goods, paper products today.”  I remember saying this to my wife after reading about the outbreak of some flu in China and stories of it reaching Italy.  I was half believing that my paranoia of things was getting the best of me and half believing that it was going to be bad this time.&lt;/p&gt;
+
+&lt;h3 id=&quot;succeeding-despite-or-because-of-the-isolation&quot;&gt;Succeeding despite or because of the isolation&lt;/h3&gt;
+
+&lt;h3 id=&quot;achilles-revenge&quot;&gt;Achilles revenge&lt;/h3&gt;
+
+&lt;h2 id=&quot;thoughts-about-the-future&quot;&gt;Thoughts about the future&lt;/h2&gt;
+
+&lt;h3 id=&quot;cassandra-complex&quot;&gt;Cassandra complex&lt;/h3&gt;</content><author><name>Mark Roxberry</name></author><category term="Planning" /><category term="yearend" /><category term="projects" /><summary type="html">2020 has been a tough year, but it is not without a few successes and joy.</summary></entry><entry><title type="html">Inference</title><link href="https://roxberry.dev/planning/2020/09/13/inference/" rel="alternate" type="text/html" title="Inference" /><published>2020-09-13T01:00:00+00:00</published><updated>2020-09-13T01:00:00+00:00</updated><id>https://roxberry.dev/planning/2020/09/13/inference</id><content type="html" xml:base="https://roxberry.dev/planning/2020/09/13/inference/">&lt;h2 id=&quot;put-a-quote-here&quot;&gt;Put a Quote here&lt;/h2&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;h2 id=&quot;inference-ideas&quot;&gt;Inference ideas&lt;/h2&gt;
+
+&lt;h2 id=&quot;forward-outlook&quot;&gt;Forward outlook&lt;/h2&gt;</content><author><name>Mark Roxberry</name></author><category term="Planning" /><category term="september" /><category term="projects" /><summary type="html">Back and forth discussion of relevant topics.</summary></entry><entry><title type="html">DAMA Meeting 9/17</title><link href="https://roxberry.dev/2020/09/12/dama-social-media-data-quality/" rel="alternate" type="text/html" title="DAMA Meeting 9/17" /><published>2020-09-12T10:30:00+00:00</published><updated>2020-09-12T10:30:00+00:00</updated><id>https://roxberry.dev/2020/09/12/dama-social-media-data-quality</id><content type="html" xml:base="https://roxberry.dev/2020/09/12/dama-social-media-data-quality/">&lt;h2 id=&quot;virtual-meeting-september-17-2020&quot;&gt;Virtual Meeting September 17, 2020&lt;/h2&gt;
+
+&lt;h3 id=&quot;social-media-data-quality&quot;&gt;Social Media Data Quality&lt;/h3&gt;
+
+&lt;p&gt;Register &lt;a href=&quot;https://dama-phila.org/meetinginfo.php?id=4&amp;amp;ts=1598994996&quot;&gt;Here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Speaker: Jennifer Radke&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dama-phila.org/index.php&quot;&gt;DAMA Philadelphia&lt;/a&gt; hosts five full day chapter meetings per year, every other month from September through May. There are additional professional development opportunities, such as instructor led training, seminars and certification camps. These special events are priced separately at a discounted rate. Networking functions are held after select meetings and events.&lt;/p&gt;
+
+&lt;p&gt;Please join us for our September virtual meeting – Thursday, Sept 17th.&lt;/p&gt;
+
+&lt;p&gt;We will dive into a timely topic – data quality and making sense of the information flow that surrounds us on social media, in the time of COVID-19!&lt;/p&gt;
+
+&lt;p&gt;During a global pandemic – data collection, quality, and privacy are ever-important. We are constantly faced with emerging studies, health guidelines, and news reports that aim to interpret these new findings; and there are reports that this social media platform (or that one) is misusing our personal data to influence voter decisions or healthcare practices. How do we know what to believe?&lt;/p&gt;
+
+&lt;p&gt;9:00 am – Welcome, DAMA Philadelphia chapter introduction and updates&lt;/p&gt;
+
+&lt;p&gt;9:15 am – Sponsor presentation – available&lt;/p&gt;
+
+&lt;p&gt;9:30 am – Feature Presentation – Data Quality in Social Media&lt;/p&gt;
+
+&lt;h2 id=&quot;about-dama---philadelphia&quot;&gt;About DAMA - Philadelphia&lt;/h2&gt;
+
+&lt;p&gt;The Data Administration Management Association (DAMA) International and the chapter DAMA Philadelphia are not-for-profit, vendor-independent, professional organizations dedicated to advancing the concepts and practices of enterprise information and data management, business intelligence, analytics, data science and related disciplines.&lt;/p&gt;
+
+&lt;p&gt;For more information about DAMA - Philadelphia, click &lt;a href=&quot;https://dama-phila.org/about&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="data" /><category term="social media" /><category term="dama" /><summary type="html">Data quality and making sense of the information flow that surrounds us on social media</summary></entry><entry><title type="html">Delta</title><link href="https://roxberry.dev/planning/2020/03/01/delta/" rel="alternate" type="text/html" title="Delta" /><published>2020-03-01T23:30:00+00:00</published><updated>2020-03-01T23:30:00+00:00</updated><id>https://roxberry.dev/planning/2020/03/01/delta</id><content type="html" xml:base="https://roxberry.dev/planning/2020/03/01/delta/">&lt;blockquote&gt;
+  &lt;p&gt;“History is merely a list of surprises. It can only prepare us to be surprised yet again.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;– Kurt Vonnegut&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;post-from-my-ipad&quot;&gt;Post from my iPad&lt;/h2&gt;
+&lt;p&gt;I had been meaning to make my blog site more bloggable. I wanted to really be able to edit some markup on my iPad, grab and resize a few images and get it to my site.  On my MBP, I run the Jekyll / Grunt toolchain.  This compiles the site, compiles the LESS styles and JavaScript.  It also minifies these assets and compresses the images.  I am not able to do this yet on the iPad, but I thought maybe a hosted Docker container could do it.&lt;/p&gt;
+
+&lt;p&gt;Basically, I need a container in the cloud that can run the toolchain.  Firstly, checkout my source after I push to my Github repo.  Then bundle install any tools, e.g. Jekyll 4.0.  Build will use the _config.yml and compile the source.  Push to my repo deployment branch and let Azure pull the code into the app service.&lt;/p&gt;
+
+&lt;p&gt;So what to use to do that? AWS containers? Maybe, maybe check that out sometime. But I decided to take a look at &lt;a href=&quot;https://help.github.com/en/actions&quot;&gt;Github Actions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I found a Jekyll action and was able to create a workflow that runs on every push.  Right now, all but minification and image compression is in place.  Posting from my iPad now, hopefully, I’ll be a bit more productive.&lt;/p&gt;
+
+&lt;h2 id=&quot;professional&quot;&gt;Professional&lt;/h2&gt;
+
+&lt;h3 id=&quot;ccsp&quot;&gt;CCSP&lt;/h3&gt;
+
+&lt;h2 id=&quot;robots&quot;&gt;Robots&lt;/h2&gt;
+
+&lt;h3 id=&quot;future-engineers&quot;&gt;Future Engineers&lt;/h3&gt;
+
+&lt;h2 id=&quot;soccer&quot;&gt;Soccer&lt;/h2&gt;
+
+&lt;h3 id=&quot;3v3&quot;&gt;3v3&lt;/h3&gt;
+
+&lt;h3 id=&quot;offseason&quot;&gt;Offseason&lt;/h3&gt;
+
+&lt;h2 id=&quot;apps-and-games&quot;&gt;Apps and Games&lt;/h2&gt;
+
+&lt;h3 id=&quot;standout&quot;&gt;Standout&lt;/h3&gt;
+
+&lt;h3 id=&quot;remnant&quot;&gt;Remnant&lt;/h3&gt;
+
+&lt;h2 id=&quot;writing&quot;&gt;Writing&lt;/h2&gt;
+
+&lt;h3 id=&quot;blog-plan&quot;&gt;Blog Plan&lt;/h3&gt;
+
+&lt;h3 id=&quot;fiction&quot;&gt;Fiction&lt;/h3&gt;</content><author><name>Mark Roxberry</name></author><category term="Planning" /><category term="march" /><category term="continuous deployment" /><category term="plans" /><category term="projects" /><summary type="html">Back and forth discussion of relevant topics.</summary></entry><entry><title type="html">Summer Time</title><link href="https://roxberry.dev/planning/2019/05/01/summer-time/" rel="alternate" type="text/html" title="Summer Time" /><published>2019-05-01T15:30:00+00:00</published><updated>2019-05-01T15:30:00+00:00</updated><id>https://roxberry.dev/planning/2019/05/01/summer-time</id><content type="html" xml:base="https://roxberry.dev/planning/2019/05/01/summer-time/">&lt;blockquote&gt;
+  &lt;p&gt;“And so with the sunshine and the great bursts of leaves growing on the trees, just as things grow in fast movies, I had that familiar conviction that life was beginning over again with the summer.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;— F. Scott Fitzgerald, The Great Gatsby&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’ve considered summer the start of my professional, creative year for planning and ideation as opposed to New Year’s day and resolutions.  2019 is no exception.  My current client wraps up in June, then a nice little vacation in Wildwood, NJ with my ladies.  Clear the decks and think about my goals -&lt;/p&gt;
+
+&lt;h2 id=&quot;professional&quot;&gt;Professional&lt;/h2&gt;
+
+&lt;h3 id=&quot;ccsp&quot;&gt;CCSP&lt;/h3&gt;
+
+&lt;h2 id=&quot;robots&quot;&gt;Robots&lt;/h2&gt;
+
+&lt;h3 id=&quot;future-engineers&quot;&gt;Future Engineers&lt;/h3&gt;
+
+&lt;h2 id=&quot;soccer&quot;&gt;Soccer&lt;/h2&gt;
+
+&lt;h3 id=&quot;3v3&quot;&gt;3v3&lt;/h3&gt;
+
+&lt;h3 id=&quot;offseason&quot;&gt;Offseason&lt;/h3&gt;
+
+&lt;h2 id=&quot;apps-and-games&quot;&gt;Apps and Games&lt;/h2&gt;
+
+&lt;h3 id=&quot;standout&quot;&gt;Standout&lt;/h3&gt;
+
+&lt;h3 id=&quot;remnant&quot;&gt;Remnant&lt;/h3&gt;
+
+&lt;h2 id=&quot;writing&quot;&gt;Writing&lt;/h2&gt;
+
+&lt;h3 id=&quot;blog-plan&quot;&gt;Blog Plan&lt;/h3&gt;
+
+&lt;h3 id=&quot;fiction&quot;&gt;Fiction&lt;/h3&gt;</content><author><name>Mark Roxberry</name></author><category term="Planning" /><category term="summer" /><category term="planning" /><category term="plans" /><category term="projects" /><summary type="html">Summer is here - the best time of year for new projects and plans.</summary></entry><entry><title type="html">Roxberry.DEV is live</title><link href="https://roxberry.dev/2019/03/01/dev-domain/" rel="alternate" type="text/html" title="Roxberry.DEV is live" /><published>2019-03-01T15:30:00+00:00</published><updated>2019-03-01T15:30:00+00:00</updated><id>https://roxberry.dev/2019/03/01/dev-domain</id><content type="html" xml:base="https://roxberry.dev/2019/03/01/dev-domain/">&lt;h1 id=&quot;dev-sites-are-available-as-of-2282019&quot;&gt;.DEV sites are available as of 2/28/2019&lt;/h1&gt;
+
+&lt;p&gt;The .DEV TLD was made available for domain name registrars yesterday 2/28 and today I registered Roxberry.DEV and a few others.&lt;/p&gt;
+
+&lt;p&gt;According to Google, “.dev is a secure domain for developers and technology. From tools to platforms, programming languages to blogs, .dev is a home for all the interesting things that you build.” from the &lt;a href=&quot;https://get.dev/&quot;&gt;.dev&lt;/a&gt; site.&lt;/p&gt;
+
+&lt;h1 id=&quot;benefits&quot;&gt;Benefits&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Requires HTTPS:&lt;/p&gt;
+
+    &lt;p&gt;“Your security is our priority. The .dev top-level domain is included on the HSTS preload list, making HTTPS required on all connections to .dev websites and pages without needing individual HSTS registration or configuration. Security is built in.”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Community&lt;/p&gt;
+
+    &lt;p&gt;Tools, builders, programming languages, developer blogs - .dev gives developers their very own TLD.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Kinda cool&lt;/p&gt;
+
+    &lt;p&gt;First is kinda cool.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;whos-on-dev&quot;&gt;Who’s on .dev&lt;/h1&gt;
+
+&lt;p&gt;Mozilla - &lt;a href=&quot;https://mdn.dev&quot;&gt;mdn.dev&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Slack - &lt;a href=&quot;https://slack.dev&quot;&gt;slack.dev&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Women Who Code - &lt;a href=&quot;https://women.dev&quot;&gt;women.dev&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;TensorFlow Hub - &lt;a href=&quot;https://tfhub.dev&quot;&gt;tfhub.dev&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And …&lt;/p&gt;
+
+&lt;p&gt;Roxberry.dev - &lt;a href=&quot;https://roxberry.dev&quot;&gt;Here&lt;/a&gt;&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="domains" /><category term="hsts" /><category term="security" /><category term="tls" /><category term="dev" /><summary type="html">Switching Roxberry.PRO to Roxberry.DEV - Secure Comms FTW.</summary></entry><entry><title type="html">Into Orbit - Future Engineers</title><link href="https://roxberry.dev/2018/10/12/future-engineers-into-orbit-challenge/" rel="alternate" type="text/html" title="Into Orbit - Future Engineers" /><published>2018-10-12T15:30:00+00:00</published><updated>2018-10-12T15:30:00+00:00</updated><id>https://roxberry.dev/2018/10/12/future-engineers-into-orbit-challenge</id><content type="html" xml:base="https://roxberry.dev/2018/10/12/future-engineers-into-orbit-challenge/">&lt;h1 id=&quot;future-engineers---into-orbit-project-challenge&quot;&gt;Future Engineers - Into Orbit Project Challenge&lt;/h1&gt;
+
+&lt;p&gt;The Future Engineers Team is developing a modular, deployable, autonomous defense system to protect &lt;a href=&quot;https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf&quot;&gt;Into Orbit&lt;/a&gt; missions, in space and on planet outposts, from direct and indirect threats.&lt;/p&gt;
+
+&lt;p&gt;The Future Engineers - Expeditionary Defense System (FE-EDS) will utilize mesh sensor technology, artificial intelligence and autonomous robotic platforms to provide persistent intelligent, surveillance and reconnaissance (Persistent ISR) capability from subsurface to space.&lt;/p&gt;
+
+&lt;h2 id=&quot;expeditionary-defense-system&quot;&gt;Expeditionary Defense System&lt;/h2&gt;
+
+&lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Identification Friend or Foe (IFF)&lt;/li&gt;
+  &lt;li&gt;Rapid Response&lt;/li&gt;
+  &lt;li&gt;Continuous Intelligence and Verification&lt;/li&gt;
+  &lt;li&gt;Mobile Redundant Operations Nodes (Decentralized Mesh)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;components&quot;&gt;Components&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Autonomous Space Defense Vehicle (Robotics)&lt;/li&gt;
+  &lt;li&gt;Intelligent Mission Management and Tasking (AI)&lt;/li&gt;
+  &lt;li&gt;Expeditionary Sensor Grid Nodes (IoT)&lt;/li&gt;
+  &lt;li&gt;Tactical Defense Simulator and Trainer (Game / AI)&lt;/li&gt;
+  &lt;li&gt;Autonomous Space Reconnaissance Vehicle (Robotics Tracks)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;prototype-testing&quot;&gt;Prototype Testing&lt;/h3&gt;
+
+&lt;h4 id=&quot;foe-penetration&quot;&gt;FOE Penetration&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Train IMMT to identify FOE (TDST, IMMT) - e.g. Friend ASRV will send codes to ESG nodes, FOE will not.&lt;/li&gt;
+  &lt;li&gt;Identify FOE Simulation (TDST, ESG, IMMT)&lt;/li&gt;
+  &lt;li&gt;Deploy ASDV (IMMT, ASDV)&lt;/li&gt;
+  &lt;li&gt;ASDV marks home coordinates (ESG, ASDV)&lt;/li&gt;
+  &lt;li&gt;ASDV moves to FOE coordinates (ESG, ASDV)&lt;/li&gt;
+  &lt;li&gt;ASDV captures FOE (ASDV)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;projects&quot;&gt;Projects&lt;/h3&gt;
+
+&lt;h4 id=&quot;autonomous-space-defense-vehicle-asdv&quot;&gt;Autonomous Space Defense Vehicle (ASDV)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Interception / Intervention&lt;/li&gt;
+  &lt;li&gt;Mobile sensor data acquisition&lt;/li&gt;
+  &lt;li&gt;Autonomous Safety Protocol&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Engineer: RC&lt;/p&gt;
+
+&lt;h4 id=&quot;intelligent-mission-management-and-tasking-ai-immt&quot;&gt;Intelligent Mission Management and Tasking AI (IMMT)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Friend or Foe intrusion determination&lt;/li&gt;
+  &lt;li&gt;Coordinate instructions to ESG, ASDVs
+    &lt;ul&gt;
+      &lt;li&gt;Responses can include deploying ASDVs for rescue or intervention&lt;/li&gt;
+      &lt;li&gt;IMMT can broadcast instructions to nodes on ESG for containment, evacuation, …&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Assimilate directives, Friend or Foe models from TDST and instructions for response&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Engineer: GM&lt;/p&gt;
+
+&lt;h4 id=&quot;expeditionary-sensor-grid-esg&quot;&gt;Expeditionary Sensor Grid (ESG)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Develop Sensor Node (2x2, Sensor Tower)&lt;/li&gt;
+  &lt;li&gt;Needs to be mobile&lt;/li&gt;
+  &lt;li&gt;Needs to communicate with both IMMT, ASDVs&lt;/li&gt;
+  &lt;li&gt;Needs to scan all activity and send to IMMT for Friend Foe&lt;/li&gt;
+  &lt;li&gt;Needs to give location data to IMMT, ASDVs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Engineer: BF&lt;/p&gt;
+
+&lt;h4 id=&quot;tactical-defense-simulator-and-trainer-tdst&quot;&gt;Tactical Defense Simulator and Trainer (TDST)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Simulate EDS Code verification - FOE
+    &lt;ul&gt;
+      &lt;li&gt;Friend or FOE - invader broadcasts code&lt;/li&gt;
+      &lt;li&gt;ESG gets code and sends to IMMT&lt;/li&gt;
+      &lt;li&gt;ESG receives instructions from IMMT&lt;/li&gt;
+      &lt;li&gt;ESG sends instructions to ASDV&lt;/li&gt;
+      &lt;li&gt;ASDVs responds sends information to ESG&lt;/li&gt;
+      &lt;li&gt;ESG sends information to IMMT&lt;/li&gt;
+      &lt;li&gt;IMMT determines course of action
+        &lt;ul&gt;
+          &lt;li&gt;Containment&lt;/li&gt;
+          &lt;li&gt;Evacuation&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Engineer: QM&lt;/p&gt;
+
+&lt;h4 id=&quot;autonomous-space-reconnaissance-vehicle-asrv&quot;&gt;Autonomous Space Reconnaissance Vehicle (ASRV)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Basic Mindstorms driving base and sensor rig.  We will use ASRVs to test the EDS.&lt;/li&gt;
+  &lt;li&gt;Send Codes to ESG for Friend identification.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Engineer(s): KL, ML&lt;/p&gt;
+
+&lt;h3 id=&quot;roadmap&quot;&gt;Roadmap&lt;/h3&gt;
+
+&lt;h3 id=&quot;october-2018&quot;&gt;October 2018&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Project Workshop (10/19)&lt;/li&gt;
+  &lt;li&gt;Task 1 (10/26)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;november-2018&quot;&gt;November 2018&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;No class on 11/2&lt;/li&gt;
+  &lt;li&gt;Task 2 (11/9)&lt;/li&gt;
+  &lt;li&gt;Task 3 (11/16)&lt;/li&gt;
+  &lt;li&gt;No class on 11/23&lt;/li&gt;
+  &lt;li&gt;Task 4 (11/30)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;december-2018&quot;&gt;December 2018&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Task 5 (12/7)&lt;/li&gt;
+  &lt;li&gt;Task 6 (12/14)&lt;/li&gt;
+  &lt;li&gt;Tasks 7-8 (12/21) (11:30 - 1:30)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;january-2019&quot;&gt;January 2019&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;No class on 1/4&lt;/li&gt;
+  &lt;li&gt;Integration Testing 1 (1/11)&lt;/li&gt;
+  &lt;li&gt;Integration Testing 2 (1/18)&lt;/li&gt;
+  &lt;li&gt;Integration Testing 3 (1/25)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;february-2019&quot;&gt;February 2019&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;FE-EDS Demo Phase 1 (2/1) (11:30 - 1:30)&lt;/li&gt;
+  &lt;li&gt;Data Logging (2/8)&lt;/li&gt;
+  &lt;li&gt;Data Logging (2/15)&lt;/li&gt;
+  &lt;li&gt;Data Logging (2/22)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;march-2019&quot;&gt;March 2019&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;FE-EDS Phase 2 Project Workshop (3/1) (11:30 - 1:30)&lt;/li&gt;
+  &lt;li&gt;… (3/8)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.teachengineering.org/activities/view/nyu_robotgo_activity1&quot;&gt;Pi Day Belated (Applied Geometry)&lt;/a&gt; (3/15)&lt;/li&gt;
+  &lt;li&gt;… (3/22)&lt;/li&gt;
+  &lt;li&gt;… (3/29)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;april-2019&quot;&gt;April 2019&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;No class on 4/5&lt;/li&gt;
+  &lt;li&gt;… (4/12)&lt;/li&gt;
+  &lt;li&gt;No class on 4/19&lt;/li&gt;
+  &lt;li&gt;No class on 4/26&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;may-2019&quot;&gt;May 2019&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;… (5/3) (11:30 - 1:30)&lt;/li&gt;
+  &lt;li&gt;… (5/10)&lt;/li&gt;
+  &lt;li&gt;… (5/17)&lt;/li&gt;
+  &lt;li&gt;No class on 5/24&lt;/li&gt;
+  &lt;li&gt;… (5/31)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;june-2019&quot;&gt;June 2019&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;… (6/7) (11:30 - 1:30)&lt;/li&gt;
+  &lt;li&gt;Last Day 6/14&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://firstinspiresst01.blob.core.windows.net/fll/2019/FIRST-FLL-2018-19-ChallengeGuide-Letter.pdf&quot;&gt;Into Orbit Project Challenge&lt;/a&gt;&lt;/p&gt;</content><author><name>Mark Roxberry</name></author><category term="ai" /><category term="future engineers" /><category term="robots" /><category term="robotics" /><category term="servos" /><category term="games" /><category term="iot" /><summary type="html">Coordinating the Future Engineers Projects with the First Lego League Into Orbit Challenge.</summary></entry></feed>

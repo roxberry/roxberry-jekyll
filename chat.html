@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1>Chat Test</h1>
+    <button id="launch-chat">Launch</button>
+    <button id="toggle-chat">Toggle</button>
+    <div id="chat-container"></div>
+    <script src="https://webchat-v3r2sandbox.pype.tech/webchat-public.js"></script>
+
+    <script>
+      Pypestream("config", {
+        domain: "dev",
+        env: "sandbox",
+      });
+      var launchButton = document.getElementById("launch-chat");
+      var toggleButton = document.getElementById("toggle-chat");
+      var chatContainer = document.getElementById("chat-container");
+
+      launchButton.addEventListener("click", function () {
+        // Launch the chat window inside the container
+        Pypestream("boot", { APP_ID: "c9ebef97-9921-4f05-b7e2-101760acdcdd" }, chatContainer);
+      });
+
+      toggleButton.addEventListener("click", function () {
+        Pypestream("toggle");
+      });
+    </script>
+  </body>
+</html>
